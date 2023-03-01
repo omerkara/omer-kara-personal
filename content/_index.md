@@ -18,5 +18,15 @@ title: Hugo Apéro
 type: home
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D9Z9H8XBQF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D9Z9H8XBQF');
+</script>
+
 ** index doesn't contain a body, just front matter above.
 See index.html in the layouts folder **

@@ -1,0 +1,37 @@
+#============================= Akademi Ekonometri ==============================
+#================================= .gitignore ==================================
+#================= Ignore the following folder/files for git ===================
+
+#============================ User Folders/Files ===============================
+—Examples
+—Helper
+—repo
+/blogdown
+/public/
+/resources/
+.hugo_build.lock
+_later.R
+_notes.R
+
+#=========================== System Folders/Files ==============================
+renv/library
+
+.Rproj.user
+.RData
+.Rhistory
+.Ruserdata
+rsconnect
+
+*_cache
+#*_files
+
+#============================ Misc. Folders/Files ==============================
+.dropbox
+.DS_Store
+Thumbs.db
+Icon
+Icon?
+Iconr
+
+#==================================== END ======================================
+

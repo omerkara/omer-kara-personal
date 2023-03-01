@@ -4,7 +4,8 @@ languageCode = "en"
 title = "Omer Kara"
 author = "Omer Kara"
 copyright = "" # Set to override the auto generated copyright using org info and now year.
-googleAnalytics = ""
+googleAnalytics = "G-D9Z9H8XBQF"
+
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
 metaDataFormat = "yaml"
 footnoteReturnLinkContents = "&#8617;" # ↩

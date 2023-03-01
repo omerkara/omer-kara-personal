@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2a352c3b-95ae-4338-98ce-95412f55742c/deploy-status)](https://app.netlify.com/sites/akademiekonometri/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6602cf29-80c1-4a77-b401-97ca04fe5dae/deploy-status)](https://app.netlify.com/sites/omerkara/deploys)
 
 # [Omer Kara-Personal Website](https://omerkara.netlify.app/) Working Directory
 
@@ -27,7 +27,7 @@
 - `renv.lock` file consists of `renv` package settings.
 
 ## Important Notes
-- The Omer Kara's Personal web site address is: [https://omerkara.netlify.app/](https://omerkara.netlify.app/)
+- The Omer Kara's Personal website address is: [https://omerkara.netlify.app/](https://omerkara.netlify.app/)
 - The whole website is created using the [`blogdown`](https://bookdown.org/yihui/blogdown/) package, [`Hugo`](https://gohugo.io/) static website builder, [`Netlify`](https://www.netlify.com/) website deployer, [Hugo Apéro theme](https://github.com/hugo-apero/), and [`GitHub`](https://github.com/) cloud version control software.
 - You can view the website source files [here](https://github.com/omerkara/omer-kara-personal).
 - Please feel free to use any of the content without the permission of the repository owner.

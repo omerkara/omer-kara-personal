@@ -1,14 +1,40 @@
-baseURL = "https://omerkara.netlify.app/"
-theme = "hugo-apero"
-languageCode = "en"
-title = "Omer Kara"
-author = "Omer Kara"
-copyright = "" # Set to override the auto generated copyright using org info and now year.
-googleAnalytics = "G-D9Z9H8XBQF"
+#============================ Omer Kara - Personal =============================
+#=============================== Configuration =================================
+#================================ config.toml ==================================
 
-disqusShortname = "" # see params.utterances to use utterances instead of Disqus
+#===============================================================================
+# Configuration: General Settings.
+#
+# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
+# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
+#===============================================================================
+
+#-------------------------------------------------------------------------------
+# The URL of your site.
+# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
+baseURL = "https://omerkara.netlify.app/" ## Base url of the website.
+
+#-------------------------------------------------------------------------------
+# Theme and language.
+theme = "hugo-apero" ## Theme.
+languageCode = "en" ## Language.
+
+#-------------------------------------------------------------------------------
+title = "Omer Kara, PhD" ## Title of the website.
+author = "Omer Kara" ## Author.
+
+#-------------------------------------------------------------------------------
+# Copyright line.
+copyright = '&copy; <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <script>document.write( new Date().getUTCFullYear() );</script> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #06805E"></i>, lots of <i class="fas fa-mug-hot" style="color: #06805E"></i>, and lines of <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.' # Set to override the auto generated copyright using org info and now year.
+
+
+googleAnalytics = "G-D9Z9H8XBQF" ## Google analytics 4 ID.
+
+disqusShortname = "https-omerkara-netlify-app" ## Disqus shortname given in the disquss account. # see params.utterances to use utterances instead of Disqus.
 metaDataFormat = "yaml"
-footnoteReturnLinkContents = "&#8617;" # ↩
+footnoteReturnLinkContents = "&#8617;" # ↩. Foot note return link.
+
+#-------------------------------------------------------------------------------
 # set deliberately low for testing choose your preffered number based on the blog layout you've chosen
 paginate = 5
 preserveTaxonomyNames = true
@@ -164,11 +190,6 @@ enableEmoji = true
     title = "Contact form"
     url = "/contact/"
     weight = 2
-  [[menu.footer]]
-    name = "Contributors"
-    title = "Contributors"
-    url = "/contributors/"
-    weight = 3
 
 # see https://gohugo.io/about/hugo-and-gdpr/
 [privacy]

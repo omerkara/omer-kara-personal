@@ -1,16 +1,19 @@
 ---
-date: "2019-02-25T13:38:41-06:00"
-description: This template has a **contact-us** form built right in. All you need
-  to do is add a valid recipient form-id to the front matter of this form page and
-  you're ready to receive submissions.
+date: "2023-03-08T13:38:41-06:00"
+description: 
+    'You can use this form to contact me about speaking engagements, consulting, collaborations, mentorship requests, or simply to say hello.
+    <br><br>
+    I also love hearing if my <a href="https://akademiekonometri.netlify.app/courses/">educational materials</a> (mostly in Turkish) have been helpful for you, and how they could be improved — particularly if they could be made more accessible and convertable.
+    <br><br>
+    Please, get in touch. I’d love to hear from you!'
 draft: false
-formspree_form_id: id-from-formspree
+formspree_form_id: omer.kara.ylsy@gmail.com
 layout: split-right
 name: Contact Us Form
 show_poweredby_formspree: true
 show_social_links: true
 submit_button_label: Send Message
-title: Contact
+title: Send me a message !
 type: form
 url: contact
 ---

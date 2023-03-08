@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/omerkara
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://omerkara.netlify.app
+  * I am omerkara (https://keybase.io/omerkara) on keybase.
+  * I have a public key ASCSy1mq7_2SZEUOrgDWN12xuZO3yRXMnwfenhQsgGQXnQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101fcc0d9a27359efd51fac41979bfc68a9a7a6a329526898f09712fe850031eb080a",
+      "host": "keybase.io",
+      "kid": "012092cb59aaeffd9264450eae00d6375db1b993b7c915cc9f07de9e142c8064179d0a",
+      "uid": "a1843b7ae453dd9177356a67763a3019",
+      "username": "omerkara"
+    },
+    "merkle_root": {
+      "ctime": 1678275026,
+      "hash": "526889a6923875e84e7e929bd88999837516e8c6113181d1e539fdea14e24308df1e1098fe23c84f880b3ba8579026ebd17b31445cb9ad9b640f82a8d20486fb",
+      "hash_meta": "153356843d695145eb6d9e1c45507742db902dd71f377c901bc0982906e43600",
+      "seqno": 24164337
+    },
+    "service": {
+      "entropy": "E7rGIPCDsFofRXXtYrr9y9pH",
+      "hostname": "omerkara.netlify.app",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1678275119,
+  "expire_in": 504576000,
+  "prev": "f76c89c3dc47d325d475b469c3948af30344f244961693d83e55f04dfc240331",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgkstZqu/9kmRFDq4A1jddsbmTt8kVzJ8H3p4ULIBkF50Kp3BheWxvYWTESpcCDcQg92yJw9xH0yXUdbRpw5SK8wNE8kSWFpPYPlXwTfwkAzHEIAfcvt3H+d/Kb3YCBrtnAJkOk/aN//C0w4141hulREoGAgHCo3NpZ8RA/cyItnFr0I7FQQV+ZEODAa8sMYubZtXz78ZY1h5xQQtd31xmHVH27eHXeFiaqogQWCLRMpNsBuydqVwdu6atCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIAfdvJb7gsqAbKhibj4D2qgo8mvT+RGHNX4CXPRj/I91o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/omerkara
+
+==================================================================

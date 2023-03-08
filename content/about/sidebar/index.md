@@ -1,17 +1,21 @@
 ---
 ## Configure sidebar content in narrow column
-author: "Hugo Apéro"
-role: "A Hugo theme"
-avatar_shape: rounded # circle, square, rounded, leave blank to exclude
-show_social_links: true # specify social accounts in site config
-audio_link_label: "How to say my name" # leave blank to exclude
+author: "Omer Kara"
+role: "Data Scientist & Econometrician"
+avatar_shape: circle # circle, square, rounded, leave blank to exclude.
+show_social_links: true # Specify social accounts in site config.
+audio_link_label: "How to say my name?" # Leave blank to exclude.
 link_list_label: "Interests" # bookmarks, elsewhere, etc.
 link_list:
-- name: Paris
+- name: Data Science
   url: https://en.wikipedia.org/wiki/Paris
-- name: Pastries
+- name: Time Series Econometrics
   url: https://en.wikipedia.org/wiki/Pastry
-- name: People
+- name: Spatial Econometrics
+  url: https://en.wikipedia.org/wiki/People
+- name: Cryptoeconomics
+  url: https://en.wikipedia.org/wiki/People
+- name: Shiny
   url: https://en.wikipedia.org/wiki/People
 ---
 

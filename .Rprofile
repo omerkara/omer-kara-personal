@@ -40,8 +40,8 @@ options(
   blogdown.serve_site.startup	= FALSE, ## Serve the site on RStudio startup?
 
   blogdown.author = "Omer Kara", ## Default author for posts.
-  blogdown.ext = ".Rmd", ## Default file type for posts.
-  blogdown.subdir = "post", ## Default directory for posts.
+  blogdown.ext = ".Rmd", ## Default file type for posts. Options: ".Rmd" ad ".Rmarkdown".
+  blogdown.subdir = "blog", ## Default directory for blog post.
   blogdown.yaml.empty = TRUE, ## Preserve empty fields in YAML?
 
   # blogdown.hugo.dir = "../", ## The directory of the Hugo executabl. See: https://bookdown.org/yihui/blogdown/more-global-options.html

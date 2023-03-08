@@ -2,7 +2,7 @@
 
 # [Omer Kara-Personal Website](https://omerkara.netlify.app/) Working Directory
 
-## Folder Structure for Omer Kara's Personal Website 
+## Folder Structure for Omer Kara-Personal
 
 - `Omer Kara-Personal` folder consists of the HTML and other type of documents.
 - `archetypes` folder consists of all the archetypes.
@@ -27,7 +27,7 @@
 - `renv.lock` file consists of `renv` package settings.
 
 ## Important Notes
-- The Omer Kara's Personal website address is: [https://omerkara.netlify.app/](https://omerkara.netlify.app/)
+- The addres of Personal website for Omer Kara is: [https://omerkara.netlify.app/](https://omerkara.netlify.app/)
 - The whole website is created using the [`blogdown`](https://bookdown.org/yihui/blogdown/) package, [`Hugo`](https://gohugo.io/) static website builder, [`Netlify`](https://www.netlify.com/) website deployer, [Hugo Apéro theme](https://github.com/hugo-apero/), and [`GitHub`](https://github.com/) cloud version control software.
 - You can view the website source files [here](https://github.com/omerkara/omer-kara-personal).
 - Please feel free to use any of the content without the permission of the repository owner.

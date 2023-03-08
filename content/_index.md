@@ -2,7 +2,7 @@
 action_label: Learn More About Me &rarr;
 action_link: /about
 action_type: text
-description: Welcome message should go HERE.
+description: "Welcome message should go HERE."
 image_left: true
 images:
 - img/omer_new_cropped.jpg

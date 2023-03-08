@@ -43,7 +43,7 @@ disqusShortname = "https-omerkara-netlify-app"
 # Misc.
 metaDataFormat = "yaml" ## Front matter meta-data format. Valid values: "toml", "yaml", or "json".
 footnoteReturnLinkContents = "&#8617;" ## ↩. Text to display for footnote return links.
-paginate = 2 ## Number of items to show in list format (blog, talk and/or projects).
+paginate = 5 ## Number of items to show in list format (blog, talk and/or projects).
 preserveTaxonomyNames = true ## Preserving taxonomy names.
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$", "(^|/)renv$", "renv\\.lock$"] ## Exclude specific files from the content and data directories when rendering your site.
 enableEmoji = true ## Enable Emoji emoticons support for page content; see the Emoji Cheat Sheet (https://www.webfx.com/tools/emoji-cheat-sheet/).
@@ -55,17 +55,17 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
     unsafe = true ## Enable user to embed HTML snippets in Markdown content.
     hardwraps = false ## By default, Goldmark ignores newlines within a paragraph. Set to true to render newlines as <br> elements.
   [markup.tableOfContents]
-    startLevel = 2 ## The heading level, values starting at 1 (h1), to start render the table of contents.
+    startLevel = 1 ## The heading level, values starting at 1 (h1), to start render the table of contents.
     endLevel = 2 ## The heading level, inclusive, to stop render the table of contents.
     ordered = false ## Whether or not to generate an ordered list instead of an unordered list.
   [markup.highlight]
-    style = "github" ## pygments can also be used. one of: https://xyproto.github.io/splash/docs/.
+    style = "github" ## Good options: pygments and ardunio. See docs https://xyproto.github.io/splash/docs/.
 
 #-------------------------------------------------------------------------------
 [params]
-  orgName = "RStudio"
-  orgLocal = "Anywhere"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  orgName = "Omer Kara"
+  orgLocal = ""
+  description = "Personal website and portfolio of Dr. Omer Kara."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["blog", "project", "talk"]
@@ -84,20 +84,23 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
 
   #--------------------
   # Color theme (built in).
-  theme = "sky" ## One of: forest, grayscale, peach, plum, poppy, sky, violet, water.
+  ## One of: forest, grayscale, peach, plum, poppy, sky, violet, water.
+  theme = "" ## Good options: forest, sky, poppy, water
 
   ## Or, leave theme empty & make your own palette. See docs at https://hugo-apero.netlify.app/blog/color-themes/.
   ## The custom scss file must be in the assets/ folder add the filename name here,
-    #without extension to use hex colors instead of named tachyons colors, include "hex" in filename.
-  custom_theme = ""
+    # without extension to use hex colors instead of named tachyons colors, include "hex" in filename.
+    #Added themes: fb-hex and octaevo-hex
+  custom_theme = "fb-hex" ## Good options: fb-hex, octaevo-hex
 
   #--------------------
   # Embeded font-family (built in).
   ## Serif options: Fraunces, EB Garamond, Bitter.
   ## Sans-serif options: Commissioner, Atkinson Hyperlegible, Metropolis.
   ## If you import your own fonts, name them here too. See docs at https://hugo-apero.netlify.app/blog/fonts/.
-  customtextFontFamily = "Atkinson Hyperlegible" ## Good options are Commissioner and Atkinson Hyperlegible.
-  customheadingFontFamily = "EB Garamond" ## Good options are Fraunces and EB Garamond.
+    # Added fonts: Petrona.
+  customtextFontFamily = "Atkinson Hyperlegible" ## Good options: Commissioner and Atkinson Hyperlegible.
+  customheadingFontFamily = "Petrona" ## Good options: Fraunces, EB Garamond, Petrona.
 
   ## Alternatively, leave the above options empty and select basic font options: sans-serif or serif.
   ## All alternatives are: sans-serif, serif, system-sans-serif, code, curier, helvetica, avenir,
@@ -111,7 +114,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   [params.utterances]
     use_utterances = true
     repo_name = "apreshill/apero"
-    issue_term = "pathname" # url, pathname, or title
+    issue_term = "pathname" # url, pathname, or title.
     theme = "boxy-light"
     label = "comments :crystal_ball:"
 
@@ -128,45 +131,75 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   ## Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   ## Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
   [[params.social]]
-      icon      = "github" # icon name without the 'fa-'
+      icon      = "envelope"
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "mailto:omer.kara.ylsy@gmail.com"
   [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
+      icon      = "linkedin-in"
       icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+      url       = "https://www.linkedin.com/in/omer-kara"
   [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
+      icon      = "twitter"
       icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
+      url       = "https://twitter.com/omerkara1"
   [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
+      icon      = "github-alt" ## Options: github, github-alt.
       icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
+      url       = "https://github.com/omerkara"
   [[params.social]]
-      icon      = "youtube" # icon name without the 'fa-'
+      icon      = "bitbucket"
       icon_pack = "fab"
-      url       = "https://www.youtube.com/@alisonhill"
+      url       = "https://bitbucket.org/karaomer/"
   [[params.social]]
-      icon      = "impactstory" # icon name without the 'fa-'
+      icon      = "code"
+      icon_pack = "fas"
+      url       = "https://www.datacamp.com/profile/okara"
+
+  [[params.social]]
+      icon      = "academia"
       icon_pack = "ai"
-      url       = "https://impactstory.org/u/0000-0002-8082-1890"
+      url       = "https://akademiekonometri.netlify.app/"
   [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
+      icon      = "youtube"
+      icon_pack = "fab"
+      url       = "https://www.youtube.com/c/AkademiEkonometri"
+
+  [[params.social]]
+      icon      = "orcid"
       icon_pack = "ai"
-      url       = "http://orcid.org/0000-0002-8082-1890"
+      url       = "https://orcid.org/0000-0001-7697-0319"
   [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
+      icon      = "google-scholar" ## Options: google-scholar, google-scholar-square.
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=K6oxNt0AAAAJ&hl=en"
+  [[params.social]]
+      icon      = "publons"
+      icon_pack = "ai"
+      url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
+  [[params.social]]
+      icon      = "researchgate"
+      icon_pack = "ai"
+      url       = "https://www.researchgate.net/profile/Omer_Kara2"
+  [[params.social]]
+      icon      = "rss"
       icon_pack = "fas"
       url       = "/blog/index.xml"
-  [[params.social]]
-      icon      = "linkedin-in" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://www.linkedin.com/in/alisonpresmaneshill/"
-  [[params.social]]
-      icon      = "google-scholar" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "https://scholar.google.com/citations?user=yGD9V6MAAAAJ&hl=en"
+
+  #[[params.social]]
+  #    icon      = "facebook-square" # icon name without the 'fa-'
+  #    icon_pack = "fab"
+  #    url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+  #[[params.social]]
+  #    icon      = "instagram" # icon name without the 'fa-'
+  #    icon_pack = "fab"
+  #    url       = "https://www.instagram.com/explore/tags/apero/"
+
+#-------------------------------------------------------------------------------
+# Permalinks
+## Added later (can be deleted.)
+[permalinks]
+  blog = "/blog/:year-:month-:slug/"
+  talk = "/talk/:filename/"
 
 #-------------------------------------------------------------------------------
 # Taxonomies
@@ -186,7 +219,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
     weight = 1
   [[menu.header]]
     name = "Blog"
-    title = "Blog"
+    title = "Meeting People Where They R"
     url = "/blog/"
     weight = 2
   [[menu.header]]
@@ -196,7 +229,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
     weight = 3
   [[menu.header]]
     name = "Talks"
-    title = "Talks"
+    title = "Invited Talks"
     url = "/talk/"
     weight = 4
   [[menu.header]]
@@ -209,11 +242,16 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
     title = "Element Page"
     url = "/elements/"
     weight = 6
+  #[[menu.header]]
+  #  name = "Publications"
+  #  title = "Research Publications"
+  #  url = "/publication/"
+  #  weight = 7
 
   ## Configure footer.
   [[menu.footer]]
     name = "License"
-    title = "License"
+    title = "License Details"
     url = "/license/"
     weight = 1
   [[menu.footer]]
@@ -223,7 +261,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
     weight = 2
   [[menu.footer]]
     name = "RSS"
-    title = "RSS"
+    title = "Subscribe via RSS"
     url = "/blog/index.xml"
     weight = 3
 

@@ -3,7 +3,7 @@ description: Site license.
 draft: false
 layout: standard
 show_title_as_headline: true
-title: License 
+title: "License" # LICENSE: CC BY-NC-SA 4.0
 ---
 
 My [blog posts](/blog/) are released under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International  License](http://creativecommons.org/licenses/by-nc-sa/4.0/).

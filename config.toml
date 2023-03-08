@@ -65,9 +65,11 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
 [params]
   orgName = "Omer Kara"
   orgLocal = ""
-  description = "Personal website and portfolio of Dr. Omer Kara."
+  description = "Personal website of Dr. Omer Kara"
   favicon = "/img/favicon.ico"
+  #favicon = "/img/logo_rounded.ico"
   logo = "/img/blogophonic-mark-dark.png"
+  #logo = "/img/logo_noBg.svg"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
 
@@ -80,6 +82,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   #--------------------
   # Default image for social sharing and search engines.
   sharing_image = "/img/papillons.jpg" ## Place image file in `static` folder and specify image name here.
+  #sharing_image = "/img/silvia-social.png"
   twitter = "omerkara1" ## Twitter username (without @). Used when a visitor shares your site on Twitter.
 
   #--------------------
@@ -107,7 +110,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
     # athelas, georgia, times, bodoni, calisto, garamond, baskerville.
   ## For more http://tachyons.io/docs/typography/font-family/.
   textFontFamily = "sans-serif"
-  headingFontFamily = "sans-serif"
+  headingFontFamily = "sans-serif" ## Good options: sans-serif, athelas, curier, avenir.
 
   #--------------------
   # Configuration of https://utteranc.es/ for comments.
@@ -115,7 +118,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
     use_utterances = true
     repo_name = "apreshill/apero"
     issue_term = "pathname" # url, pathname, or title.
-    theme = "boxy-light"
+    theme = "boxy-light" ## TODO: change to "preferred-color-scheme" when you enable dark mode toggle
     label = "comments :crystal_ball:"
 
   #--------------------
@@ -195,11 +198,16 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   #    url       = "https://www.instagram.com/explore/tags/apero/"
 
 #-------------------------------------------------------------------------------
-# Permalinks
+# URLs.
 ## Added later (can be deleted.)
 [permalinks]
   blog = "/blog/:year-:month-:slug/"
-  talk = "/talk/:filename/"
+  talk = "/talk/:year-:month-:slug/"
+  publication = "/publication/:year-:slug/"
+  project = "/project/:year-:slug/"
+
+# https://gohugo.io/content-management/urls/#relative-urls
+relativeURLs = true
 
 #-------------------------------------------------------------------------------
 # Taxonomies
@@ -264,6 +272,11 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
     title = "Subscribe via RSS"
     url = "/blog/index.xml"
     weight = 3
+  #[[menu.footer]]
+  #  name = "Accessibility"
+  #  title = "Accessibility Commitment"
+  #  url = "/accessibility/"
+  #  weight = 1
 
 #-------------------------------------------------------------------------------
 # Privacy.

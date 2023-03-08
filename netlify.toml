@@ -9,8 +9,8 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 #===============================================================================
 [build]
-  command = "hugo"
   publish = "public"
+  command = "hugo"
 
 [build.environment]
   HUGO_VERSION = "0.110.0"

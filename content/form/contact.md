@@ -7,7 +7,7 @@ description:
     <br><br>
     Please, get in touch. I’d love to hear from you!'
 draft: false
-formspree_form_id: f/mgebzeaw
+formspree_form_id: mgebzeaw ## Instead of your email use the "HTML action attribute code" given by formspree.
 layout: split-right
 name: Contact Us Form
 show_poweredby_formspree: true

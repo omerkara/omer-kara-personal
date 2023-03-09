@@ -7,7 +7,7 @@ description:
     <br><br>
     Please, get in touch. I’d love to hear from you!'
 draft: false
-formspree_form_id: omer.kara.ylsy@gmail.com
+formspree_form_id: f/mgebzeaw
 layout: split-right
 name: Contact Us Form
 show_poweredby_formspree: true

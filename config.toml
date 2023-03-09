@@ -116,7 +116,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   # Configuration of https://utteranc.es/ for comments.
   [params.utterances]
     use_utterances = true
-    repo_name = "apreshill/apero"
+    repo_name = "omerkara/omer-kara-personal"
     issue_term = "pathname" # url, pathname, or title.
     theme = "boxy-light" ## TODO: change to "preferred-color-scheme" when you enable dark mode toggle
     label = "comments :crystal_ball:"

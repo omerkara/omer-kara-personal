@@ -7,7 +7,6 @@
 - `Omer Kara-Personal` folder consists of the HTML and other type of documents.
 - `archetypes` folder consists of all the archetypes.
 - `assets` folder consists of website icon and css.
-- `config` folder consists of website configuration options.
 - `content` folder consists of all the posts, courses, talks, projects, and etc.
 - `data` folder consists of website font, theme, and sharing configuration options.
 - `layouts` folder consists of website page layout configuration options.
@@ -16,7 +15,7 @@
 - `renv` folder consists of the settings about the `renv` package for package version control.
 - `static` folder consists of all the static files such as css, fonts, images, js, repo folder which consists of all user related static files, redirects file, and google site verification file.
 - `themes` folder consists of materials related to themes used in this project.
-- `_data_helper.R`, `_estimation_helper.R`, `_later.R`, and `_notes.R` files consist of notes and codes which are for test, important, and future referance.
+- `_later.R`, and `_notes.R` files consist of notes and codes which are for test, important, and future referance.
 - `_settings.R` file consists of loading all the necessary functions and paths to the general environment, packages, and seed.
 - `Omer Kara-Personal.Rproj` file consists of the R project settings.
 - `Avatar_Bitbucket.png` file is the avatar of the web site.

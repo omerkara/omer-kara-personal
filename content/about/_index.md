@@ -1,11 +1,17 @@
 ---
+# Configure About Page.
+
+## Info.
+title: "About"
+description: "Personal website for Omer Kara."
+
+## Options.
+show_header: true ## Shows the content in the /about/header/ folder.
+sidebar_left: false
+
+## Keep this! Do not edit.
 cascade:
   headless: true
-description: |
-  Personal website for Omer Kara.
-show_header: true
-sidebar_left: false
-title: About
 ---
 
 ** index doesn't contain a body, just front matter above.

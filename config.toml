@@ -35,9 +35,11 @@ copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</scri
 googleAnalytics = "G-D9Z9H8XBQF" ## Google analytics 4 ID.
 
 #-------------------------------------------------------------------------------
-# Disqus shortname given in the disquss account.
-## See params.utterances to use utterances instead of Disqus.
-disqusShortname = "https-omerkara-netlify-app"
+# Comments.
+## There are two tools that can be used for comments: disqus and utterances.
+## By default params.utterances/use_utterances argument is true and it makes use of utterances.
+## To use disqus instead of utterances set params.utterances/use_utterances argument false.
+disqusShortname = "https-omerkara-netlify-app" ## Disqus shortname given in the disquss account.
 
 #-------------------------------------------------------------------------------
 # Misc.
@@ -66,11 +68,9 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   orgName = "Omer Kara"
   orgLocal = ""
   description = "Personal website of Dr. Omer Kara"
-  favicon = "/img/favicon.ico"
-  #favicon = "/img/logo_rounded.ico"
-  logo = "/img/blogophonic-mark-dark.png"
-  #logo = "/img/logo_noBg.svg"
-  mainSections = ["blog", "project", "talk"]
+  favicon = "/img/favicon.ico" ## Favicon of the website which is shown on browser tab. ## TODO: "/img/logo_rounded.ico"
+  logo = "/img/blogophonic-mark-dark.png" ## Logo of the website which is shown on the left-top. ## TODO: "/img/logo_noBg.svg"
+  mainSections = ["blog", "project", "talk"] ## Content sections to be previewed in the /about/ page. ## TODO: Change it later.
   navallcaps = true
 
   #--------------------
@@ -81,27 +81,27 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
 
   #--------------------
   # Default image for social sharing and search engines.
-  sharing_image = "/img/papillons.jpg" ## Place image file in `static` folder and specify image name here.
-  #sharing_image = "/img/silvia-social.png"
+  sharing_image = "/img/papillons.jpg" ## TODO: Place image file in `static` folder and specify image name here.
+  #sharing_image = "/img/silvia-social.png" ## TODO: Delete this line later.
   twitter = "omerkara1" ## Twitter username (without @). Used when a visitor shares your site on Twitter.
 
   #--------------------
   # Color theme (built in).
   ## One of: forest, grayscale, peach, plum, poppy, sky, violet, water.
-  theme = "" ## Good options: forest, sky, poppy, water
+  theme = "" ## Good options: forest, sky, poppy, water.
 
-  ## Or, leave theme empty & make your own palette. See docs at https://hugo-apero.netlify.app/blog/color-themes/.
+  ## Or, leave theme empty & make your own palette. See docs at https://hugo-apero-docs.netlify.app/learn/color-themes/.
   ## The custom scss file must be in the assets/ folder add the filename name here,
     # without extension to use hex colors instead of named tachyons colors, include "hex" in filename.
-    #Added themes: fb-hex and octaevo-hex
-  custom_theme = "fb-hex" ## Good options: fb-hex, octaevo-hex
+  ## Added themes: fb-hex and octaevo-hex.
+  custom_theme = "fb-hex" ## Good options: fb-hex, octaevo-hex.
 
   #--------------------
   # Embeded font-family (built in).
   ## Serif options: Fraunces, EB Garamond, Bitter.
   ## Sans-serif options: Commissioner, Atkinson Hyperlegible, Metropolis.
   ## If you import your own fonts, name them here too. See docs at https://hugo-apero.netlify.app/blog/fonts/.
-    # Added fonts: Petrona.
+  ## Added fonts: Petrona.
   customtextFontFamily = "Atkinson Hyperlegible" ## Good options: Commissioner and Atkinson Hyperlegible.
   customheadingFontFamily = "Petrona" ## Good options: Fraunces, EB Garamond, Petrona.
 
@@ -109,16 +109,23 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   ## All alternatives are: sans-serif, serif, system-sans-serif, code, curier, helvetica, avenir,
     # athelas, georgia, times, bodoni, calisto, garamond, baskerville.
   ## For more http://tachyons.io/docs/typography/font-family/.
+  ## For custom fonts to add see: https://hugo-apero-docs.netlify.app/learn/fonts/
   textFontFamily = "sans-serif"
   headingFontFamily = "sans-serif" ## Good options: sans-serif, athelas, curier, avenir.
 
   #--------------------
-  # Configuration of https://utteranc.es/ for comments.
+  # Comments.
+  ## There are two tools that can be used for comments: disqus and utterances.
+  ## By default params.utterances/use_utterances argument is true and it makes use of utterances.
+  ## To use disqus instead of utterances set params.utterances/use_utterances argument false.
+
+  ## Configuration of https://utteranc.es/ for comments.
+  ## Theme options: boxy-light, dark-blue, github-dark-orange, github-dark, github-light, gruvbox-dark, icy-dark, photon-dark.
   [params.utterances]
-    use_utterances = true
+    use_utterances = true ## true for utterances on github or false for disqus.
     repo_name = "omerkara/omer-kara-personal"
-    issue_term = "pathname" # url, pathname, or title.
-    theme = "boxy-light" ## TODO: change to "preferred-color-scheme" when you enable dark mode toggle
+    issue_term = "Title" ## Uses either url, pathname, or title of the website page to start the issue on github gist.
+    theme = "boxy-light" ## Good options: boxy-light, dark-blue, github-dark-orange, github-light.
     label = "comments :crystal_ball:"
 
   #--------------------
@@ -133,81 +140,87 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   ## Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
   ## Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   ## Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
-  [[params.social]]
+
+  ## Social.
+  [[params.social]] ## Email.
       icon      = "envelope"
-      icon_pack = "fab"
+      icon_pack = "fa"
       url       = "mailto:omer.kara.ylsy@gmail.com"
-  [[params.social]]
+  [[params.social]] ## Linkedin.
       icon      = "linkedin-in"
       icon_pack = "fab"
       url       = "https://www.linkedin.com/in/omer-kara"
-  [[params.social]]
+  [[params.social]] ## Twitter.
       icon      = "twitter"
       icon_pack = "fab"
       url       = "https://twitter.com/omerkara1"
-  [[params.social]]
+  #[[params.social]] ## Facebook.
+  #   icon      = "facebook-square" # icon name without the 'fa-'
+  #   icon_pack = "fab"
+  #   url       = "https://www.facebook.com/omer.kara.777158"
+  #[[params.social]] ## Instagram.
+  #   icon      = "instagram" # icon name without the 'fa-'
+  #   icon_pack = "fab"
+  #   url       = "https://www.instagram.com/omr_kara/"
+  [[params.social]] ## Github.
       icon      = "github-alt" ## Options: github, github-alt.
       icon_pack = "fab"
       url       = "https://github.com/omerkara"
-  [[params.social]]
+  [[params.social]] ## Bitbucket.
       icon      = "bitbucket"
       icon_pack = "fab"
       url       = "https://bitbucket.org/karaomer/"
-  [[params.social]]
-      icon      = "code"
+  [[params.social]] ## DataCamp.
+      icon      = "certificate" ## Options: code, certificate.
       icon_pack = "fas"
       url       = "https://www.datacamp.com/profile/okara"
 
-  [[params.social]]
+  ## Akademi Ekonometri.
+  [[params.social]] ## Akademi Ekonometri web site.
       icon      = "academia"
       icon_pack = "ai"
       url       = "https://akademiekonometri.netlify.app/"
-  [[params.social]]
+  [[params.social]] ## Akademi Eknometri YouTube channel.
       icon      = "youtube"
       icon_pack = "fab"
       url       = "https://www.youtube.com/c/AkademiEkonometri"
 
-  [[params.social]]
+  ## Academic.
+  [[params.social]] ## ORCID.
       icon      = "orcid"
       icon_pack = "ai"
       url       = "https://orcid.org/0000-0001-7697-0319"
-  [[params.social]]
+  [[params.social]] ## Google Scholar.
       icon      = "google-scholar" ## Options: google-scholar, google-scholar-square.
       icon_pack = "ai"
       url       = "https://scholar.google.com/citations?user=K6oxNt0AAAAJ&hl=en"
-  [[params.social]]
+  [[params.social]] ## Publons.
       icon      = "publons"
       icon_pack = "ai"
       url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
-  [[params.social]]
+  [[params.social]] ## Research Gate.
       icon      = "researchgate"
       icon_pack = "ai"
       url       = "https://www.researchgate.net/profile/Omer_Kara2"
+
+  ## RSS.
   [[params.social]]
       icon      = "rss"
       icon_pack = "fas"
       url       = "/blog/index.xml"
 
-  #[[params.social]]
-  #    icon      = "facebook-square" # icon name without the 'fa-'
-  #    icon_pack = "fab"
-  #    url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
-  #[[params.social]]
-  #    icon      = "instagram" # icon name without the 'fa-'
-  #    icon_pack = "fab"
-  #    url       = "https://www.instagram.com/explore/tags/apero/"
+#-------------------------------------------------------------------------------
+# Relative URLs.
+## See docs https://gohugo.io/content-management/urls/#relative-urls
+relativeURLs = true
 
 #-------------------------------------------------------------------------------
-# URLs.
-## Added later (can be deleted.)
-[permalinks]
+# Permalinks.
+[permalinks] ## TODO: Check the permalinks later.
   blog = "/blog/:year-:month-:slug/"
   talk = "/talk/:year-:month-:slug/"
   publication = "/publication/:year-:slug/"
   project = "/project/:year-:slug/"
-
-# https://gohugo.io/content-management/urls/#relative-urls
-relativeURLs = true
 
 #-------------------------------------------------------------------------------
 # Taxonomies
@@ -220,37 +233,32 @@ relativeURLs = true
 # Menu.
 [menu]
   ## Configure header.
-  [[menu.header]]
+  [[menu.header]] ## TODO: Change later.
     name = "About"
     title = "About Me"
     url = "/about/"
     weight = 1
-  [[menu.header]]
+  [[menu.header]] ## TODO: Change later.
     name = "Blog"
     title = "Meeting People Where They R"
     url = "/blog/"
     weight = 2
-  [[menu.header]]
+  [[menu.header]] ## TODO: Change later.
     name = "Projects"
     title = "Project Portfolio"
     url = "/project/"
     weight = 3
-  [[menu.header]]
+  [[menu.header]] ## TODO: Change later.
     name = "Talks"
     title = "Invited Talks"
     url = "/talk/"
     weight = 4
-  [[menu.header]]
-    name = "A collection"
-    title = "A collection"
+  [[menu.header]] ## TODO: Change later.
+    name = "Collection"
+    title = "Collection"
     url = "/collection/"
     weight = 5
-  [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 6
-  #[[menu.header]]
+  #[[menu.header]] ## TODO: Change later.
   #  name = "Publications"
   #  title = "Research Publications"
   #  url = "/publication/"
@@ -258,25 +266,25 @@ relativeURLs = true
 
   ## Configure footer.
   [[menu.footer]]
+    name = "Akademi Ekonometri"
+    title = "Akademi Ekonometri"
+    url = "/misc/akademi-ekonometri/"
+    weight = 1
+  [[menu.footer]]
     name = "License"
     title = "License Details"
-    url = "/license/"
-    weight = 1
+    url = "/misc/license/"
+    weight = 2
   [[menu.footer]]
     name = "Contact"
     title = "Contact form"
     url = "/contact/"
-    weight = 2
+    weight = 3
   [[menu.footer]]
     name = "RSS"
-    title = "Subscribe via RSS"
+    title = "Subscribe via RSS" ## TODO: Change later.
     url = "/blog/index.xml"
-    weight = 3
-  #[[menu.footer]]
-  #  name = "Accessibility"
-  #  title = "Accessibility Commitment"
-  #  url = "/accessibility/"
-  #  weight = 1
+    weight = 4
 
 #-------------------------------------------------------------------------------
 # Privacy.
@@ -288,6 +296,7 @@ relativeURLs = true
     disable = false
     anonymizeIP = true
     respectDoNotTrack = true
+    useSessionStorage = false
   [privacy.instagram]
     disable = false
     simple = true
@@ -304,4 +313,3 @@ relativeURLs = true
     privacyEnhanced = true
 
 #-------------------------------------------------------------------------------
-

@@ -1,28 +1,29 @@
 ---
-author: The R Markdown Team @RStudio
+# Configure Projects Main Page.
+## See docs: https://hugo-apero-docs.netlify.app/start/section-config/#lists-of-pages
+
+## Info.
+title: "Projects Main Page Title"
+description: "Projects Main Page Description."
+
+## Options.
 cascade:
+  author: Omer Kara
   show_author_byline: true
-  show_comments: false
+  show_post_thumbnail: true
   show_post_date: true
+  show_comments: true
+  show_button_links: false ## Show/Hide the button links on the Projects Main Page.
   sidebar:
-    show_sidebar_adunit: true
-    text_link_label: View all projects
-    text_link_url: /project/
-description: Give your projects a place to live online.
-layout: list-grid
-show_author_byline: true
-show_button_links: false
-show_post_date: false
-show_post_thumbnail: true
-sidebar:
-  author: The R Markdown Team @RStudio
-  description: "Projects can be anything!\nCheck out the _index.md file in the /project
-    folder \nto edit this content.\n"
-  show_sidebar_adunit: false
-  text_link_label: ""
-  text_link_url: ""
-  title: A Sidebar for Your Projects
-title: A Project Portfolio To Grow
+    title: "Projects Main Page Sidebar Title"
+    description: "Projects Main Page Sidebar Description."
+    author: Omer Kara
+    show_sidebar_adunit: true ## Show ad container.
+    text_link_label: "Subscribe via RSS" ## Good Options: View recent projects and Subscribe via RSS.
+    text_link_url: /project/index.xml ## Good Options: /project/ and /project/index.xml.
+
+## Layout.
+layout: list-grid ## Options: list, list-sidebar, list-grid.
 ---
 
-** No content for the project index. This file provides front matter for the blog including the layout and boolean options. **
+** No content below YAML for the project _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside /project/. You may still override any of these by changing them in a page's front matter.**

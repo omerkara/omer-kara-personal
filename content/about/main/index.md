@@ -1,17 +1,25 @@
 ---
-## Configure page content in wide column
-title: "Why apéro?" # leave blank to exclude
-number_featured: 1 # pulling from mainSections in config.toml
-use_featured: false # if false, use most recent by date
-number_categories: 3 # set to zero to exclude
-show_intro: true
-intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
-  
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
-show_outro: true
-outro: |
-  <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
+# Configure Main content in About Page.
+
+## Info.
+title: "TODO: Title for About Page Main Content" ## Leave blank to exclude.
+
+## Intro.
+show_intro: true ## Show/Close intro.
+intro:
+    "TODO: Fill this paragraph.
+    <br/><br/>
+    TODO: Fill this paragraph."
+
+## Outro.
+show_outro: true ## Show/Close outro.
+outro: <i class="fas fa-kiwi-bird pr2"></i>Thank you for visiting!
+
+## Options.
+number_categories: 3 ## Set 0 to exclude all categories (pulling from mainSections argument in config.toml file).
+number_featured: 1 ## Number of featured content per category (pulling from mainSections argument in config.toml file).
+use_featured: true ## If false, use most recent by date. If true, then it filters based on a "featured: true" flag added to the YAML of individual content pages.
+### Note that number_categories argument is not working properly so you have to change it using mainSections argument in config.toml file.
 ---
 
 ** index doesn't contain a body, just front matter above.

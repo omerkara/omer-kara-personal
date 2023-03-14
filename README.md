@@ -11,14 +11,14 @@
 - `data` folder consists of website font, theme, and sharing configuration options.
 - `layouts` folder consists of website page layout configuration options.
 - `R` folder consists of the scripts to build Rmd documents with custom output formats.
-- `resources` folder consists of the automatically generated assets and images for website pages.
 - `renv` folder consists of the settings about the `renv` package for package version control.
+- `resources` folder consists of the automatically generated assets and images for website pages.
 - `static` folder consists of all the static files such as css, fonts, images, js, repo folder which consists of all user related static files, redirects file, and google site verification file.
 - `themes` folder consists of materials related to themes used in this project.
 - `_later.R`, and `_notes.R` files consist of notes and codes which are for test, important, and future referance.
 - `_settings.R` file consists of loading all the necessary functions and paths to the general environment, packages, and seed.
-- `Omer Kara-Personal.Rproj` file consists of the R project settings.
 - `Avatar_Bitbucket.png` file is the avatar of the web site.
+- `Omer Kara-Personal.Rproj` file consists of the R project settings.
 - `config.toml` file consists of global site settings.
 - `index.Rmd` file consists of indexing code. Do not touch it.
 - `LICENSE.md` file consists of the license of the project.

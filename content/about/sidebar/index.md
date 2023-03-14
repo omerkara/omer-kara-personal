@@ -1,22 +1,26 @@
 ---
-## Configure sidebar content in narrow column
-author: "Omer Kara"
-role: "Data Scientist & Econometrician"
-avatar_shape: circle # circle, square, rounded, leave blank to exclude.
-show_social_links: true # Specify social accounts in site config.
-audio_link_label: "How to say my name?" # Leave blank to exclude.
-link_list_label: "Interests" # bookmarks, elsewhere, etc.
+# Configure Sidebar content in About Page.
+
+## Info.
+author: Omer Kara
+role: "Data Scientist <br/> Econometrician" ## Data Scientist & Econometrician
+
+## Picture, Social Links, and Audio.
+avatar_shape: rounded ## Options: circle, square, rounded, or leave blank to exclude.
+show_social_links: true ## Specify social accounts in site config.
+audio_link_label: "How to say my name?" ## Leave blank to exclude.
+
+## Links.
+link_list_label: "Interests" ## Bookmarks, or etc.
 link_list:
 - name: Data Science
-  url: https://en.wikipedia.org/wiki/Paris
+  url: https://data-flair.training/blogs/r-books/
 - name: Time Series Econometrics
-  url: https://en.wikipedia.org/wiki/Pastry
+  url: https://www.tableau.com/learn/articles/time-series-analysis-books
 - name: Spatial Econometrics
-  url: https://en.wikipedia.org/wiki/People
+  url: https://www.spatialeconometricsassociation.org/
 - name: Cryptoeconomics
-  url: https://en.wikipedia.org/wiki/People
-- name: Shiny
-  url: https://en.wikipedia.org/wiki/People
+  url: https://mitsloan.mit.edu/cryptoeconomics-lab/welcome-mit-cryptoeconomics-lab
 ---
 
 ** index doesn't contain a body, just front matter above.

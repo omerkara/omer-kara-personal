@@ -216,11 +216,14 @@ relativeURLs = true
 
 #-------------------------------------------------------------------------------
 # Permalinks.
+## After additional sections are added check the link about renaming sections:
+  # https://hugo-apero-docs.netlify.app/start/section-config/?panelset1=list-grid-%25F0%259F%2593%25B7&panelset=blog-%25F0%259F%2593%25B7#renaming-sections
 [permalinks] ## TODO: Check the permalinks later.
-  blog = "/blog/:year-:month-:slug/"
-  talk = "/talk/:year-:month-:slug/"
-  publication = "/publication/:year-:slug/"
-  project = "/project/:year-:slug/"
+  blog = "/blog/:year-:month-:slugorfilename/"
+  project = "/project/:year-:slugorfilename/"
+  talk = "/talk/:year-:month-:slugorfilename/"
+  collection = "/collection/:year-:slugorfilename/"
+  publication = "/publication/:year-:slugorfilename/"
 
 #-------------------------------------------------------------------------------
 # Taxonomies
@@ -258,6 +261,11 @@ relativeURLs = true
     title = "Collection"
     url = "/collection/"
     weight = 5
+  [[menu.header]] ## TODO: Change later.
+    name = "CV"
+    title = "CV"
+    url = "/CV/"
+    weight = 6
   #[[menu.header]] ## TODO: Change later.
   #  name = "Publications"
   #  title = "Research Publications"
@@ -268,12 +276,12 @@ relativeURLs = true
   [[menu.footer]]
     name = "Akademi Ekonometri"
     title = "Akademi Ekonometri"
-    url = "/misc/akademi-ekonometri/"
+    url = "/—misc/akademi-ekonometri/"
     weight = 1
   [[menu.footer]]
     name = "License"
     title = "License Details"
-    url = "/misc/license/"
+    url = "/—misc/license/"
     weight = 2
   [[menu.footer]]
     name = "Contact"

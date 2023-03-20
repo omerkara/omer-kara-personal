@@ -1,0 +1,15 @@
+<!--each article is a row-->
+<article class="pa0 mv0 pv0 w-100 flex flex-column flex-row-ns">
+    <div class="w-100 w-100-ns mb4-ns mb3">
+      {{ with .primary_interests }}
+        <p class="mv0 mt2-ns mt1">
+          <b> Primary: </b> {{ . }}
+        </p>
+      {{ end }}
+
+      {{ with .secondary_interests }}
+        <p class="mv0 mt2-ns mt1"> <b> Secondary: </b> {{ . }}</p>
+      {{ end }}
+
+    </div>
+</article>

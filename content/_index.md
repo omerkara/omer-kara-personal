@@ -2,14 +2,14 @@
 # Configure Home Page.
 
 ## Info.
-title: Omer Kara, PhD
-subtitle: "Data Scientist & Econometrician"
+title: Omer Kara, Ph.D.
+subtitle: "Data Scientist & Econometrician | Consultant"
 description: "TODO: Welcome Message" ## TODO: Change the text later.
 
 ## Options.
 text_align_left: false
 images:
-    - img/omer_new_cropped.jpg ## TODO: Change the picture with a comic version or a better one.
+    - img/—omer_new_cropped.jpg ## TODO: Change the picture with a comic version or a better one.
 image_left: true
 show_social_links: true
 show_action_link: true

@@ -14,7 +14,7 @@ cascade:
   thumbnail_left: true
   show_post_date: true
   show_comments: true
-  show_button_links: false
+  show_button_links: false ## Show/Hide the button links on the Blog Main Page.
   sidebar:
     title: "Blog Main Page Sidebar Title"
     description: "Blog Main Page Sidebar Description."

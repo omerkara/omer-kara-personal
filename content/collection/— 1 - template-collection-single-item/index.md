@@ -4,7 +4,7 @@
 ## Info.
 title: "First Collection Single Item Page Title"
 subtitle: "First Collection Single Item Page Subtitle" ## Does not shown on the Collection Main Page.
-excerpt: "First Collection Single Item Page Excerpt." ## Shown on the Collection Main Page, but does not shown on the Collection Post Page.
+excerpt: "First Collection Single Item Page Excerpt." ## Shown on the Collection Main Page, but does not shown on the Collection Single Item Page.
 
 ## Metadata.
 date: "2023-01-30"

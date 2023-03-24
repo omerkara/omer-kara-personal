@@ -21,7 +21,7 @@ languageCode = "en" ## Language.
 
 #-------------------------------------------------------------------------------
 # Title and author.
-title = "Omer Kara, PhD" ## Title of the website.
+title = "Omer Kara, Ph.D." ## Title of the website.
 author = "Omer Kara" ## Author.
 
 #-------------------------------------------------------------------------------
@@ -163,7 +163,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   #   icon_pack = "fab"
   #   url       = "https://www.instagram.com/omr_kara/"
   [[params.social]] ## Github.
-      icon      = "github-alt" ## Options: github, github-alt.
+      icon      = "github" ## Options: github, github-alt.
       icon_pack = "fab"
       url       = "https://github.com/omerkara"
   [[params.social]] ## Bitbucket.
@@ -219,11 +219,16 @@ relativeURLs = true
 ## After additional sections are added check the link about renaming sections:
   # https://hugo-apero-docs.netlify.app/start/section-config/?panelset1=list-grid-%25F0%259F%2593%25B7&panelset=blog-%25F0%259F%2593%25B7#renaming-sections
 [permalinks] ## TODO: Check the permalinks later.
-  blog = "/blog/:year-:month-:slugorfilename/"
-  project = "/project/:year-:slugorfilename/"
-  talk = "/talk/:year-:month-:slugorfilename/"
-  collection = "/collection/:year-:slugorfilename/"
-  publication = "/publication/:year-:slugorfilename/"
+  industry = "/industry/:year-:slugorfilename/"
+  research = "/research/:year-:slugorfilename/"
+  teaching = "/teaching/:year-:slugorfilename/"
+  certification = "/certification/:year-:slugorfilename/"
+  cv = "/cv/:year-:slugorfilename/"
+#  blog = "/blog/:year-:month-:slugorfilename/"
+#  project = "/project/:year-:slugorfilename/"
+#  talk = "/talk/:year-:month-:slugorfilename/"
+#  collection = "/collection/:year-:slugorfilename/"
+#  publication = "/publication/:year-:slugorfilename/"
 
 #-------------------------------------------------------------------------------
 # Taxonomies
@@ -236,41 +241,56 @@ relativeURLs = true
 # Menu.
 [menu]
   ## Configure header.
-  [[menu.header]] ## TODO: Change later.
+  [[menu.header]]
     name = "About"
     title = "About Me"
     url = "/about/"
     weight = 1
-  [[menu.header]] ## TODO: Change later.
-    name = "Blog"
-    title = "Meeting People Where They R"
-    url = "/blog/"
+  [[menu.header]]
+    name = "Industry"
+    title = "Industry"
+    url = "/Industry/"
     weight = 2
-  [[menu.header]] ## TODO: Change later.
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
+  [[menu.header]]
+    name = "Research"
+    title = "Research"
+    url = "/research/"
     weight = 3
-  [[menu.header]] ## TODO: Change later.
-    name = "Talks"
-    title = "Invited Talks"
-    url = "/talk/"
+  [[menu.header]]
+    name = "Teaching"
+    title = "Teaching"
+    url = "/teaching/"
     weight = 4
-  [[menu.header]] ## TODO: Change later.
-    name = "Collection"
-    title = "Collection"
-    url = "/collection/"
+  [[menu.header]]
+    name = "Certification"
+    title = "Certification"
+    url = "/certification/"
     weight = 5
-  [[menu.header]] ## TODO: Change later.
+  [[menu.header]]
     name = "CV"
     title = "CV"
     url = "/CV/"
     weight = 6
-  #[[menu.header]] ## TODO: Change later.
-  #  name = "Publications"
-  #  title = "Research Publications"
-  #  url = "/publication/"
-  #  weight = 7
+  [[menu.header]] ## TODO: Change later.
+    name = "Blog"
+    title = "Meeting People Where They R"
+    url = "/blog/"
+    weight = 10
+  [[menu.header]] ## TODO: Change later.
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/project/"
+    weight = 11
+  [[menu.header]] ## TODO: Change later.
+    name = "Talks"
+    title = "Invited Talks"
+    url = "/talk/"
+    weight = 12
+  [[menu.header]] ## TODO: Change later.
+    name = "Collection"
+    title = "Collection"
+    url = "/collection/"
+    weight = 13
 
   ## Configure footer.
   [[menu.footer]]

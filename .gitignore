@@ -12,6 +12,7 @@
 .hugo_build.lock
 _later.R
 _notes.R
+_color-codes.txt
 
 #=========================== System Folders/Files ==============================
 renv/library

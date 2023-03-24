@@ -1,53 +1,99 @@
 +++
-# Accomplishments widget.
+# Accomplishments.
 
 ## Info.
 title = "Scholarships, Fellowships, Honors, and Awards"
-subtitle = ""
+date = "2023-01-30"
 
-## Options.
-widget = "accomplishments" ## Do not modify this line! Does not work! See https://sourcethemes.com/academic/docs/page-builder/
-headless = true ## This file represents a page section. Does not work!
-active = true ## Activate this widget? Does not work!
-weight = 30 ## Order that this section will appear. Does not work!
-date_format = "January 2006" ## Refer to https://sourcethemes.com/academic/docs/customization/#date-format. Does not work!
+## Accomplishments.
+### Add/remove as many `[[accomplishments]]` blocks below as you like.
+### Required fields are `title`, `institution`, and `date_end`.
+### Use `description`, `bullets-description`, and `bullets` with default to not to create uneccesary white space.
+### Leave other parameters empty if not required.
+### Begin/end multi-line descriptions with 3 quotes `'''`.
+### `[[note]]` block is only for note at the top of the section.
 
-## Educations.
-### Add/remove as many `[[education]]` blocks below as you like.
-### Required fields are `title`, `company`, and `date_start`.
-### Leave `date_end` empty if it's your current employer.
-### Begin/end multi-line descriptions with 3 quotes `"""`.
-
-# Accomplishments.
-#   Add/remove as many `[[item]]` blocks below as you like.
-#   `title`, `organization` and `date_start` are the required parameters.
-#   Leave other parameters empty if not required.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[item]]
-  title = "Accomplishment Title"
-  company = "Accomplishment Company"
-  company_url = "https://www.google.com/"
-  location = "Accomplishment, Location"
-  date_start = "2017-07-01"
-  date_end = "2018-10-19"
-  description = """Accomplishment Description"""
+## Examples.
+#-----
+[[accomplishments-example]]
+  title = 'Title'
+  institution = 'Institution'
+  institution_url = 'https://www.google.com/'
+  location = 'Location, Country'
+  date_start = 'May 2018'
+  date_end = 'May 2018'
+  description = '''Description'''
+  bullets_description = '''Bullets Description'''
   bullets = [
-    "Experience Bullet Item 1",
-    "Experience Bullet Item 2",
-    "Experience Bullet Item 3"
+    'Experience Bullet Item 1',
+    'Experience Bullet Item 2',
+    'Experience Bullet Item 3'
     ]
+#-----
+[[note-example]]
+  note_item = '<i class="fas fa-exclamation-triangle pr2"></i>'
+#-----
 
-[[item]]
-  title = "Accomplishment Title"
-  company = "Accomplishment Company"
-  company_url = "https://www.google.com/"
-  location = "Accomplishment, Location"
-  date_start = "2017-07-01"
-  date_end = "2018-10-19"
-  description = """Accomplishment Description"""
+## Items
+#-------------------------------------------------------------------------------
+[[accomplishments]]
+  title = 'Graduate Research Assistantship'
+  institution = 'North Carolina State University'
+  institution_url = 'https://www.ncsu.edu/'
+  location = 'Raleigh, NC, USA'
+  date_start = 'August 2016'
+  date_end = 'January 2017'
+  description = ''''''
+  bullets_description = ''''''
   bullets = [
-    "Experience Bullet Item 1",
-    "Experience Bullet Item 2",
-    "Experience Bullet Item 3"
     ]
+#-------------------------------------------------------------------------------
+[[accomplishments]]
+  title = 'Graduate Teaching Assistantship'
+  institution = 'North Carolina State University'
+  institution_url = 'https://www.ncsu.edu/'
+  location = 'Raleigh, NC, USA'
+  date_start = 'August 2013'
+  date_end = 'May 2018'
+  description = ''''''
+  bullets_description = ''''''
+  bullets = [
+    ]
+#-------------------------------------------------------------------------------
+[[accomplishments]]
+  title = 'Scholarship for Graduate Education in the U.S.'
+  institution = 'Ministry of National Education'
+  institution_url = 'http://www.meb.gov.tr/en/'
+  location = 'Ankara, Turkey'
+  date_start = 'August 2010'
+  date_end = 'August 2017'
+  description = '''Full-tuition scholarship including stipend, health insurance, and travel expenses.'''
+  bullets_description = ''''''
+  bullets = [
+    ]
+#-------------------------------------------------------------------------------
+[[accomplishments]]
+  title = 'Grant for Outstanding Academic Performance'
+  institution = 'Bahcesehir University'
+  institution_url = 'https://bau.edu.tr/'
+  location = 'Istanbul, Turkey'
+  date_start = 'September 2005'
+  date_end = 'June 2007'
+  description = '''Stipend for attaining a GPA of at least 3.8 for four semesters.'''
+  bullets_description = ''''''
+  bullets = [
+    ]
+#-------------------------------------------------------------------------------
+[[accomplishments]]
+  title = 'Scholarship for Undergraduate Education'
+  institution = 'Bahcesehir University'
+  institution_url = 'https://bau.edu.tr/'
+  location = 'Istanbul, Turkey'
+  date_start = 'September 2003'
+  date_end = 'June 2008'
+  description = '''Full-tuition scholarship including stipend.'''
+  bullets_description = ''''''
+  bullets = [
+    ]
+#-------------------------------------------------------------------------------
 +++

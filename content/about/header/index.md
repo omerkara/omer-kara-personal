@@ -5,7 +5,7 @@
 headline: ## TODO: Change this.
     "Hi, my name is Omer.
     <br/>
-    Nice to meet you !"
+    Nice to meet you!"
 
 ## Options.
 text_align_right: false

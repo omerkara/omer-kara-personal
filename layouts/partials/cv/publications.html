@@ -1,0 +1,12 @@
+<!--each article is a row-->
+<article class="pa0 mv0 pv0 w-100 flex flex-column flex-row-ns">
+    <div class="w-100 w-100-ns mb4-ns mb3">
+      {{ if .bullets }}
+        <ul class="mv0 pl3 ll-copy">
+        {{ range .bullets }}
+          <li>{{ . | markdownify }}</li>
+        {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+</article>

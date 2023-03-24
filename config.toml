@@ -150,10 +150,10 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
       icon      = "linkedin-in"
       icon_pack = "fab"
       url       = "https://www.linkedin.com/in/omer-kara"
-  [[params.social]] ## Twitter.
-      icon      = "twitter"
-      icon_pack = "fab"
-      url       = "https://twitter.com/omerkara1"
+  #[[params.social]] ## Twitter.
+  #   icon      = "twitter"
+  #   icon_pack = "fab"
+  #   url       = "https://twitter.com/omerkara1"
   #[[params.social]] ## Facebook.
   #   icon      = "facebook-square" # icon name without the 'fa-'
   #   icon_pack = "fab"
@@ -246,51 +246,51 @@ relativeURLs = true
     title = "About Me"
     url = "/about/"
     weight = 1
-  [[menu.header]]
-    name = "Industry"
-    title = "Industry"
-    url = "/Industry/"
-    weight = 2
-  [[menu.header]]
-    name = "Research"
-    title = "Research"
-    url = "/research/"
-    weight = 3
-  [[menu.header]]
-    name = "Teaching"
-    title = "Teaching"
-    url = "/teaching/"
-    weight = 4
-  [[menu.header]]
-    name = "Certification"
-    title = "Certification"
-    url = "/certification/"
-    weight = 5
+#  [[menu.header]]
+#    name = "Industry"
+#    title = "Industry"
+#    url = "/Industry/"
+#    weight = 2
+#  [[menu.header]]
+#    name = "Research"
+#    title = "Research"
+#    url = "/research/"
+#    weight = 3
+#  [[menu.header]]
+#    name = "Teaching"
+#    title = "Teaching"
+#    url = "/teaching/"
+#    weight = 4
+#  [[menu.header]]
+#    name = "Certification"
+#    title = "Certification"
+#    url = "/certification/"
+#    weight = 5
   [[menu.header]]
     name = "CV"
     title = "CV"
     url = "/CV/"
     weight = 6
-  [[menu.header]] ## TODO: Change later.
-    name = "Blog"
-    title = "Meeting People Where They R"
-    url = "/blog/"
-    weight = 10
-  [[menu.header]] ## TODO: Change later.
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
-    weight = 11
-  [[menu.header]] ## TODO: Change later.
-    name = "Talks"
-    title = "Invited Talks"
-    url = "/talk/"
-    weight = 12
-  [[menu.header]] ## TODO: Change later.
-    name = "Collection"
-    title = "Collection"
-    url = "/collection/"
-    weight = 13
+#  [[menu.header]] ## TODO: Change later.
+#    name = "Blog"
+#    title = "Meeting People Where They R"
+#    url = "/blog/"
+#    weight = 10
+#  [[menu.header]] ## TODO: Change later.
+#    name = "Projects"
+#    title = "Project Portfolio"
+#    url = "/project/"
+#    weight = 11
+#  [[menu.header]] ## TODO: Change later.
+#    name = "Talks"
+#    title = "Invited Talks"
+#    url = "/talk/"
+#    weight = 12
+#  [[menu.header]] ## TODO: Change later.
+#    name = "Collection"
+#    title = "Collection"
+#    url = "/collection/"
+#    weight = 13
 
   ## Configure footer.
   [[menu.footer]]

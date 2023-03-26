@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<main class="page-main pa0 {{ .Kind }}" role="main">
+<main class="page-main pa2 {{ .Kind }}" role="main">
   <section class="blog-intro mw7 center mb3">
     <h2 class="f2 f1-ns lh-solid tc center fw7">{{ .Title | markdownify }}</h2>
     {{ with .Description }}<p class="f6 f5-ns measure lh-copy tc center">{{ . | markdownify }}</p>{{ end }}

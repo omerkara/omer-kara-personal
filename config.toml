@@ -27,8 +27,9 @@ author = "Omer Kara" ## Author.
 #-------------------------------------------------------------------------------
 # Copyright line.
 ## Set to override the auto generated copyright using org info and now year.
-## Current style: Copyright sign Omer Kara (with email link). Middle Dot. Made with love, coffee and code.
-copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, lots of <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and lines of <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
+#c Current style: Copyright sign Omer Kara (with email link). Middle Dot. Made with love, coffee and code.
+#copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, lots of <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and lines of <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
+copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
 
 #-------------------------------------------------------------------------------
 # Google analytics 4 ID.
@@ -142,14 +143,26 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   ## Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
 
   ## Social.
-  [[params.social]] ## Email.
-      icon      = "envelope"
-      icon_pack = "fa"
-      url       = "mailto:omer.kara.ylsy@gmail.com"
+  #[[params.social]] ## Email.
+  #   icon      = "envelope"
+  #   icon_pack = "fa"
+  #   url       = "mailto:omer.kara.ylsy@gmail.com"
   [[params.social]] ## Linkedin.
       icon      = "linkedin-in"
       icon_pack = "fab"
       url       = "https://www.linkedin.com/in/omer-kara"
+  [[params.social]] ## DataCamp.
+      icon      = "certificate" ## Options: code, certificate.
+      icon_pack = "fas"
+      url       = "https://www.datacamp.com/profile/okara"
+  [[params.social]] ## Github.
+      icon      = "github" ## Options: github, github-alt.
+      icon_pack = "fab"
+      url       = "https://github.com/omerkara"
+  [[params.social]] ## Bitbucket.
+      icon      = "bitbucket"
+      icon_pack = "fab"
+      url       = "https://bitbucket.org/karaomer/"
   #[[params.social]] ## Twitter.
   #   icon      = "twitter"
   #   icon_pack = "fab"
@@ -162,18 +175,6 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   #   icon      = "instagram" # icon name without the 'fa-'
   #   icon_pack = "fab"
   #   url       = "https://www.instagram.com/omr_kara/"
-  [[params.social]] ## Github.
-      icon      = "github" ## Options: github, github-alt.
-      icon_pack = "fab"
-      url       = "https://github.com/omerkara"
-  [[params.social]] ## Bitbucket.
-      icon      = "bitbucket"
-      icon_pack = "fab"
-      url       = "https://bitbucket.org/karaomer/"
-  [[params.social]] ## DataCamp.
-      icon      = "certificate" ## Options: code, certificate.
-      icon_pack = "fas"
-      url       = "https://www.datacamp.com/profile/okara"
 
   ## Akademi Ekonometri.
   [[params.social]] ## Akademi Ekonometri web site.
@@ -186,22 +187,22 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
       url       = "https://www.youtube.com/c/AkademiEkonometri"
 
   ## Academic.
-  [[params.social]] ## ORCID.
-      icon      = "orcid"
-      icon_pack = "ai"
-      url       = "https://orcid.org/0000-0001-7697-0319"
+  #[[params.social]] ## ORCID.
+  #   icon      = "orcid"
+  #   icon_pack = "ai"
+  #   url       = "https://orcid.org/0000-0001-7697-0319"
   [[params.social]] ## Google Scholar.
       icon      = "google-scholar" ## Options: google-scholar, google-scholar-square.
       icon_pack = "ai"
       url       = "https://scholar.google.com/citations?user=K6oxNt0AAAAJ&hl=en"
-  [[params.social]] ## Publons.
-      icon      = "publons"
-      icon_pack = "ai"
-      url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
-  [[params.social]] ## Research Gate.
-      icon      = "researchgate"
-      icon_pack = "ai"
-      url       = "https://www.researchgate.net/profile/Omer_Kara2"
+  #[[params.social]] ## Publons.
+  #   icon      = "publons"
+  #   icon_pack = "ai"
+  #   url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
+  #[[params.social]] ## Research Gate.
+  #   icon      = "researchgate"
+  #   icon_pack = "ai"
+  #   url       = "https://www.researchgate.net/profile/Omer_Kara2"
 
   ## RSS.
   [[params.social]]
@@ -293,11 +294,11 @@ relativeURLs = true
 #    weight = 13
 
   ## Configure footer.
-  [[menu.footer]]
-    name = "Akademi Ekonometri"
-    title = "Akademi Ekonometri"
-    url = "/—misc/akademi-ekonometri/"
-    weight = 1
+#  [[menu.footer]]
+#    name = "Akademi Ekonometri"
+#    title = "Akademi Ekonometri"
+#    url = "/—misc/akademi-ekonometri/"
+#    weight = 1
   [[menu.footer]]
     name = "License"
     title = "License Details"

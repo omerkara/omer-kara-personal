@@ -43,8 +43,8 @@ date = "2023-01-30"
   location = 'Raleigh, NC, USA'
   date_start = ''
   date_end = 'May 2018'
-  description = '''Description'''
-  bullets_description = '''Bullets Description'''
+  description = ''''''
+  bullets_description = ''''''
   bullets = [
     'Dissertation: Three Essays in Applied Spatial and Time Series Econometrics <a href= "https://repository.lib.ncsu.edu/handle/1840.20/35026" target="_blank" rel="noopener"><i class="ai ai-open-access-square "></i></a>',
     'Advisor: <a href= "https://cals.ncsu.edu/agricultural-and-resource-economics/people/barry-goodwin/" target="_blank" rel="noopener">Professor Barry Goodwin</a>',

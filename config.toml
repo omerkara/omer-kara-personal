@@ -27,9 +27,9 @@ author = "Omer Kara" ## Author.
 #-------------------------------------------------------------------------------
 # Copyright line.
 ## Set to override the auto generated copyright using org info and now year.
-#c Current style: Copyright sign Omer Kara (with email link). Middle Dot. Made with love, coffee and code.
-#copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, lots of <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and lines of <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
-copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
+## Current style: Copyright sign Omer Kara (with email link). Middle Dot. Made with love, coffee and code.
+copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, lots of <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and lines of <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
+#copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
 
 #-------------------------------------------------------------------------------
 # Google analytics 4 ID.
@@ -71,7 +71,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   description = "Personal website of Dr. Omer Kara"
   favicon = "/img/favicon.ico" ## Favicon of the website which is shown on browser tab. ## TODO: "/img/logo_rounded.ico"
   logo = "/img/blogophonic-mark-dark.png" ## Logo of the website which is shown on the left-top. ## TODO: "/img/logo_noBg.svg"
-  mainSections = ["blog", "project", "talk"] ## Content sections to be previewed in the /about/ page. ## TODO: Change it later.
+  mainSections = ["industry", "research", "teaching", "certification"] ## Content sections to be previewed in the /about/ page. ## TODO: Change it later.
   navallcaps = true
 
   #--------------------
@@ -220,11 +220,11 @@ relativeURLs = true
 ## After additional sections are added check the link about renaming sections:
   # https://hugo-apero-docs.netlify.app/start/section-config/?panelset1=list-grid-%25F0%259F%2593%25B7&panelset=blog-%25F0%259F%2593%25B7#renaming-sections
 [permalinks] ## TODO: Check the permalinks later.
-  industry = "/industry/:year-:slugorfilename/"
-  research = "/research/:year-:slugorfilename/"
-  teaching = "/teaching/:year-:slugorfilename/"
-  certification = "/certification/:year-:slugorfilename/"
-  cv = "/cv/:year-:slugorfilename/"
+  industry = "/industry/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
+  research = "/research/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
+  teaching = "/teaching/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
+  certification = "/certification/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
+  cv = "/cv/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
 #  blog = "/blog/:year-:month-:slugorfilename/"
 #  project = "/project/:year-:slugorfilename/"
 #  talk = "/talk/:year-:month-:slugorfilename/"
@@ -235,8 +235,8 @@ relativeURLs = true
 # Taxonomies
 [taxonomies]
   category = "categories"
-  series = "series"
   tag = "tags"
+# series = "series" ## Currently not used.
 
 #-------------------------------------------------------------------------------
 # Menu.
@@ -247,21 +247,21 @@ relativeURLs = true
     title = "About Me"
     url = "/about/"
     weight = 1
-#  [[menu.header]]
-#    name = "Industry"
-#    title = "Industry"
-#    url = "/Industry/"
-#    weight = 2
-#  [[menu.header]]
-#    name = "Research"
-#    title = "Research"
-#    url = "/research/"
-#    weight = 3
-#  [[menu.header]]
-#    name = "Teaching"
-#    title = "Teaching"
-#    url = "/teaching/"
-#    weight = 4
+  [[menu.header]]
+    name = "Industry"
+    title = "Industry"
+    url = "/Industry/"
+    weight = 2
+  [[menu.header]]
+    name = "Research"
+    title = "Research"
+    url = "/research/"
+    weight = 3
+  [[menu.header]]
+    name = "Teaching"
+    title = "Teaching"
+    url = "/teaching/"
+    weight = 4
 #  [[menu.header]]
 #    name = "Certification"
 #    title = "Certification"

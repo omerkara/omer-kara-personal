@@ -24,7 +24,7 @@ cascade:
     text_link_url: /talk/index.xml ## Good Options: /talk/ and /talk/index.xml.
 
 ## Layout.
-layout: list ## Options: list, list-sidebar, list-grid.
+layout: list ## Options: list, list-sidebar.
 ---
 
-** No content below YAML for the talk _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside /talk/. You may still override any of these by changing them in a page's front matter.**
+** No content below YAML for the `talk` _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside /talk/. You may still override any of these by changing them in a page's front matter.**

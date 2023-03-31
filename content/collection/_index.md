@@ -4,8 +4,8 @@
 
 ## Info.
 title: "Collection Main Page Title"
-subtitle: "Collection Main Page Subtitle"
-description: "Collection Main Page Description."
+subtitle: "Collection Main Page Subtitle" ## Does not work!
+description: "Collection Main Page Description." ## Only works when layout: list is used.
 
 ## Metadata.
 featured: true
@@ -30,7 +30,7 @@ cascade:
     text_contents_label: "On this page"
 
 ## Layout.
-layout: list-sidebar ## Options: list, list-sidebar, list-grid.
+layout: list-sidebar ## Options: list, list-sidebar.
 ---
 
-** No content below YAML for the collection _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside /collection/. You may still override any of these by changing them in a page's front matter.**
+** No content below YAML for the `collection` _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside /collection/. You may still override any of these by changing them in a page's front matter.**

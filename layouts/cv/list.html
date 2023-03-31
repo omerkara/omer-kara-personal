@@ -17,7 +17,24 @@
       {{ end }}
 
       {{ range .Params.research_interests }}
+      <!--each item is a row-->
           {{ partial "cv/research_interests.html" . }}
+      {{ end }}
+    </section>
+{{ end }}
+
+{{ $industry_interests := printf "/%s/%s" .Section "industry_interests.md" }}
+{{ with site.GetPage $industry_interests }}
+<!--each page starts a new section-->
+    <section class="blog-content mw7 center pt1">
+      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-briefcase pr3"></i>{{ .Title }}</h5>
+      {{ range .Params.note }}
+          <p class="f5">{{ .note_item | markdownify }}</p>
+      {{ end }}
+
+      {{ range .Params.industry_interests }}
+      <!--each item is a row-->
+          {{ partial "cv/industry_interests.html" . }}
       {{ end }}
     </section>
 {{ end }}
@@ -32,6 +49,7 @@
       {{ end }}
 
       {{ range .Params.academic_appointments }}
+      <!--each item is a row-->
           {{ partial "cv/academic_appointments.html" . }}
       {{ end }}
     </section>
@@ -53,8 +71,8 @@
     </section>
 {{ end }}
 
-{{ $consulting := printf "/%s/%s" .Section "consulting.md" }}
-{{ with site.GetPage $consulting }}
+{{ $industry_experience := printf "/%s/%s" .Section "industry_experience.md" }}
+{{ with site.GetPage $industry_experience }}
 <!--each page starts a new section-->
     <section class="blog-content mw7 center pt3">
       <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-suitcase pr3"></i>{{ .Title }}</h5>
@@ -62,9 +80,9 @@
           <p class="f5">{{ .note_item | markdownify }}</p>
       {{ end }}
 
-      {{ range .Params.consulting }}
+      {{ range .Params.industry_experience }}
       <!--each item is a row-->
-          {{ partial "cv/consulting.html" . }}
+          {{ partial "cv/industry_experience.html" . }}
       {{ end }}
     </section>
 {{ end }}
@@ -101,22 +119,6 @@
     </section>
 {{ end }}
 
-{{ $accomplishments := printf "/%s/%s" .Section "accomplishments.md" }}
-{{ with site.GetPage $accomplishments }}
-<!--each page starts a new section-->
-    <section class="blog-content mw7 center pt3">
-      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-trophy pr3"></i>{{ .Title }}</h5>
-      {{ range .Params.note }}
-          <p class="f5">{{ .note_item | markdownify }}</p>
-      {{ end }}
-
-      {{ range .Params.accomplishments }}
-      <!--each item is a row-->
-          {{ partial "cv/accomplishments.html" . }}
-      {{ end }}
-    </section>
-{{ end }}
-
 {{ $technical_skills := printf "/%s/%s" .Section "technical_skills.md" }}
 {{ with site.GetPage $technical_skills }}
 <!--each page starts a new section-->
@@ -133,8 +135,8 @@
     </section>
 {{ end }}
 
-{{ $certification := printf "/%s/%s" .Section "certification.md" }}
-{{ with site.GetPage $certification }}
+{{ $certifications := printf "/%s/%s" .Section "certifications.md" }}
+{{ with site.GetPage $certifications }}
 <!--each page starts a new section-->
     <section class="blog-content mw7 center pt0">
       <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-medal pr3"></i>{{ .Title }}</h5>
@@ -142,9 +144,41 @@
           <p class="f5">{{ .note_item | markdownify }}</p>
       {{ end }}
 
-      {{ range .Params.certification }}
+      {{ range .Params.certifications }}
       <!--each item is a row-->
-          {{ partial "cv/certification.html" . }}
+          {{ partial "cv/certifications.html" . }}
+      {{ end }}
+    </section>
+{{ end }}
+
+{{ $accomplishments := printf "/%s/%s" .Section "accomplishments.md" }}
+{{ with site.GetPage $accomplishments }}
+<!--each page starts a new section-->
+    <section class="blog-content mw7 center pt3">
+      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-trophy pr3"></i>{{ .Title }}</h5>
+      {{ range .Params.note }}
+          <p class="f5">{{ .note_item | markdownify }}</p>
+      {{ end }}
+
+      {{ range .Params.accomplishments }}
+      <!--each item is a row-->
+          {{ partial "cv/accomplishments.html" . }}
+      {{ end }}
+    </section>
+{{ end }}
+
+{{ $publications := printf "/%s/%s" .Section "publications.md" }}
+{{ with site.GetPage $publications }}
+<!--each page starts a new section-->
+    <section class="blog-content mw7 center pt3">
+      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-book-open pr3"></i>{{ .Title }}</h5>
+      {{ range .Params.note }}
+          <p class="f5">{{ .note_item | markdownify }}</p>
+      {{ end }}
+
+      {{ range .Params.publications }}
+      <!--each item is a row-->
+          {{ partial "cv/publications.html" . }}
       {{ end }}
     </section>
 {{ end }}

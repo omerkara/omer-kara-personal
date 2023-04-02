@@ -77,7 +77,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   #--------------------
   # Show/hide social icons in site header & footer.
   ## configure social icons and links below in [[params.social]]
-  socialInHeader = true ## Social icons in the hearder.
+  socialInHeader = false ## Social icons in the hearder.
   socialInFooter = true ## Social icons in the footer.
 
   #--------------------

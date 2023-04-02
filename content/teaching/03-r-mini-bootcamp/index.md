@@ -7,7 +7,7 @@ subtitle: "Introductory R Workshop"
 excerpt: "An introductory R workshop with details that I prepared in HTML with accompanying codes during my Ph.D. degree for undergraduate students in NCSU." ## Shown on the Teaching Main Page, but does not shown on the Teaching Page.
 
 ## Metadata.
-date: "2023-01-29"
+date: "2023-01-01"
 author: Omer Kara
 draft: false
 featured: false

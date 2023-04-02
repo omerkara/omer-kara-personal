@@ -1,13 +1,13 @@
 ---
-# Configure Teaching Experience Page.
+# Configure Akademi Ekonometri Page.
 
 ## Info.
-title: "Teaching Experience"
-subtitle: ""
-excerpt: "Here, you can see my teaching experience including while I was a teaching assistant and independent instructor." ## Shown on the Teaching Main Page, but does not shown on the Teaching Page.
+title: "Akademi Ekonometri"
+subtitle: "Platform of Econometrics, Economics, and Coding"
+excerpt: "Here, you can see the details of Akademi Ekonometri website and YouTube channel that I built for easy access to course materials. Note that most of the content is in Turkish." ## Shown on the Teaching Main Page, but does not shown on the Teaching Page.
 
 ## Metadata.
-date: "2025-01-01"
+date: "2023-01-30"
 author: Omer Kara
 draft: false
 featured: false
@@ -19,21 +19,22 @@ sidebar:
   text_contents_label: "On this page"
 
 ## Links.
-# links:
-# - icon: door-open
-#   icon_pack: fas
-#   name: website
-#   url: "https://www.google.com/"
-# - icon: github
-#   icon_pack: fab
-#   name: code
-#   url: "https://www.google.com/"
+links:
+- icon: door-open
+  icon_pack: fas
+  name: website
+  url: "https://akademiekonometri.netlify.app/"
+- icon: youtube
+  icon_pack: fab
+  name: youtube channel
+  url: "https://www.youtube.com/c/AkademiEkonometri"
 
 ## Tags and Categories.
 categories:
 - teaching
 tags:
-- teaching-experience
+- akademi-ekonometri
+- course-materials
 
 ## Layout.
 layout: single-sidebar

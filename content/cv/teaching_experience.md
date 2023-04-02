@@ -24,6 +24,6 @@ date = "2023-01-30"
 ## Items
 #-------------------------------------------------------------------------------
 [[note]]
-  note_item = '<i class="fas fa-exclamation-triangle pr2"></i>For the details of my teaching experience head back to the <a href="/teaching">Teaching</a> page.'
+  note_item = '<i class="fas fa-exclamation-triangle pr2"></i>For the details of my teaching experience and related items head back to the <a href="/teaching">Teaching</a> page.'
 #-------------------------------------------------------------------------------
 +++

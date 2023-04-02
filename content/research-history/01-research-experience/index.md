@@ -1,10 +1,10 @@
 ---
-# Configure Research Experience Item Page.
+# Configure Research Experience Page.
 
 ## Info.
 title: "Research Experience"
-subtitle: "During Postdoctoral and Graduate Researcher" ## Does not shown on the Research Main Page.
-excerpt: "Research experience during postdoctoral and graduate researcher." ## Shown on the My Research History Main Page, but does not shown on the Research Experience Item Page.
+subtitle: "As Postdoctoral and Graduate Researcher" ## Does not shown on the My Research History Main Page.
+excerpt: "Research experience as postdoctoral and graduate researcher." ## Shown on the My Research History Main Page, but does not shown on the Research Experience Page.
 
 ## Metadata.
 date: "2023-01-30"
@@ -22,7 +22,7 @@ tags:
 weight: 1
 ---
 
-## PostDoct
+## PostDoc
 **Postdoctoral Researcher**
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
 May 2018 - August 2018  

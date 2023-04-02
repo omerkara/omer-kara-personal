@@ -1,11 +1,11 @@
 ---
-# My Research History Main Page.
+# Configure Certification Main Page.
 ## See docs: https://hugo-apero-docs.netlify.app/start/section-config/#lists-of-pages
 
 ## Info.
-title: "My Research History"
-subtitle: "My Research History Main Page Subtitle" ## Does not work!
-description: "Here, you can see my research history including research experience, publications, working papers, and work in progress." ## Only works when layout: list is used.
+title: "Certification"
+subtitle: "Certification Main Page Subtitle" ## Does not work!
+description: 'Here, you can see my technical skills, certifications, and certificates. YES, you heard it right! Certifications and certificcates are not the same, see <a href= "https://www.datacamp.com/blog/certificates-or-certification-which-should-you-choose" target="_blank" rel="noopener">here</a> for more information.' ## Only works when layout: list is used.
 
 ## Metadata.
 featured: true
@@ -20,12 +20,12 @@ cascade:
   show_comments: true
   show_button_links: true ## Show/Hide the button links on the Research Main Page.
   sidebar:
-    title: "My Research History"
-    description: "Here, you can see my research history including research experience, publications, working papers, and work in progress."
+    title: "Certification"
+    description: 'Here, you can see my technical skills, certifications, and certificates. YES, you heard it right! Certifications and certificates are not the same, see <a href= "https://www.datacamp.com/blog/certificates-or-certification-which-should-you-choose" target="_blank" rel="noopener">here</a> for more information.'
     author: Omer Kara
     show_sidebar_adunit: true ## Show ad container.
-    text_link_label: "View Research page" ## Good Options: View Research page and Subscribe via RSS.
-    text_link_url: /research/ ## Good Options: /research/ and /research/index.xml.
+    text_link_label: "View Certification page" ## Good Options: View Certification page and Subscribe via RSS.
+    text_link_url: /certification/ ## Good Options: /certification/ and /certification/index.xml.
     text_series_label: "Outline"
     text_contents_label: "On this page"
 

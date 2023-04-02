@@ -1,11 +1,11 @@
 ---
-# Configure Working Papers Item Page.
+# Configure Working Papers Page.
 ## See docs: https://hugo-apero-docs.netlify.app/start/section-config/#lists-of-pages
 
 ## Info.
 title: "Working Papers and Works In Progress"
-subtitle: ""
-excerpt: "Working papers that are completed and ready to submit to journals and works in progress research that are either in theoretical or application stage." ## Shown on the My Research History Main Page, but does not shown on the Working Papers and Works In Progress Main Page.
+subtitle: "" ## Does not shown on the My Research History Main Page.
+excerpt: "Working papers that are completed and ready to submit to journals and works in progress research that are either in theoretical or application stage." ## Shown on the My Research History Main Page, but does not shown on the Working Papers and Works In Progress Page.
 
 ## Metadata.
 date: "2023-01-30"

@@ -24,7 +24,7 @@ cascade:
     text_link_url: /industry/index.xml ## Good Options: /industry/ and /industry/index.xml.
 
 ## Layout.
-layout: list-sidebar ## Options: list-sidebar, list-grid.
+layout: list-grid ## Options: list-sidebar, list-grid.
 ---
 
 ** No content below YAML for the `project` _index. This file provides front matter for the listing page layout and sidebar content. It is also a branch bundle, and all settings under `cascade` provide front matter for all pages inside /project/. You may still override any of these by changing them in a page's front matter.**

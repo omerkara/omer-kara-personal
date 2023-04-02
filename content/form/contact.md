@@ -4,9 +4,9 @@
 ## Info.
 title: "Send me a message !"
 description:
-    'You can use this form to contact me about speaking engagements, consulting, collaborations, mentorship requests, or simply to say hello.
+    'You can use this form to contact me about collaborations, consulting, speaking engagements, mentorship requests, or simply to say hello.
     <br><br>
-    I also love hearing if my <a href="https://akademiekonometri.netlify.app/courses/">educational materials</a> (mostly in Turkish) have been helpful for you, and how they could be improved — particularly if they could be made more accessible and convertable.
+    I also love hearing if my <a href="https://akademiekonometri.netlify.app/courses/">teaching materials</a> (mostly in Turkish) have been helpful for you, and how they could be improved — particularly if they could be made more accessible and convertable.
     <br><br>
     Please, get in touch. I’d love to hear from you!'
 name: "Contact Us Form"

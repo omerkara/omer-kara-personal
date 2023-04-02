@@ -1,11 +1,11 @@
 ---
-# Configure Publications Item Page.
+# Configure Publications Page.
 ## See docs: https://hugo-apero-docs.netlify.app/start/section-config/#lists-of-pages
 
 ## Info.
 title: "Publications"
-subtitle: ""
-excerpt: "Publications including books, book chapter, refereed journal publications, refereed conference publications, conference presentations, conference posters, and other publications." ## Shown on the My Research History Main Page, but does not shown on the Publications Main Page.
+subtitle: "" ## Does not shown on the My Research History Main Page.
+excerpt: "Publications including books, book chapter, refereed journal publications, refereed conference publications, conference presentations, conference posters, and other publications." ## Shown on the My Research History Main Page, but does not shown on the Publications Page.
 
 ## Metadata.
 date: "2023-01-30"

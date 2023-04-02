@@ -1,5 +1,5 @@
 ---
-# My Research History Main Page.
+# Configure My Research History Main Page.
 ## See docs: https://hugo-apero-docs.netlify.app/start/section-config/#lists-of-pages
 
 ## Info.

@@ -123,7 +123,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   ## Configuration of https://utteranc.es/ for comments.
   ## Theme options: boxy-light, dark-blue, github-dark-orange, github-dark, github-light, gruvbox-dark, icy-dark, photon-dark.
   [params.utterances]
-    use_utterances = true ## true for utterances on github or false for disqus.
+    use_utterances = false ## true for utterances on github or false for disqus.
     repo_name = "omerkara/omer-kara-personal"
     issue_term = "Title" ## Uses either url, pathname, or title of the website page to start the issue on github gist.
     theme = "boxy-light" ## Good options: boxy-light, dark-blue, github-dark-orange, github-light.
@@ -225,11 +225,11 @@ relativeURLs = true
   teaching = "/teaching/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
   certification = "/certification/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
   cv = "/cv/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
-#  blog = "/blog/:year-:month-:slugorfilename/"
-#  project = "/project/:year-:slugorfilename/"
-#  talk = "/talk/:year-:month-:slugorfilename/"
-#  collection = "/collection/:year-:slugorfilename/"
-#  publication = "/publication/:year-:slugorfilename/"
+#  blog = "/blog/:year-:month-:slugorfilename/" ## Template.
+#  project = "/project/:year-:slugorfilename/" ## Template.
+#  talk = "/talk/:year-:month-:slugorfilename/" ## Template.
+#  collection = "/collection/:year-:slugorfilename/" ## Template.
+#  publication = "/publication/:year-:slugorfilename/" ## Template.
 
 #-------------------------------------------------------------------------------
 # Taxonomies
@@ -262,58 +262,53 @@ relativeURLs = true
     title = "Teaching"
     url = "/teaching/"
     weight = 4
-#  [[menu.header]]
-#    name = "Certification"
-#    title = "Certification"
-#    url = "/certification/"
-#    weight = 5
+  [[menu.header]]
+    name = "Certification"
+    title = "Certification"
+    url = "/certification/"
+    weight = 5
   [[menu.header]]
     name = "CV"
     title = "CV"
     url = "/CV/"
     weight = 6
-#  [[menu.header]] ## TODO: Change later.
+#  [[menu.header]] ## Template.
 #    name = "Blog"
 #    title = "Meeting People Where They R"
 #    url = "/blog/"
 #    weight = 10
-#  [[menu.header]] ## TODO: Change later.
+#  [[menu.header]] ## Template.
 #    name = "Projects"
 #    title = "Project Portfolio"
 #    url = "/project/"
 #    weight = 11
-#  [[menu.header]] ## TODO: Change later.
+#  [[menu.header]] ## Template.
 #    name = "Talks"
 #    title = "Invited Talks"
 #    url = "/talk/"
 #    weight = 12
-#  [[menu.header]] ## TODO: Change later.
+#  [[menu.header]] ## Template.
 #    name = "Collection"
 #    title = "Collection"
 #    url = "/collection/"
 #    weight = 13
 
   ## Configure footer.
-#  [[menu.footer]]
-#    name = "Akademi Ekonometri"
-#    title = "Akademi Ekonometri"
-#    url = "/—misc/akademi-ekonometri/"
-#    weight = 1
   [[menu.footer]]
     name = "License"
     title = "License Details"
     url = "/—misc/license/"
-    weight = 2
+    weight = 1
   [[menu.footer]]
     name = "Contact"
     title = "Contact form"
     url = "/contact/"
-    weight = 3
+    weight = 2
   [[menu.footer]]
     name = "RSS"
     title = "Subscribe via RSS" ## TODO: Change later.
     url = "/blog/index.xml"
-    weight = 4
+    weight = 3
 
 #-------------------------------------------------------------------------------
 # Privacy.

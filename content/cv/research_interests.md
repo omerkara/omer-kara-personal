@@ -24,7 +24,7 @@ date = "2023-01-30"
 ## Items
 #-------------------------------------------------------------------------------
 [[note]]
-  note_item = '<i class="fas fa-exclamation-triangle pr2"></i>For the details of my reseach experience head back to the <a href="/research">Research</a> page.'
+  note_item = '<i class="fas fa-exclamation-triangle pr2"></i>For the details of my reseach experience and related items head back to the <a href="/research">Research</a> page.'
 #-------------------------------------------------------------------------------
 [[research_interests]]
   bullets = [

@@ -37,16 +37,6 @@ tags:
 
 ## Layout.
 layout: single-sidebar
-
-## Tags and Categories.
-categories:
-- teaching
-tags:
-- akademi-ekonometri
-- course-materials
-
-## Layout.
-layout: single-sidebar
 ---
 
 ## Independent Instructor

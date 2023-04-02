@@ -24,11 +24,20 @@ TODO: SOME EXPLANATION HERE!
 ---
 
 ## DataCamp
+
+### Career Tracks
 - [Data Scientist with R](https://www.datacamp.com/statement-of-accomplishment/track/d57d92c99217dd78eda1d8226453654d12495bc4), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-scientist-with-r?version=6)  (95 Hours)
 - [Data Analyst with R](https://www.datacamp.com/statement-of-accomplishment/track/3d1838bc827948c7ccca9544869a38366fd02682), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-analyst-with-r?version=6) (36 Hours)
 - [Data Scientist with Python](https://www.datacamp.com/statement-of-accomplishment/track/70414c6cad8a023c5be8eacdf378058bb0eacc7b), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-scientist-with-python?version=1) (84 Hours)
 - [Data Analyst with Python](https://www.datacamp.com/statement-of-accomplishment/track/1f52148ae0901b0fa33143833c09bcb1c435dbe8), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-analyst-with-python?version=1) (47 Hours)
 - [Python Programmer](https://www.datacamp.com/statement-of-accomplishment/track/bfafbdc970fad9ee427be64a7dca8d2975381606), [DataCamp](https://app.datacamp.com/learn/career-tracks/python-programmer?version=1) (36 Hours)
+
+### Skill Tracks
+- [Statistics Fundamentals with R](https://www.datacamp.com/statement-of-accomplishment/track/f1cb9a2719dab0504f3db8735d16e53d26c7158d), [DataCamp](https://app.datacamp.com/learn/skill-tracks/learn-statistics-with-r?version=3) (20 Hours)
+- [Importing & Cleaning Data with Python](https://www.datacamp.com/statement-of-accomplishment/track/03114aedcb140af0b4dfdc97f0312f2cdb4d50fe), [DataCamp](https://app.datacamp.com/learn/skill-tracks/importing-cleaning-data-with-python?version=1) (13 Hours)
+- [Data Manipulation with Python](https://www.datacamp.com/statement-of-accomplishment/track/76870c5c62d2fa24b8a0dd915e16c485ae66d166), [DataCamp](https://app.datacamp.com/learn/skill-tracks/data-manipulation-with-python?version=1) (20 Hours)
+- [Machine Learning Fundamentals with Python](https://www.datacamp.com/statement-of-accomplishment/track/4f966d106f323b35e6d37cfe2737cb58ef05c293), [DataCamp](https://app.datacamp.com/learn/skill-tracks/machine-learning-fundamentals-with-python?version=1) (20 Hours)
+- [Understanding Data Topics](https://www.datacamp.com/statement-of-accomplishment/track/384e32a900d1752f30e4934b565b2cf918b487f4), [DataCamp](https://app.datacamp.com/learn/skill-tracks/understanding-data-topics?version=2) (10 Hours)
 
 ## Coursera
 - [Statistical Inference](https://www.coursera.org/account/accomplishments/verify/Z5MLDG87BXRL), [Coursera](https://www.coursera.org/learn/statistical-inference) (54 Hours)

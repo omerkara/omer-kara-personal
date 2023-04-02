@@ -123,7 +123,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   ## Configuration of https://utteranc.es/ for comments.
   ## Theme options: boxy-light, dark-blue, github-dark-orange, github-dark, github-light, gruvbox-dark, icy-dark, photon-dark.
   [params.utterances]
-    use_utterances = false ## true for utterances on github or false for disqus.
+    use_utterances = true ## true for utterances on github or false for disqus.
     repo_name = "omerkara/omer-kara-personal"
     issue_term = "Title" ## Uses either url, pathname, or title of the website page to start the issue on github gist.
     theme = "boxy-light" ## Good options: boxy-light, dark-blue, github-dark-orange, github-light.

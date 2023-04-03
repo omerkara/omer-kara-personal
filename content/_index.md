@@ -9,7 +9,7 @@ description: "TODO: Welcome Message" ## TODO: Change the text later.
 ## Options.
 text_align_left: false
 images:
-    - img/—omer_new_cropped.jpg ## TODO: Change the picture with a comic version or a better one.
+    - img/photo-omer.jpg ## TODO: Change the picture with a comic version or a better one.
 image_left: true
 show_social_links: true
 show_action_link: true

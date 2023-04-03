@@ -8,7 +8,7 @@ subtitle: "My Research History Main Page Subtitle" ## Does not work!
 description: "Here, you can see my research history including research experience, publications, working papers, and work in progress." ## Only works when layout: list is used.
 
 ## Metadata.
-featured: true
+featured: false
 
 ## Options.
 cascade:

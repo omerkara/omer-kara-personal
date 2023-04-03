@@ -13,12 +13,12 @@ intro:
 
 ## Outro.
 show_outro: true ## Show/Close outro.
-outro: <i class="fas fa-kiwi-bird pr2"></i>Thank you for visiting!
+outro: <i class="fas fa-thumbs-up pr2"></i>Thank you for visiting my website!
 
 ## Options.
-number_categories: 3 ## Set 0 to exclude all categories (pulling from mainSections argument in config.toml file).
+number_categories: 4 ## Set 0 to exclude all categories (pulling from mainSections argument in config.toml file).
 number_featured: 2 ## Number of featured content per category (pulling from mainSections argument in config.toml file).
-use_featured: true ## If false, use most recent by date. If true, then it filters based on a "featured: true" flag added to the YAML of individual content pages.
+use_featured: false ## If false, use most recent by date. If true, then it filters based on a "featured: true" flag added to the YAML of individual content pages.
 ### Note that number_categories argument is not working properly so you have to change it using mainSections argument in config.toml file.
 ---
 

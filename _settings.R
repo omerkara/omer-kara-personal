@@ -7,93 +7,127 @@
 #====================#
 # Main path of the "Akademi Ekonometri-Academic" folder.
 base.path <- paste0(regmatches(getwd(), regexpr("(^.*Omer Kara-Personal)", getwd(), perl = TRUE)), "/") ## "base.path" is the unix path of "./Omer Kara-Personal.Rproj" folder.
-# base.path <- paste0(dirname(rstudioapi::getActiveDocumentContext()$path), "/") ## Note that this works when Running or Sourcing your file. The code automatically find out the location of the current file.
+# base.path <- paste0(dirname(rstudioapi::getActiveDocumentContext()$path), "/") ## Note that this works when Running or Sourcing your file. The code automatically finds out the location of the current file.
 
-# Path for the ".static/repo/" folder
+# Path for the "./static/repo/" folder.
 repo.path <- paste0(base.path, "static/repo/")
 
-# Paths for "./akek/" folder.
-akek.path <- paste0(repo.path, "akek/")
-
-# Paths for "./akek/courses/" folder.
-courses.path <- paste0(repo.path, "akek/courses/")
-
-# Path for "./scripts/functions/" folder.
-func.path <- paste0(repo.path, "akek/r/_functions/")
-
-# Paths for "./akek/r/" folder.
-r.path <- paste0(repo.path, "akek/r/")
-
-# Path for the "./apps/" folder.
-apps.path <- paste0(repo.path, "apps/")
-
-# Path for the "./data/raw/" folder.
-raw.data.path <- paste0(repo.path, "data/raw/")
-
-# Path for the "./data/metadata/" folder.
-metadata.data.path <- paste0(repo.path, "data/metadata/")
-
-# Path for the "./data/processed/" folder.
-processed.data.path <- paste0(repo.path, "data/processed/")
-
-# Path for the "./DCL"/ folder.
-DCL.path <- paste0(repo.path, "DCL/")
-
-# Path for the "./docs/" folder.
-docs.path <- paste0(repo.path, "docs/")
-
-# Path for the "./images/" folder.
-images.path <- paste0(repo.path, "images/")
-
-# Path for the "./latex/" folder.
-latex.path <- paste0(repo.path, "latex/")
-
-# Path for "./pdf/" folder.
-pdf.path <- paste0(repo.path, "pdf/")
-
-# Path for the "./scripts/" folder.
+# Path for the "./static/repo/scripts/" folder.
 scripts.path <- paste0(repo.path, "scripts/")
 
-# Path for "./slides/" folder.
-slides.path <- paste0(repo.path, "slides/")
+# Paths for "./static/repo/scripts/r/" folder.
+scripts.r.path <- paste0(repo.path, "scripts/r/")
+
+# Path for "./static/repo/scripts/r/functions/" folder.
+scripts.r.func.path <- paste0(repo.path, "scripts/r/functions/")
 
 #====================#
 ## 1.1. Folder Names =====
 #====================#
-ekonometri.ars <- "ekonometri-ars/"
+
 
 #====================#
 ## 1.2. Relative Paths =====
 #====================#
-# Relative path extension which carries the folder path from ./courses/CourseName/FileName to ./static/
-courses.to.static <- "../../../"
-# Relative path extension which carries the folder path from ./courses/CourseName/FileName to ./static/repo/akek/courses/
-repo.akek.courses <- paste0(courses.to.static, "repo/akek/courses/")
+# Relative path extension which carries the folder path from ./content/section/subsection to ./static/ folder.
+content.to.static <- "/../../../"
 
 #---
 
-# Relative path for "./static/repo/akek/courses/ekonometri-ars/" folder.
-ekonometri.ars.path <- paste0(repo.akek.courses, ekonometri.ars)
+# Relative path for "./static/img/" folder.
+img.relpath <- paste0(content.to.static, "img/")
+
+# Relative path for "./static/img/headers/" folder.
+img.headers.relpath <- paste0(img.relpath, "headers/")
+
+# Relative path for "./static/img/headers/landscape/" folder.
+img.headers.landscape.relpath <- paste0(img.relpath, "headers/landscape/")
+
+# Relative path for "./static/img/headers/portrait/" folder.
+img.headers.portait.relpath <- paste0(img.relpath, "headers/portrait/")
+
+# Relative path for "./static/img/icons/" folder.
+img.icons.relpath <- paste0(img.relpath, "icons/")
+
+#---
+
+# Relative path for the "./static/repo/" folder.
+repo.relpath <- paste0(content.to.static, "repo/")
+
+#---
+
+# Relative path for the "./static/repo/apps/" folder.
+apps.relpath <- paste0(repo.relpath, "apps/")
+
+# Relative path for the "./static/repo/css/" folder.
+css.relpath <- paste0(repo.relpath, "css/")
+
+# Relative path for the "./static/repo/data/raw/" folder.
+data.raw.relpath <- paste0(repo.relpath, "data/raw/")
+
+# Relative path for the "./static/repo/data/processed/" folder.
+data.processed.relpath <- paste0(repo.relpath, "data/processed/")
+
+# Relative path for the "./static/repo/data/metadata/" folder.
+data.metadata.relpath <- paste0(repo.relpath, "data/metadata/")
+
+# Relative path for the "./static/repo/DCL"/ folder.
+DCL.relpath <- paste0(repo.relpath, "DCL/")
+
+# Relative path for the "./static/repo/docs/" folder.
+docs.relpath <- paste0(repo.relpath, "docs/")
+
+# Relative path for the "./static/repo/images/" folder.
+images.relpath <- paste0(repo.relpath, "images/")
+
+# Relative path for the "./static/repo/latex/" folder.
+latex.relpath <- paste0(repo.relpath, "latex/")
+
+# Relative path for "./static/repo/pdfs/" folder.
+pdfs.relpath <- paste0(repo.relpath, "pdfs/")
+
+# Relative path for the "./static/repo/scripts/" folder.
+scripts.relpath <- paste0(repo.relpath, "scripts/")
+
+# Paths for "./static/repo/scripts/r/" folder.
+scripts.r.relpath <- paste0(repo.relpath, "scripts/r/")
+
+# Relative path for "./static/repo/scripts/r/functions/" folder.
+scripts.r.func.relpath <- paste0(repo.relpath, "scripts/r/functions/")
+
+# Relative path for "./static/repo/slides/" folder.
+slides.relpath <- paste0(repo.relpath, "slides/")
+
+#---
+
+# Relative path for "./static/repo/okara/" folder.
+okara.relpath <- paste0(repo.relpath, "okara/")
+
+# Relative path for "./static/repo/okara/certificates_certifications/certificates/" folder.
+certificates.relpath <- paste0(okara.relpath, "certificates_certifications/certificates/")
+
+# Relative path for "./static/repo/okara/certificates_certifications/certifications/" folder.
+certifications.relpath <- paste0(okara.relpath, "certificates_certifications/certifications/")
+
+# Relative path for "./static/repo/okara/cv/" folder.
+cv.relpath <- paste0(okara.relpath, "cv/")
+
+# Relative path for "./static/repo/okara/cv/OmerKara_CV.pdf" file.
+omerkara.cv.relpath <- paste0(okara.relpath, "cv/OmerKara_CV.pdf")
+
+
+#---
 
 #====================#
 ## 1.3. Links =====
 #====================#
-# Base link for "akademiekonometri.bitbucket.io/"
-bitbucket.io.link <- "https://akademiekonometri.bitbucket.io/"
 
-# Link for "https://akademiekonometri.bitbucket.io/akek/courses/".
-akek.courses.link <- paste0(bitbucket.io.link, "akek/courses/")
-
-#---
-
-# Link for "https://akademiekonometri.bitbucket.io/akek/courses/ekonometri-ars/".
-ekonometri.ars.link <- paste0(akek.courses.link, ekonometri.ars)
 
 #====================#
 # 2. Functions =====
 #====================#
-# Seasonal Adjust Function
-# source(paste0(func.path, "seasonal_adjust.R")) ## Seasonal Adjust Function.
+# Path Functions.
+source(paste0(scripts.r.func.path, "path_functions.R")) ## Path Functions.
 
 #====================#
 # 3. Packages =====
@@ -116,6 +150,7 @@ Load.Install(c("png", "proto"))
 
 Load.Install(c("blogdown")) ## Loads blogdown.
 Load.Install(c("usethis", "remotes", "distill", "postcards")) ## Some necessary packages for this web site.
+Load.Install("this.path") ## Loads this.path package which is necessary for content relative paths.
 
 #====================#
 ## 3.3. renv =====
@@ -210,7 +245,8 @@ library("carData")
 ### 3.8.2. Time Series =====
 #====================#
 # Packages for time series analysis.
-Load.Install(c("seasonal", "x13binary", "forecast", "aTSA", "urca", "FitAR", "vars", "tsDyn", "lgarch", "ggseas", "slider", "ecm", "dynlm"))
+Load.Install(c("seasonal", "x13binary", "forecast", "aTSA", "urca", "vars", "tsDyn", "lgarch", "ggseas", "slider", "ecm", "dynlm"))
+# Load.Install(c("FitAR"))
 Load.Install(c("fpp2", "fpp3"))
 # Load.Install(c("zoo", "xts", "fUnitRoots", "CADFtest"))
 # Load.Install(c("MTS", "tseries", "timeSeries"))

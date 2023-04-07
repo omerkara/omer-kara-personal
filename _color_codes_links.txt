@@ -1,0 +1,72 @@
+================================================================================
+Color Codes for Files
+===============
+1. Yellow: Important folders/files.
+
+2. Green: CHANGED folders/files.
+
+3. Blue: Taken from someone else and CHANGED folders/files.
+
+4. Purple: Taken from someone else and used AS IS folders/files.
+
+5. Grey: To Check and Change folders/files.
+
+6. Red: To Check/Use and then delete folders/files.
+
+================================================================================
+
+
+================================================================================
+Important Links
+===============
+1. Website Related:
+	Website: https://omerkara.netlify.app/
+	Github: https://github.com/omerkara/omer-kara-personal
+	Netlify: https://app.netlify.com/teams/omerkara/overview
+
+2. Blogdown and Hugo:
+	Blogdown: https://bookdown.org/yihui/blogdown/
+	Hugo: https://gohugo.io/commands/hugo/
+
+3. Hugo Apero Theme:
+	Docs 1: https://hugo-apero-docs.netlify.app/start/
+	Docs 2: https://hugo-apero.netlify.app/
+	GitHub: https://github.com/hugo-apero/
+
+4. Icons and Photos:
+	Upsplash: https://unsplash.com/
+	Favicon.io: https://favicon.io/
+	SVG Repo: https://www.svgrepo.com/
+	Fontawesome:
+		Main Page: https://fontawesome.com/
+		LaTeX: https://ftp.cc.uoc.gr/mirrors/CTAN/fonts/fontawesome/doc/fontawesome.pdf
+	Acadeimcons:
+		Main Page: https://jpswalsh.github.io/academicons/
+		LaTeX: https://ftp.cc.uoc.gr/mirrors/CTAN/fonts/academicons/academicons.pdf
+
+5. Example Web Sites:
+	Alison: https://www.apreshill.com/
+	Silvia: https://silviacanelon.com/
+	Desiree: https://desiree.rbind.io/
+	Julia: https://juliasilge.com/
+
+
+================================================================================
+
+
+================================================================================
+Check Links
+===============
+1. Converting from Academic to Hugo Apero:
+	Silvia: https://silviacanelon.com/blog/2021-hello-hugo-apero/
+	Solomon: https://solomonkurz.netlify.app/blog/2022-12-19-switch-to-hugo-ap-ro-these-are-my-notes
+	Hugo Apero: https://hugo-apero-docs.netlify.app/start/create-site/?panelset4=to-do-%25E2%259C%2594%25EF%25B8%258F5
+
+2. .Rmd vs .Rmarkdown: https://bookdown.org/yihui/blogdown/output-format.html
+
+3. Hugp Series: https://www.apreshill.com/blog/spoonful-hugo/
+
+4. 
+
+================================================================================
+

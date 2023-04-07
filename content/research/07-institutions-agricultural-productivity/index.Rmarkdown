@@ -1,0 +1,42 @@
+---
+# Configure The Effect of Quality of Institutions on Agricultural Productivity Page.
+
+## Info.
+title: "Quality of Institutions & Agricultural Productivity"
+subtitle: "The Effect of Quality of Institutions on Agricultural Productivity"
+excerpt: "The Effect of Quality of Institutions on Agricultural Productivity" ## Shown on the Research Main Page, but does not shown on the Research Page.
+
+## Metadata.
+date: "2023-02-05"
+author: Omer Kara
+draft: false
+featured: false
+
+## Links.
+links:
+- icon: file-pdf
+  icon_pack: fas
+  name: article
+  url: "`r content.func('article.pdf')`"
+
+## Tags and Categories.
+categories:
+- research
+- unpublished
+- article
+tags:
+- quality-of-institutions
+- agricultural-productivity
+
+## Layout.
+layout: single
+---
+
+```{r Settings.Code.Chunk, include = FALSE, purl = FALSE}
+knitr::opts_chunk$set(cache = TRUE, collapse = TRUE, comment = "#>", echo = TRUE, engine = "R", error = FALSE, eval = TRUE, fig.align = "center", fig.height = 5, fig.width = 7, out.width = "100%", highlight = TRUE, include = TRUE, message = TRUE, prompt = FALSE, purl = TRUE, results = "markup", rows.print = 5, strip.white = TRUE, tidy = FALSE, tidy.opts = list(width.cutoff = 80), warning = TRUE)
+```
+
+## Details
+Details coming soon.
+
+"The Effect of Quality of Institutions on Agricultural Productivity"

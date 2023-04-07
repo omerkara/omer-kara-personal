@@ -36,11 +36,11 @@ source("renv/activate.R")
 options(
   blogdown.hugo.version = "0.110.0", ## A valid Hugo version	A Hugo version number.
   blogdown.knit.on_save = TRUE, ## Knit Rmd files automatically on save?
-  blogdown.method = "html", ## The output format of .Rmd posts. Options: "markdown" and "html".
+  blogdown.method = "markdown", ## The output format of .Rmd posts. Options: "markdown" and "html".
   blogdown.serve_site.startup	= FALSE, ## Serve the site on RStudio startup?
 
   blogdown.author = "Omer Kara", ## Default author for posts.
-  blogdown.ext = ".Rmd", ## Default file type for posts. Options: ".Rmd" ad ".Rmarkdown".
+  blogdown.ext = ".Rmarkdown", ## Default file type for posts. Options: ".Rmd" ad ".Rmarkdown".
   blogdown.subdir = "blog", ## Default directory for blog post.
   blogdown.yaml.empty = TRUE, ## Preserve empty fields in YAML?
 

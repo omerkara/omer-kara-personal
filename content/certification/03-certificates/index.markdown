@@ -25,7 +25,7 @@ TODO: SOME EXPLANATION HERE ABOUT DROPPED ONES!
 
 ---
 
-## DataCamp <img src='/../../../img/icons/datacamp-icon-3.png' alt="DataCamp" style="height: 20px; width:20px;"/>
+## DataCamp <img src='/../../../img/icons/datacamp-3.png' alt="DataCamp" style="height: 20px; width:20px;"/>
 
 TODO: SOME EXPLANATION HERE ABOUT CAREER TRACKS AND SKILL TRACKS!
 
@@ -43,7 +43,7 @@ TODO: SOME EXPLANATION HERE ABOUT CAREER TRACKS AND SKILL TRACKS!
 - [Importing & Cleaning Data with Python](https://www.datacamp.com/statement-of-accomplishment/track/03114aedcb140af0b4dfdc97f0312f2cdb4d50fe), [DataCamp](https://app.datacamp.com/learn/skill-tracks/importing-cleaning-data-with-python?version=1) (13 Hours)
 - [Understanding Data Topics](https://www.datacamp.com/statement-of-accomplishment/track/384e32a900d1752f30e4934b565b2cf918b487f4), [DataCamp](https://app.datacamp.com/learn/skill-tracks/understanding-data-topics?version=2) (10 Hours)
 
-## Coursera <img src='/../../../img/icons/coursera-icon.png' alt="Coursera" style="height: 20px; width:20px;"/>
+## Coursera <img src='/../../../img/icons/coursera.png' alt="Coursera" style="height: 20px; width:20px;"/>
 - [Statistical Inference](https://www.coursera.org/account/accomplishments/verify/Z5MLDG87BXRL), [Coursera](https://www.coursera.org/learn/statistical-inference) (54 Hours)
 - [Reproducible Research](/../../../repo/okara/certificates_certifications/certificates/coursera/Coursera_Reproducible_Research.pdf), [Coursera](https://www.coursera.org/learn/reproducible-research) (47 Hours)
 - [Exploratory Data Analysis](/../../../repo/okara/certificates_certifications/certificates/coursera/Coursera_Exploratory_Data_Analysis.pdf), [Coursera](https://www.coursera.org/learn/exploratory-data-analysis) (54 Hours)
@@ -52,7 +52,7 @@ TODO: SOME EXPLANATION HERE ABOUT CAREER TRACKS AND SKILL TRACKS!
 - [The Data Scientist’s Toolbox](/../../../repo/okara/certificates_certifications/certificates/coursera/Coursera_Data_Scientist_Tool_Box.pdf), [Coursera](https://www.coursera.org/learn/data-scientists-tools) (18 Hours)
 - [Maps and the Geospatial Revolution](/../../../repo/okara/certificates_certifications/certificates/coursera/Coursera_Maps_and_The_Geospatial_Revolution.pdf), Coursera and [PennState](https://www.e-education.psu.edu/maps/node/1776)
 
-## SAS <img src='/../../../img/icons/sas-icon.png' alt="SAS" style="height: 20px; width:20px;"/>
+## SAS <img src='/../../../img/icons/sas.png' alt="SAS" style="height: 20px; width:20px;"/>
 - [SAS Programming 2: Data Manipulation Techniques](/../../../repo/okara/certificates_certifications/certificates/sas/3_-_SAS_Programming_2_-_Data_Manipulation_Techniques.pdf), SAS
 - [SAS Programming 1: Essentials](/../../../repo/okara/certificates_certifications/certificates/sas/2_-_SAS_Programming_1_-_Essentials.pdf), SAS
 - [SAS Programming Introduction: Basic Concepts](/../../../repo/okara/certificates_certifications/certificates/sas/1_-_SAS_Programming_Introduction_-_Basic_Concepts.pdf), SAS

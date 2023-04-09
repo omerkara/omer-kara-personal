@@ -25,7 +25,7 @@ TODO: SOME EXPLANATION HERE ABOUT THE DETAILS OF CERTIFICATION!
 
 ---
 
-## DataCamp <img src='/../../../img/icons/datacamp-icon-3.png' alt="DataCamp" style="height: 20px; width:20px;"/>
+## DataCamp <img src='/../../../img/icons/datacamp-3.png' alt="DataCamp" style="height: 20px; width:20px;"/>
 - [Data Scientist Associate Certification](https://www.datacamp.com/certificate/DSA0017610627699) &emsp; January 2023 - January 2025
   + Company: [DataCamp](https://www.datacamp.com/)
   + Info: [Whitepaper](https://assets.datacamp.com/email/other/ds-certification-whitepaper.pdf)

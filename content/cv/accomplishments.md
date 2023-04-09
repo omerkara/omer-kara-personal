@@ -43,7 +43,7 @@ date = "2023-01-30"
   location = 'Raleigh, NC, USA'
   date_start = 'August 2016'
   date_end = 'January 2017'
-  description = ''''''
+  description = ''' '''
   bullets_description = ''''''
   bullets = [
     ]
@@ -55,7 +55,7 @@ date = "2023-01-30"
   location = 'Raleigh, NC, USA'
   date_start = 'August 2013'
   date_end = 'May 2018'
-  description = ''''''
+  description = ''' '''
   bullets_description = ''''''
   bullets = [
     ]

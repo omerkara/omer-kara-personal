@@ -272,26 +272,26 @@ relativeURLs = true
     title = "CV"
     url = "/CV/"
     weight = 6
-#  [[menu.header]] ## Template.
-#    name = "Blog"
-#    title = "Meeting People Where They R"
-#    url = "/blog/"
-#    weight = 10
-#  [[menu.header]] ## Template.
-#    name = "Projects"
-#    title = "Project Portfolio"
-#    url = "/project/"
-#    weight = 11
-#  [[menu.header]] ## Template.
-#    name = "Talks"
-#    title = "Invited Talks"
-#    url = "/talk/"
-#    weight = 12
-#  [[menu.header]] ## Template.
-#    name = "Collection"
-#    title = "Collection"
-#    url = "/collection/"
-#    weight = 13
+  [[menu.header]] ## Template.
+    name = "Blog"
+    title = "Meeting People Where They R"
+    url = "/blog/"
+    weight = 10
+  [[menu.header]] ## Template.
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/project/"
+    weight = 11
+  [[menu.header]] ## Template.
+    name = "Talks"
+    title = "Invited Talks"
+    url = "/talk/"
+    weight = 12
+  [[menu.header]] ## Template.
+    name = "Collection"
+    title = "Collection"
+    url = "/collection/"
+    weight = 13
 
   ## Configure footer.
   [[menu.footer]]

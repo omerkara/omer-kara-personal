@@ -19,7 +19,7 @@ cascade:
     title: "Industry"
     description: "Home for my industry related jobs/projects including on going and completed, each linked with accompanying materials if any exists."
     author: Omer Kara
-    show_sidebar_adunit: true ## Show ad container.
+    show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent industry items and Subscribe via RSS.
     text_link_url: /industry/index.xml ## Good Options: /industry/ and /industry/index.xml.
 

@@ -22,7 +22,7 @@ cascade:
     title: "Blog Series Page Sidebar Title"
     description: "Blog Series Page Sidebar Description."
     author: Omer Kara
-    show_sidebar_adunit: true ## Show ad container.
+    show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "View recent posts" ## Good Options: View recent posts and Subscribe via RSS.
     text_link_url: /blog/ ## Good Options: /blog/ and /blog/index.xml.
     text_series_label: "In this series"

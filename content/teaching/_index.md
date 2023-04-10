@@ -19,7 +19,7 @@ cascade:
     title: "Teaching"
     description: "Home for my teaching experience and related items, each linked with accompanying materials if any exists."
     author: Omer Kara
-    show_sidebar_adunit: true ## Show ad container.
+    show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent teaching items and Subscribe via RSS.
     text_link_url: /teaching/index.xml ## Good Options: /teaching/ and /teaching/index.xml.
 

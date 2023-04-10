@@ -23,7 +23,7 @@ cascade:
     title: "My Research History"
     description: "Here, you can see my research history including research experience, publications, working papers, and work in progress."
     author: Omer Kara
-    show_sidebar_adunit: true ## Show ad container.
+    show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "View Research page" ## Good Options: View Research page and Subscribe via RSS.
     text_link_url: /research/ ## Good Options: /research/ and /research/index.xml.
     text_series_label: "Outline"

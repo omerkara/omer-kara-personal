@@ -19,7 +19,7 @@ cascade:
     title: "Projects Main Page Sidebar Title"
     description: "Projects Main Page Sidebar Description."
     author: Omer Kara
-    show_sidebar_adunit: true ## Show ad container.
+    show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent projects and Subscribe via RSS.
     text_link_url: /project/index.xml ## Good Options: /project/ and /project/index.xml.
 

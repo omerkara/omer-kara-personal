@@ -19,7 +19,7 @@ cascade:
     title: "Blog Main Page Sidebar Title"
     description: "Blog Main Page Sidebar Description."
     author: Omer Kara
-    show_sidebar_adunit: true ## Show ad container.
+    show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent posts and Subscribe via RSS.
     text_link_url: /blog/index.xml ## Good Options: /blog/ and /blog/index.xml.
 

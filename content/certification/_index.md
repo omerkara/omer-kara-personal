@@ -23,7 +23,7 @@ cascade:
     title: "Certification"
     description: 'Here, you can see my technical skills, certifications, and certificates. YES, you heard it right! Certifications and certificates are not the same, see <a href= "https://www.datacamp.com/blog/certificates-or-certification-which-should-you-choose" target="_blank" rel="noopener">here</a> for more information.'
     author: Omer Kara
-    show_sidebar_adunit: true ## Show ad container.
+    show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "View Certification page" ## Good Options: View Certification page and Subscribe via RSS.
     text_link_url: /certification/ ## Good Options: /certification/ and /certification/index.xml.
     text_series_label: "Outline"

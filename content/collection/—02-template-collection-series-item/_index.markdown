@@ -14,6 +14,14 @@ author: Omer Kara
 draft: false
 featured: false
 
+## Tags and Categories.
+categories:
+- Category-C3
+- Category-C4
+tags:
+- tag-C3
+- tag-C4
+
 ## Layout.
 weight: 2
 ---

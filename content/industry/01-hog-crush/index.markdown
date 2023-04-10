@@ -12,6 +12,12 @@ author: Omer Kara
 draft: false
 featured: false
 
+## Options.
+sidebar:
+  text_link_label: "View recent industry items" ## Good Options: View recent industry items and Subscribe via RSS.
+  text_link_url: /industry/ ## Good Options: /industry/ and /industry/index.xml.
+  text_contents_label: "On this page"
+
 ## Links.
 links:
 - icon: door-open
@@ -33,7 +39,7 @@ tags:
 - hog-crush
 
 ## Layout.
-layout: single
+layout: single ## Options: single, single-sidebar.
 ---
 
 

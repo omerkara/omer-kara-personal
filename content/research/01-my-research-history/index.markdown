@@ -13,6 +13,12 @@ author: Omer Kara
 draft: false
 featured: false
 
+## Options.
+sidebar:
+  text_link_label: "View recent research items" ## Good Options: View recent research items and Subscribe via RSS.
+  text_link_url: /research/ ## Good Options: /research/ and /research/index.xml.
+  text_contents_label: "On this page"
+
 ## Links.
 # links:
 # - icon: door-open
@@ -31,7 +37,7 @@ tags:
 - research-history
 
 ## Layout.
-layout: single
+layout: single-sidebar ## Options: single, single-sidebar.
 ---
 
 

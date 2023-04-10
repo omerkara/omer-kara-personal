@@ -23,6 +23,14 @@ links:
   name: code
   url: "https://www.google.com/"
 
+## Tags and Categories.
+categories:
+- Category-C1
+- Category-C2
+tags:
+- tag-C1
+- tag-C2
+
 ## Layout.
 weight: 1
 ---

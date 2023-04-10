@@ -13,6 +13,14 @@ author: Omer Kara
 draft: false
 featured: false
 
+## Tags and Categories.
+categories:
+- research
+- unpublished
+tags:
+- working-papers
+- work-in-progress
+
 ## Layout.
 weight: 3
 ---

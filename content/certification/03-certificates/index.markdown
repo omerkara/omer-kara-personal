@@ -13,6 +13,12 @@ author: Omer Kara
 draft: false
 featured: false
 
+## Tags and Categories.
+categories:
+- certification
+tags:
+- certficates
+
 ## Layout.
 weight: 3
 ---

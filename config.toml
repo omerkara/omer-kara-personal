@@ -277,11 +277,11 @@ relativeURLs = true
 #    title = "Meeting People Where They R"
 #    url = "/blog/"
 #    weight = 10
-  [[menu.header]] ## Template.
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
-    weight = 11
+#  [[menu.header]] ## Template.
+#    name = "Projects"
+#    title = "Project Portfolio"
+#    url = "/project/"
+#    weight = 11
 #  [[menu.header]] ## Template.
 #    name = "Talks"
 #    title = "Invited Talks"

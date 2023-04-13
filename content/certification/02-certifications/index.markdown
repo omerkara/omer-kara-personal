@@ -33,6 +33,6 @@ To earn this certification, I successfully completed a rigorous set of courses a
 The certification is backed by DataCamp's industry-leading platform and is recognized by employers and industry professionals worldwide. For more information on the certification process and its significance, you can visit [this link](https://assets.datacamp.com/email/other/ds-certification-whitepaper.pdf).
 
 ## DataCamp <img src='/../../../img/icons/datacamp-3.png' alt="DataCamp" style="height: 20px; width:20px;"/>
-- [Data Scientist Associate Certification](https://www.datacamp.com/certificate/DSA0017610627699) &emsp; January 2023 - January 2025
+- [Data Scientist Associate Certification](https://www.datacamp.com/certificate/DSA0017610627699) &#183; January 2023 - January 2025
   + Organization: [DataCamp](https://www.datacamp.com/)
   + Information: [Whitepaper](https://assets.datacamp.com/email/other/ds-certification-whitepaper.pdf)

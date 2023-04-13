@@ -12,10 +12,10 @@ description:
     '
 
 ## Options.
-text_align_left: false
+text_align_left: true ## Options: true for left align, false for right align.
 images:
     - img/photo-omer.jpg
-image_left: true
+image_left: true ## Options: true for image on left, false for image on right.
 show_social_links: true
 show_action_link: true
 action_link: /about/

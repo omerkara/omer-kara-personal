@@ -14,7 +14,7 @@ description:
 ## Options.
 text_align_left: true ## Options: true for left align, false for right align.
 images:
-    - img/photo-avatar-2-omer.jpg ## Options: photo-omer, photo-avatar-1-omer (up to 4 versions).
+    - img/photo-avatar-3-omer.jpg ## Options: photo-omer, photo-avatar-1-omer (up to 4 versions).
 image_left: true ## Options: true for image on left, false for image on right.
 show_social_links: true
 show_action_link: true

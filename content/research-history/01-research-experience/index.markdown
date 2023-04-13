@@ -24,10 +24,18 @@ weight: 1
 
 
 
+---
+
+>On this page, you can view my experience in research, which includes my time as a postdoctoral and graduate researcher.
+
+---
+
 ## PostDoc
-**Postdoctoral Researcher**
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
-May 2018 - August 2018  
+<div style="overflow: hidden; margin-bottom: -14px;">
+  <span style="float: left; text-align: left;"><b>Postdoctoral Researcher</b></span>
+  <span style="float: right; text-align: right;">May 2018 - August 2018</span>
+</div>
+
 [Department of Economics](https://poole.ncsu.edu/economics/)  
 [North Carolina State University](https://www.ncsu.edu/), Raleigh, NC, USA
 - Project Details
@@ -38,9 +46,11 @@ May 2018 - August 2018
 - Accelerated data collection/cleaning and statistical/exploratory data analysis steps with flexible user-written [R](http://www.r-project.org/) functions and check procedures
 
 ## Graduate
-**Research Assistant**
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 
-August 2016 - January 2017  
+<div style="overflow: hidden; margin-bottom: -14px;">
+  <span style="float: left; text-align: left;"><b>Research Assistant</b></span>
+  <span style="float: right; text-align: right;">August 2016 - January 2017</span>
+</div>
+
 [Department of Economics](https://poole.ncsu.edu/economics/)  
 [North Carolina State University](https://www.ncsu.edu/), Raleigh, NC, USA
 - Project Details

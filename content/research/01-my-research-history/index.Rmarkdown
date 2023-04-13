@@ -5,7 +5,7 @@
 #url: "/research-history/" ## Link this page to another page.
 title: "My Research History"
 subtitle: ""
-excerpt: "Here, you can see my research history including research experience, publications, working papers, and work in progress." ## Shown on the Research Main Page, but does not shown on the Research Page.
+excerpt: "On this page, you can view my research history, which includes my experience in research, publications, working papers, and ongoing projects." ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
 date: "2023-04-02"

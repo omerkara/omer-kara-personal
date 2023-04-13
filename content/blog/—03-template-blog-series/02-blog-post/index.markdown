@@ -25,11 +25,11 @@ links:
 
 ## Tags and Categories.
 categories:
-- Category-B5
-- Category-B6
+- Category-B7
+- Category-B8
 tags: ## Tags are not visible in the list-sidebar layout.
-- tag-B5
-- tag-B6
+- tag-B7
+- tag-B8
 
 ## Layout.
 weight: 2

@@ -27,15 +27,16 @@ weight: 3
 knitr::opts_chunk$set(cache = TRUE, collapse = TRUE, comment = "#>", echo = TRUE, engine = "R", error = FALSE, eval = TRUE, fig.align = "center", fig.height = 5, fig.width = 7, out.width = "100%", highlight = TRUE, include = TRUE, message = TRUE, prompt = FALSE, purl = TRUE, results = "markup", rows.print = 5, strip.white = TRUE, tidy = FALSE, tidy.opts = list(width.cutoff = 80), warning = TRUE)
 ```
 
----
+## My Certificates
+To enhance my skills in data science and programming, I have initially enrolled in various courses offered by Coursera. These courses have provided me with a solid understanding of statistical analysis and programming skills, and have provided me with practical experience working with important tools and technologies such as Git and GitHub
 
-TODO: SOME EXPLANATION HERE ABOUT DROPPED ONES!
+Furthermore, I have successfully completed a wide range of career tracks through DataCamp, which have equipped me with a strong foundation in both R and Python programming languages, as well as in fundamental concepts of machine learning. These courses have further honed my statistical analysis and programming skills. Additionally, I have completed several skill tracks that focus on essential skills for data analysts and data scientists, such as data manipulation, cleaning, and visualization. My collection of certificates from DataCamp demonstrates my proficiency in dealing with intricate data-related issues.
 
----
+Overall, my collection of certificates indicates that I have a strong foundation in data science and programming, and are well-equipped to tackle complex data-related problems.
 
 ## DataCamp <img src='`r paste0(img.icons.relpath, "datacamp-3.png")`' alt="DataCamp" style="height: 20px; width:20px;"/>
 
-TODO: SOME EXPLANATION HERE ABOUT CAREER TRACKS AND SKILL TRACKS!
+>DataCamp offers Tracks to guide data science learning and build complementary skills. They have two types of Tracks: Career Tracks, which are comprehensive and cover multiple topics, and Skill Tracks, which focus on specific topics and are shorter. 
 
 #### Career Tracks
 - [Data Scientist with R](https://www.datacamp.com/statement-of-accomplishment/track/d57d92c99217dd78eda1d8226453654d12495bc4), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-scientist-with-r?version=6) (24 Courses / 95 Hours)

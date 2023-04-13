@@ -5,7 +5,7 @@
 ## Info.
 title: "My Research History"
 subtitle: "My Research History Main Page Subtitle" ## Does not work!
-description: "Here, you can see my research history including research experience, publications, working papers, and work in progress." ## Only works when layout: list is used.
+description: "On this page, you can view my research history, which includes my experience in research, publications, working papers, and ongoing projects." ## Only works when layout: list is used.
 
 ## Metadata.
 featured: false
@@ -21,7 +21,7 @@ cascade:
   show_button_links: true ## Show/Hide the button links on the Research Main Page.
   sidebar:
     title: "My Research History"
-    description: "Here, you can see my research history including research experience, publications, working papers, and work in progress."
+    description: "On this page, you can view my research history, which includes my experience in research, publications, working papers, and ongoing projects."
     author: Omer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "View Research page" ## Good Options: View Research page and Subscribe via RSS.

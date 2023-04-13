@@ -4,7 +4,7 @@
 
 ## Info.
 title: "Teaching"
-description: "Home for my teaching experience and related items, each linked with accompanying materials if any exists."
+description: "This page serves as a repository for my teaching experience and related materials, with each item linked to any available accompanying materials."
 
 ## Options.
 cascade:
@@ -17,7 +17,7 @@ cascade:
   show_button_links: false ## Show/Hide the button links on the Industry Main Page.
   sidebar:
     title: "Teaching"
-    description: "Home for my teaching experience and related items, each linked with accompanying materials if any exists."
+    description: "This page serves as a repository for my teaching experience and related materials, with each item linked to any available accompanying materials."
     author: Omer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent teaching items and Subscribe via RSS.

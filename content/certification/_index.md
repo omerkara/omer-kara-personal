@@ -5,7 +5,7 @@
 ## Info.
 title: "Certification"
 subtitle: "Certification Main Page Subtitle" ## Does not work!
-description: 'Here, you can see my technical skills, certifications, and certificates. YES, you heard it right! Certifications and certificcates are not the same, see <a href= "https://www.datacamp.com/blog/certificates-or-certification-which-should-you-choose" target="_blank" rel="noopener">here</a> for more information.' ## Only works when layout: list is used.
+description: 'Here, you can find an overview of my technical skills and the various certifications and certificates I have earned. It is worth noting that while these terms may seem interchangeable, there are distinct differences between them. For more information on the difference between certifications and certificates, please see <a href= "https://www.datacamp.com/blog/certificates-or-certification-which-should-you-choose" target="_blank" rel="noopener">here</a>.' ## Only works when layout: list is used.
 
 ## Metadata.
 featured: true
@@ -21,7 +21,7 @@ cascade:
   show_button_links: true ## Show/Hide the button links on the Research Main Page.
   sidebar:
     title: "Certification"
-    description: 'Here, you can see my technical skills, certifications, and certificates. YES, you heard it right! Certifications and certificates are not the same, see <a href= "https://www.datacamp.com/blog/certificates-or-certification-which-should-you-choose" target="_blank" rel="noopener">here</a> for more information.'
+    description: 'Here, you can find an overview of my technical skills and the various certifications and certificates I have earned. It is worth noting that while these terms may seem interchangeable, there are distinct differences between them. For more information on the difference between certifications and certificates, please see <a href= "https://www.datacamp.com/blog/certificates-or-certification-which-should-you-choose" target="_blank" rel="noopener">here</a>.'
     author: Omer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "View Certification page" ## Good Options: View Certification page and Subscribe via RSS.

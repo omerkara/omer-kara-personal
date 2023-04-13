@@ -50,7 +50,7 @@ date = "2023-01-30"
   bullets_description = ''''''
   bullets = [
     'Job: Churn Loss Analysis (in progress)',
-    'Tools: Econometrics, Machine Learning, <a href= "http://www.r-project.org/" target="_blank" rel="noopener">R</a>, <a href= "http://rmarkdown.rstudio.com/" target="_blank" rel="noopener">R Markdown</a>, <a href= "https://en.wikipedia.org/wiki/Extract,_transform,_load" target="_blank" rel="noopener">ETL</a>, <a href= "https://en.wikipedia.org/wiki/Exploratory_data_analysis" target="_blank" rel="noopener">EDA</a>'
+    'Tools: Statistics, Econometrics, Machine Learning, <a href= "http://www.r-project.org/" target="_blank" rel="noopener">R</a>, <a href= "http://rmarkdown.rstudio.com/" target="_blank" rel="noopener">R Markdown</a>, <a href= "https://en.wikipedia.org/wiki/Extract,_transform,_load" target="_blank" rel="noopener">ETL</a>, <a href= "https://en.wikipedia.org/wiki/Exploratory_data_analysis" target="_blank" rel="noopener">EDA</a>'
     ]
 #-------------------------------------------------------------------------------
 [[industry_experience]]

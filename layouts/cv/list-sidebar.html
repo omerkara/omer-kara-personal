@@ -4,7 +4,8 @@
   <section class="blog-intro mw7 center mb3">
     <h2 class="f2 f1-ns lh-solid tc center fw7">{{ .Title | markdownify }}</h2>
     {{ with .Description }}<p class="f6 f5-ns measure lh-copy tc center">{{ . | markdownify }}</p>{{ end }}
-    {{ with .Summary }}<p class="f6 f6-ns measure lh-copy tc center">{{ . | markdownify }}</p>{{ end }}
+    <!--{{ with .Summary }}<p class="f6 f5-ns measure lh-copy tc center">{{ . | markdownify }}</p>{{ end }}-->
+    {{ with .Summary }}<p class="f6 f5-ns measure lh-copy tc center" style="max-width: 650px; text-align: left;">{{ . | markdownify }}</p>{{ end }}
   </section>
 
 {{ $research_interests := printf "/%s/%s" .Section "research_interests.md" }}
@@ -219,6 +220,8 @@
 
 <aside class="page-sidebar" role="complementary">
   {{ partial "shared/sidebar-scaffold.html" . }}
+  <!--{{ partial "shared/post-toc.html" . }}-->
+  <!--{{ partial "shared/section-sidebar.html" . }}-->
 </aside>
 
 {{ end }}

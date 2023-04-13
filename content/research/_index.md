@@ -4,7 +4,7 @@
 
 ## Info.
 title: "Research"
-description: "Home for my research history, on going research projects and publications, each linked with accompanying materials if any exists."
+description: "This page serves as a hub for my research work, including my research history, ongoing projects, and publications, all of which are linked with any available accompanying materials."
 
 ## Options.
 cascade:
@@ -17,7 +17,7 @@ cascade:
   show_button_links: false ## Show/Hide the button links on the Research Main Page.
   sidebar:
     title: "Research"
-    description: "Home for my research history, on going research projects and publications, each linked with accompanying materials if any exists."
+    description: "This page serves as a hub for my research work, including my research history, ongoing projects, and publications, all of which are linked with any available accompanying materials."
     author: Omer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent research items and Subscribe via RSS.

@@ -3,7 +3,7 @@
 
 ## Info.
 author: Omer Kara
-role: "Data Scientist <br/> Econometrician <br/> Consultant" ## Data Scientist & Econometrician | Consultant
+role: "Data Scientist<br/>Econometrician<br/>Consultant" ## Data Scientist & Econometrician | Consultant
 
 ## Picture, Social Links, and Audio.
 avatar_shape: rounded ## Options: circle, square, rounded, or leave blank to exclude.

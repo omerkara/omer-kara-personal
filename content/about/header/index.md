@@ -2,10 +2,12 @@
 # Configure header of About Page.
 
 ## Info.
-headline: ## TODO: Change this.
-    "Hi, my name is Omer.
+headline: ## Options: Hi there! Welcome
+    '
+    Hi there!
     <br/>
-    Nice to meet you!"
+    I’m happy you’re here.
+    '
 
 ## Options.
 text_align_right: false
@@ -13,6 +15,6 @@ show_title_as_headline: false ## Don't change it for easiness.
 ---
 
 <!-- This is a subheadline under the header. -->
-TODO TEXT: Subheadline Message.
+<!-- Subheadline Message. -->
 
 <!-- Emojis: https://www.webfx.com/tools/emoji-cheat-sheet/ -->

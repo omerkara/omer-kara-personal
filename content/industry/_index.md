@@ -4,7 +4,7 @@
 
 ## Info.
 title: "Industry"
-description: "Home for my industry related jobs/projects including on going and completed, each linked with accompanying materials if any exists."
+description: "Central hub for my industry-related work, which includes both ongoing and completed projects. Each project is accompanied by relevant materials, if available."
 
 ## Options.
 cascade:
@@ -17,7 +17,7 @@ cascade:
   show_button_links: false ## Show/Hide the button links on the Industry Main Page.
   sidebar:
     title: "Industry"
-    description: "Home for my industry related jobs/projects including on going and completed, each linked with accompanying materials if any exists."
+    description: "Central hub for my industry-related work, which includes both ongoing and completed projects. Each project is accompanied by relevant materials, if available."
     author: Omer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent industry items and Subscribe via RSS.

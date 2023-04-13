@@ -43,3 +43,12 @@ layout: single
 
 ## Details
 I'm really excited to give this talk! Stay tuned for video and slides.
+
+## A Centralized Platform
+The [Akademi Ekonometri Web Site](https://akademiekonometri.netlify.app/) I created serves as a centralized platform for my university courses, providing students with easy access to all course materials in one place. The website includes a variety of resources, such as the course syllabus, lecture slides, notes, accompanying R codes, example questions, and important dates. This comprehensive selection of materials allows my students to stay up-to-date with course content and assignments, while also providing them with opportunities to practice and apply their knowledge.
+
+## YouTube Channel
+In addition to these resources, I have also created an accompanying [YouTube Channel](https://www.youtube.com/c/AkademiEkonometri) to support online education. On this channel, I share my online-class videos, allowing students to review the course content at their own pace and convenience. This is particularly useful for students who may have missed a class, want to review a particularly challenging concept, or need additional support outside of class time.
+
+## Success <i class="fas fa-thumbs-up pr3"></i>
+Overall, the [Akademi Ekonometri Web Site](https://akademiekonometri.netlify.app/) and [YouTube Channel](https://www.youtube.com/c/AkademiEkonometri) are designed to provide students with the resources they need to succeed in my courses. By centralizing all course materials and providing online-class videos, I am able to support students' learning both in and outside of the classroom, helping them to succeed and reach their academic goals.

@@ -3,7 +3,7 @@
 
 ## Info.
 title: "Churn Loss Analysis"
-subtitle: "A Shiny Web App: Hog Crush Platform"
+subtitle: "Churn Loss Analysis in CHS Inc. Private Customer Data"
 excerpt: "As a data scientist and econometrician, I performed churn loss analysis on CHS Inc. private customer data." ## Shown on the Industry Main Page, but does not shown on the Industry Page.
 
 ## Metadata.
@@ -45,12 +45,18 @@ layout: single ## Options: single, single-sidebar.
 knitr::opts_chunk$set(cache = TRUE, collapse = TRUE, comment = "#>", echo = TRUE, engine = "R", error = FALSE, eval = TRUE, fig.align = "center", fig.height = 5, fig.width = 7, out.width = "100%", highlight = TRUE, include = TRUE, message = TRUE, prompt = FALSE, purl = TRUE, results = "markup", rows.print = 5, strip.white = TRUE, tidy = FALSE, tidy.opts = list(width.cutoff = 80), warning = TRUE)
 ```
 
-## Details
-Details coming soon.
+## Summary
+<div style="overflow: hidden; margin-bottom: -14px;">
+  <span style="float: left; text-align: left;"><b>Data Scientist and Econometrician</b></span>
+  <span style="float: right; text-align: right;">July 2022 - Present</span>
+</div>
 
-**Data Scientist and Econometrician**
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
-July 2022 - Present  
 [CHS Inc.](https://www.chsinc.com/), Inver Grove Heights, MN, USA
 - Job: Churn Loss Analysis (in progress)
-- Tools: Econometrics, Machine Learning, [R](http://www.r-project.org/), [R Markdown](http://rmarkdown.rstudio.com/), [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load), [EDA](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
+- Tools: Statistics, Econometrics, Machine Learning, [R](http://www.r-project.org/), [R Markdown](http://rmarkdown.rstudio.com/), [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load), [EDA](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
+
+## Details
+I am currently employed at CHS Inc. as a Data Scientist and Econometrician consultant, where my primary responsibility is to perform churn loss analysis on private customer data. In order to conduct this analysis, I utilize various statistical and econometric tools such as ETL (Extract, Transform, Load), exploratory data analysis (EDA), probit regression, variable selection, model selection (using forward, backward, and best subset selection as well as lasso), and machine learning.
+
+To ensure reproducibility, I carry out all of my work using R and R Markdown. This enables me to present my findings in a clear and organized manner, as well as provide my colleagues with the ability to reproduce my work in the future if needed. Overall, my role at CHS Inc. allows me to utilize my skills in data science and econometrics to make valuable contributions to the company's business strategy and decision-making processes.
+

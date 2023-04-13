@@ -25,7 +25,7 @@ date = "2023-01-30"
 #-------------------------------------------------------------------------------
 [[popular_media]]
   bullets = [
-  'Founder of <a href= "https://akademiekonometri.netlify.app/" target="_blank" rel="noopener">Akademi Ekonometri Web Site</a> and <a href= "https://www.youtube.com/c/AkademiEkonometri" target="_blank" rel="noopener">Akademi Ekonometri YouTube Channel</a>.'
+  'Founder of <a href= "https://akademiekonometri.netlify.app/" target="_blank" rel="noopener">Akademi Ekonometri Website</a> and <a href= "https://www.youtube.com/c/AkademiEkonometri" target="_blank" rel="noopener">Akademi Ekonometri YouTube Channel</a>.'
   ]
 #-------------------------------------------------------------------------------
 +++

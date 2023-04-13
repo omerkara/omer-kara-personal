@@ -30,9 +30,7 @@ I am a certified data scientist by DataCamp, a leading online learning platform 
 
 To earn this certification, I successfully completed a rigorous set of courses and projects, demonstrating my ability to apply data science concepts and techniques to real-world problems. The certification reflects my dedication to continuous learning and professional development in the field of data science. 
 
-The certification is backed by DataCamp's industry-leading platform and is recognized by employers and industry professionals worldwide. For more information on the certification process and its significance, you can visit this link: https://assets.datacamp.com/email/other/ds-certification-whitepaper.pdf.
-
-To earn this certification, I successfully completed a rigorous training program, which included a series of hands-on exercises and real-world projects designed to develop my skills and knowledge in the field.  For more information on the certification and its value, you can visit this link: https://assets.datacamp.com/email/other/ds-certification-whitepaper.pdf
+The certification is backed by DataCamp's industry-leading platform and is recognized by employers and industry professionals worldwide. For more information on the certification process and its significance, you can visit [this link](https://assets.datacamp.com/email/other/ds-certification-whitepaper.pdf).
 
 ## DataCamp <img src='/../../../img/icons/datacamp-3.png' alt="DataCamp" style="height: 20px; width:20px;"/>
 - [Data Scientist Associate Certification](https://www.datacamp.com/certificate/DSA0017610627699) &emsp; January 2023 - January 2025

@@ -95,4 +95,3 @@ layout: single-sidebar ## Options: single, single-sidebar.
 - Developed and lectured lab materials independently.
 - Improved students' performance by implementing a collaborative learning environment.
 - Courses: Fundamentals of Economics
-

@@ -40,11 +40,13 @@ Overall, my collection of certificates indicates that I have a strong foundation
 - [Data Scientist Professional with R](https://www.datacamp.com/statement-of-accomplishment/track/fd0977031f06748da1e441037a90b3f6552641d4), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-scientist-professional-with-r) (28 Courses / 107 Hours)
 - [Data Scientist with R](https://www.datacamp.com/statement-of-accomplishment/track/d57d92c99217dd78eda1d8226453654d12495bc4), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-scientist-with-r?version=6) (24 Courses / 95 Hours)
 - [Data Analyst with R](https://www.datacamp.com/statement-of-accomplishment/track/3d1838bc827948c7ccca9544869a38366fd02682), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-analyst-with-r?version=6) (9 Courses / 36 Hours)
+- [R Programmer](https://www.datacamp.com/statement-of-accomplishment/track/3c9a5520cf5e768c9a5d206502970b05d35c8ce3), [DataCamp](https://app.datacamp.com/learn/career-tracks/r-programmer?version=7) (12 Courses / 48 Hours)
 - [Data Scientist with Python](https://www.datacamp.com/statement-of-accomplishment/track/70414c6cad8a023c5be8eacdf378058bb0eacc7b), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-scientist-with-python?version=1) (22 Courses / 84 Hours)
 - [Data Analyst with Python](https://www.datacamp.com/statement-of-accomplishment/track/1f52148ae0901b0fa33143833c09bcb1c435dbe8), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-analyst-with-python?version=1) (13 Courses / 47 Hours)
 - [Python Programmer](https://www.datacamp.com/statement-of-accomplishment/track/bfafbdc970fad9ee427be64a7dca8d2975381606), [DataCamp](https://app.datacamp.com/learn/career-tracks/python-programmer?version=1) (10 Courses / 36 Hours)
 
 #### Skill Tracks
+- [R Programming](https://www.datacamp.com/statement-of-accomplishment/track/db229535d3c306b45a4f433853da20be9ae31591), [DataCamp](https://app.datacamp.com/learn/skill-tracks/r-programming) (22 Hours)
 - [Statistics Fundamentals with R](https://www.datacamp.com/statement-of-accomplishment/track/f1cb9a2719dab0504f3db8735d16e53d26c7158d), [DataCamp](https://app.datacamp.com/learn/skill-tracks/learn-statistics-with-r?version=3) (20 Hours)
 - [Machine Learning Fundamentals with Python](https://www.datacamp.com/statement-of-accomplishment/track/4f966d106f323b35e6d37cfe2737cb58ef05c293), [DataCamp](https://app.datacamp.com/learn/skill-tracks/machine-learning-fundamentals-with-python?version=1) (20 Hours)
 - [Data Manipulation with Python](https://www.datacamp.com/statement-of-accomplishment/track/76870c5c62d2fa24b8a0dd915e16c485ae66d166), [DataCamp](https://app.datacamp.com/learn/skill-tracks/data-manipulation-with-python?version=1) (20 Hours)

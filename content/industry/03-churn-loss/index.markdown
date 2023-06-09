@@ -4,7 +4,7 @@
 ## Info.
 title: "Churn Loss Analysis"
 subtitle: "Churn Loss Analysis in CHS Inc. Private Customer Data"
-excerpt: "As a data scientist and econometrician, I performed churn loss analysis on CHS Inc. private customer data." ## Shown on the Industry Main Page, but does not shown on the Industry Page.
+excerpt: "As a data scientist and econometrician, I am performing churn loss analysis on CHS Inc. private customer data." ## Shown on the Industry Main Page, but does not shown on the Industry Page.
 
 ## Metadata.
 date: "2023-02-03"
@@ -32,6 +32,7 @@ categories:
 - econometrician
 - CHS
 tags:
+- statistics
 - econometrics
 - machine-learning
 - R

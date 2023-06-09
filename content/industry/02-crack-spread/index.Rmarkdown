@@ -4,7 +4,7 @@
 ## Info.
 title: "Crack Spread Platform"
 subtitle: "A Shiny Web App: Crack Spread Platform"
-excerpt: "As a software developer, I built a shiny web app for CHS Inc. hedging customers." ## Shown on the Industry Main Page, but does not shown on the Industry Page.
+excerpt: "As a software developer, I am building a shiny web app for CHS Inc. hedging customers." ## Shown on the Industry Main Page, but does not shown on the Industry Page.
 
 ## Metadata.
 date: "2023-02-02"

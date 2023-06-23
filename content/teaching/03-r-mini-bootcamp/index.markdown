@@ -23,11 +23,11 @@ links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: "https://akademiekonometri.bitbucket.io/R_mini_BootCamp/R_mini_BootCamp.html"
+  url: "https://akademiekonometri.github.io/R_mini_BootCamp/R_mini_BootCamp.html"
 - icon: code
   icon_pack: fas
   name: code
-  url: "https://akademiekonometri.bitbucket.io/R_mini_BootCamp/R_mini_BootCamp.R"
+  url: "https://akademiekonometri.github.io/R_mini_BootCamp/R_mini_BootCamp.R"
 
 ## Tags and Categories.
 categories:
@@ -50,8 +50,8 @@ layout: single-sidebar ## Options: single, single-sidebar.
 ---
 
 ## What is R Mini BootCamp?
-During my Ph.D. studies, I designed and conducted an introductory R workshop, called [R Mini BootCamp](https://akademiekonometri.bitbucket.io/R_mini_BootCamp/R_mini_BootCamp.html), for undergraduate students at NCSU. The workshop was tailored for absolute beginners in R and provided a comprehensive guide to the core concepts of the R programming language, including R objects, functions, and control structures.
-In addition, the workshop covered practical topics such as how to install R and RStudio, to use R Markdown, and how to seek help with R-related issues. The workshop materials were created using RStudio and R Markdown, and are available in HTML format, making them easily accessible via any browser. Additionally, example code snippets were included in the content and supplied as a separate [R script](https://akademiekonometri.bitbucket.io/R_mini_BootCamp/R_mini_BootCamp.R).
+During my Ph.D. studies, I designed and conducted an introductory R workshop, called [R Mini BootCamp](https://akademiekonometri.github.io/R_mini_BootCamp/R_mini_BootCamp.html), for undergraduate students at NCSU. The workshop was tailored for absolute beginners in R and provided a comprehensive guide to the core concepts of the R programming language, including R objects, functions, and control structures.
+In addition, the workshop covered practical topics such as how to install R and RStudio, to use R Markdown, and how to seek help with R-related issues. The workshop materials were created using RStudio and R Markdown, and are available in HTML format, making them easily accessible via any browser. Additionally, example code snippets were included in the content and supplied as a separate [R script](https://akademiekonometri.github.io/R_mini_BootCamp/R_mini_BootCamp.R).
 
 ## Coming Updates
 Most of the content in the workshop remains up-to-date as it covers fundamental concepts in R. However, I am currently working on completing the Data, Descriptive Statistics, Exploratory Data Analysis, Linear Regression, and Simulations sections to provide a comprehensive resource for undergraduate economics students. Once the upcoming sections are finalized, the R Mini BootCamp will enable students to conduct research projects from scratch, starting from raw data and progressing to simple linear regression and econometric analysis.

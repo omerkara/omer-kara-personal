@@ -5,8 +5,8 @@
 #====================#
 # 1. Paths =====
 #====================#
-# Main path of the "Akademi Ekonometri-Academic" folder.
-base.path <- paste0(regmatches(getwd(), regexpr("(^.*Omer Kara-Personal)", getwd(), perl = TRUE)), "/") ## "base.path" is the unix path of "./Omer Kara-Personal.Rproj" folder.
+# Main path of the "Omer Kara - Main" folder.
+base.path <- paste0(regmatches(getwd(), regexpr("(^.*Omer Kara - Main)", getwd(), perl = TRUE)), "/") ## "base.path" is the unix path of "./Omer Kara - Main.Rproj" folder.
 # base.path <- paste0(dirname(rstudioapi::getActiveDocumentContext()$path), "/") ## Note that this works when Running or Sourcing your file. The code automatically finds out the location of the current file.
 
 # Path for the "./static/repo/" folder.

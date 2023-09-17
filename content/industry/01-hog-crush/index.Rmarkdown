@@ -7,7 +7,7 @@ subtitle: "A Shiny Web App: Hog Crush Platform"
 excerpt: "As a software developer, I am building a shiny web app for CHS Inc. hedging customers." ## Shown on the Industry Main Page, but does not shown on the Industry Page.
 
 ## Metadata.
-date: "2023-02-01"
+date: "2023-02-02"
 author: Omer Kara
 draft: false
 featured: false

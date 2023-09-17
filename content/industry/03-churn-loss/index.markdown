@@ -7,7 +7,7 @@ subtitle: "Churn Loss Analysis in CHS Inc. Private Customer Data"
 excerpt: "As a data scientist and econometrician, I am performing churn loss analysis on CHS Inc. private customer data." ## Shown on the Industry Main Page, but does not shown on the Industry Page.
 
 ## Metadata.
-date: "2023-02-03"
+date: "2023-02-04"
 author: Omer Kara
 draft: false
 featured: false

@@ -46,7 +46,7 @@ layout: single ## Options: single, single-sidebar.
 ## Summary
 <div style="overflow: hidden; margin-bottom: -14px;">
   <span style="float: left; text-align: left;"><b>Data Scientist</b></span>
-  <span style="float: right; text-align: right;">June 2023 - September 2023</span>
+  <span style="float: right; text-align: right;">June 2023 - Present</span>
 </div>
 
 [The World Bank](https://www.worldbank.org/en/home), Washington, DC, USA

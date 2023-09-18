@@ -7,7 +7,7 @@ subtitle: "Agriculture Sector Deep Dive"
 excerpt: "As a data scientist, I am responsible for collecting, analyzing, and visualization FAO data for Sierra Leone CEM in The World Bank." ## Shown on the Industry Main Page, but does not shown on the Industry Page.
 
 ## Metadata.
-date: "2023-02-01"
+date: "2023-02-05"
 author: Omer Kara
 draft: false
 featured: false
@@ -54,7 +54,9 @@ layout: single ## Options: single, single-sidebar.
 - Tools: [FAOSTAT](https://www.fao.org/faostat/en/), [R](http://www.r-project.org/), [R Markdown](http://rmarkdown.rstudio.com/), [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load), [EDA](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
 
 ## Details
-I was employed at The World Bank as a Short Term Consultant and I worked in the Sierra Leone CEM (Country Economic Memorandum) team specifically in the Agriculture Sector Deep Dive section. My primary responsibilities were to collect, analyze, and visualize the FAO (Food and Agriculture Organization) data specifically for the agriculture sector in Sierra Leone. To carry out this analysis, I employed diverse data science tools like ETL (Extract, Transform, Load) and exploratory data analysis (EDA).
+I am currently employed at The World Bank as a Short Term Consultant and I work in the Sierra Leone CEM (Country Economic Memorandum) team specifically in the Agriculture Sector Deep Dive section. My primary responsibilities are to collect, analyze, and visualize the FAO (Food and Agriculture Organization) data specifically for the agriculture sector in Sierra Leone. To carry out this analysis, I employ diverse data science tools like ETL (Extract, Transform, Load) and exploratory data analysis (EDA).
 
-Moreover, in order to ensure reproducibility, I carried out all of my work using R and R Markdown. This enabled me to present my findings in a clear and organized manner, as well as provide my colleagues with the ability to reproduce my work in the future if needed. Overall, my role at the World Bank allowed me to utilize my skills in data science to make valuable contributions to the Sierra Leone CEM.
+Moreover, in order to ensure reproducibility, I carry out all of my work using R and R Markdown. This enables me to present my findings in a clear and organized manner, as well as provide my colleagues with the ability to reproduce my work in the future if needed. Overall, my role at the World Bank allows me to utilize my skills in data science to make valuable contributions to the Sierra Leone CEM.
+
+
 

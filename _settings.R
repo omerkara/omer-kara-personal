@@ -235,7 +235,7 @@ Load.Install(c("stargazer", "xtable", "tikzDevice", "latex2exp", "latexpdf", "DT
 ### 3.8.1. General =====
 #====================#
 # Packages for general econometric analyses.
-Load.Install(c("lmtest", "sandwich", "car", "nortest", "normtest", "gvlma", "moments", "pastecs", "aod"))
+Load.Install(c("lmtest", "sandwich", "car", "nortest", "gvlma", "moments", "pastecs", "aod"))
 
 # Extra packages for the car package.
 if("carData" %in% rownames(installed.packages()) == FALSE) {install.packages("carData")}
@@ -255,7 +255,7 @@ Load.Install(c("fpp2", "fpp3"))
 ### 3.8.3. Spatial =====
 #====================#
 # Packages for spatial and spatio-temporal analysis.
-# Load.Install(c("sp", "spdep", "spatialreg", "rgdal", "maptools", "raster", "geoR", "fields", "pgirmess", "RANN", "spgwr", "maps", "mapproj", "mapdata", "choroplethr", "choroplethrMaps", "tmap"))
+# Load.Install(c("sp", "spdep", "spatialreg", "rgdal", "maptools", "raster", "fields", "pgirmess", "RANN", "spgwr", "maps", "mapproj", "mapdata", "choroplethr", "choroplethrMaps", "tmap"))
 
 #====================#
 ### 3.8.4. Econometrics Misc. =====

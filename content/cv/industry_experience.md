@@ -40,20 +40,6 @@ date = "2023-01-30"
   note_item = '<i class="fas fa-exclamation-triangle pr2"></i>For the details of my industry experience head back to the <a href="/industry">Industry</a> page.'
 #-------------------------------------------------------------------------------
 [[industry_experience]]
-  title = 'Data Scientist'
-  institution = 'The World Bank'
-  institution_url = 'https://www.worldbank.org/en/home'
-  location = 'Washington, DC, USA'
-  date_start = 'June 2023'
-  date_end = 'Present'
-  description = ''''''
-  bullets_description = ''''''
-  bullets = [
-    'Job: Sierra Leone CEM - Agriculture Sector Deep Dive (in progress)',
-    'Tools: <a href= "https://www.fao.org/faostat/en/" target="_blank" rel="noopener">FAOSTAT</a>, <a href= "http://www.r-project.org/" target="_blank" rel="noopener">R</a>, <a href= "http://rmarkdown.rstudio.com/" target="_blank" rel="noopener">R Markdown</a>, <a href= "https://en.wikipedia.org/wiki/Extract,_transform,_load" target="_blank" rel="noopener">ETL</a>, <a href= "https://en.wikipedia.org/wiki/Exploratory_data_analysis" target="_blank" rel="noopener">EDA</a>'
-    ]
-#-------------------------------------------------------------------------------
-[[industry_experience]]
   title = 'Data Scientist and Econometrician'
   institution = 'CHS Inc.'
   institution_url = 'https://www.chsinc.com/'
@@ -93,6 +79,20 @@ date = "2023-01-30"
   bullets = [
     'Job: Building the <a href= "https://omerkara.shinyapps.io/hog-crush-platform/" target="_blank" rel="noopener">"Hog Crush Platform"</a>, a shiny web app (in marketing)',
     'Tools: <a href= "http://www.r-project.org/" target="_blank" rel="noopener">R</a>, <a href= "http://rmarkdown.rstudio.com/" target="_blank" rel="noopener">R Markdown</a>, <a href= "https://shiny.rstudio.com/" target="_blank" rel="noopener">shiny</a>, HTML, CSS, <a href= "https://azure.microsoft.com/en-us/products/devops/" target="_blank" rel="noopener">Azure DevOps</a>, <a href= "https://git-scm.com/" target="_blank" rel="noopener">Git</a>, <a href= "https://en.wikipedia.org/wiki/Extract,_transform,_load" target="_blank" rel="noopener">ETL</a>, <a href= "https://en.wikipedia.org/wiki/Exploratory_data_analysis" target="_blank" rel="noopener">EDA</a>'
+    ]
+#-------------------------------------------------------------------------------
+[[industry_experience]]
+  title = 'Data Scientist'
+  institution = 'The World Bank'
+  institution_url = 'https://www.worldbank.org/en/home'
+  location = 'Washington, DC, USA'
+  date_start = 'June 2023'
+  date_end = 'December 2023'
+  description = ''''''
+  bullets_description = ''''''
+  bullets = [
+    'Job: Sierra Leone CEM - Agriculture Sector Deep Dive (in progress)',
+    'Tools: <a href= "https://www.fao.org/faostat/en/" target="_blank" rel="noopener">FAOSTAT</a>, <a href= "http://www.r-project.org/" target="_blank" rel="noopener">R</a>, <a href= "http://rmarkdown.rstudio.com/" target="_blank" rel="noopener">R Markdown</a>, <a href= "https://en.wikipedia.org/wiki/Extract,_transform,_load" target="_blank" rel="noopener">ETL</a>, <a href= "https://en.wikipedia.org/wiki/Exploratory_data_analysis" target="_blank" rel="noopener">EDA</a>'
     ]
 #-------------------------------------------------------------------------------
 +++

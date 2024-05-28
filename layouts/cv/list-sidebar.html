@@ -120,6 +120,22 @@
     </section>
 {{ end }}
 
+{{ $workshops_given := printf "/%s/%s" .Section "workshops_given.md" }}
+{{ with site.GetPage $workshops_given }}
+<!--each page starts a new section-->
+    <section class="blog-content mw7 center pt3">
+      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-laptop-code pr3"></i>{{ .Title }}</h5>
+      {{ range .Params.note }}
+          <p class="f5">{{ .note_item | markdownify }}</p>
+      {{ end }}
+
+      {{ range .Params.workshops_given }}
+      <!--each item is a row-->
+          {{ partial "cv/workshops_given.html" . }}
+      {{ end }}
+    </section>
+{{ end }}
+
 {{ $technical_skills := printf "/%s/%s" .Section "technical_skills.md" }}
 {{ with site.GetPage $technical_skills }}
 <!--each page starts a new section-->

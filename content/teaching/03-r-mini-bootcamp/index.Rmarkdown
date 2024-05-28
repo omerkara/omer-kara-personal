@@ -4,7 +4,7 @@
 ## Info.
 title: "R Mini Bootcamp"
 subtitle: "Introductory R Workshop"
-excerpt: "Details of the introductory R workshop, R Mini BootCamp, that I prepared in HTML with accompanying codes during my Ph.D. degree for undergraduate students in NCSU." ## Shown on the Teaching Main Page, but does not shown on the Teaching Page.
+excerpt: "Details of the introductory R workshop, R Mini BootCamp, that I prepared in HTML with accompanying codes during my Ph.D. degree for undergraduate students at NCSU." ## Shown on the Teaching Main Page, but does not shown on the Teaching Page.
 
 ## Metadata.
 date: "2023-01-01"
@@ -47,7 +47,7 @@ knitr::opts_chunk$set(cache = TRUE, collapse = TRUE, comment = "#>", echo = TRUE
 
 ---
 
-> This page provides details of the introductory R workshop, R Mini BootCamp, that I prepared in HTML with accompanying codes during my Ph.D. degree for undergraduate students in NCSU.
+> This page provides details of the introductory R workshop, R Mini BootCamp, that I prepared in HTML with accompanying codes during my Ph.D. degree for undergraduate students at NCSU.
 
 ---
 

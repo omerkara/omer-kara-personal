@@ -13,7 +13,7 @@
   command = "hugo"
 
 [build.environment]
-  HUGO_VERSION = "0.110.0"
+  HUGO_VERSION = "0.119.0"
 
 [context]
   [context.branch-deploy]

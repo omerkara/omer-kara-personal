@@ -1,4 +1,4 @@
-#================================= .gitignore ==================================
+#================================= .renvignore =================================
 #================= Ignore the following folder/files for git ===================
 
 #============================ User Folders/Files ===============================
@@ -14,6 +14,16 @@
 /_later.R
 /_notes.R
 /_color_codes_links.txt
+
+/archetypes/
+/assets/
+/config/
+/data/
+/layouts/
+/static/
+/themes/
+
+!/static/repo/scripts/
 
 #=========================== System Folders/Files ==============================
 /renv/library/

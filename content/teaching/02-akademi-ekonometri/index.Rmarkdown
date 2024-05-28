@@ -7,7 +7,7 @@ subtitle: "Platform of Econometrics, Economics, and Coding"
 excerpt: "This page provides details about the Akademi Ekonometri website and YouTube channel that I created to facilitate easy access to course materials. Please note that the majority of the content is in Turkish." ## Shown on the Teaching Main Page, but does not shown on the Teaching Page.
 
 ## Metadata.
-date: "2023-01-02"
+date: "2023-02-01"
 author: Omer Kara
 draft: false
 featured: false

@@ -34,7 +34,7 @@ source("renv/activate.R")
 #====================#
 # Blogdown options.
 options(
-  blogdown.hugo.version = "0.110.0", ## A valid Hugo version	A Hugo version number.
+  blogdown.hugo.version = "0.119.0", ## A valid Hugo version	A Hugo version number.
   blogdown.knit.on_save = TRUE, ## Knit Rmd files automatically on save?
   blogdown.method = "markdown", ## The output format of .Rmd posts. Options: "markdown" and "html".
   blogdown.serve_site.startup	= FALSE, ## Serve the site on RStudio startup?

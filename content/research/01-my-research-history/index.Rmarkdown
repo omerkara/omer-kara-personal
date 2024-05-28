@@ -2,10 +2,10 @@
 # Configure My Research History Page.
 
 ## Info.
-#url: "/research-history/" ## Link this page to another page.
 title: "My Research History"
 subtitle: ""
 excerpt: "On this page, you can view my research history, which includes my experience in research, publications, working papers, and ongoing projects." ## Shown on the Research Main Page, but does not shown on the Research Page.
+url: "/research-history/" ## Link this page to another page.
 
 ## Metadata.
 date: "2023-04-02"

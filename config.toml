@@ -68,7 +68,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
 [params]
   orgName = "Omer Kara"
   orgLocal = ""
-  description = "Personal website of Dr. Omer Kara"
+  description = "Personal Website of Dr. Omer Kara"
   favicon = "/img/favicon-phoenix.ico" ## Favicon of the website which is shown on browser tab.
   logo = "/img/logo-phoenix.png" ## Logo of the website which is shown on the left-top. It is optional.
   logo_text = "Omer Kara" ## Text on the right of the logo. It is optional. If logo and logo_text are both not used then title will be used.

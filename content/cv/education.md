@@ -64,9 +64,21 @@ date = "2023-01-30"
     ]
 #-------------------------------------------------------------------------------
 [[education]]
+  title = 'B.A., Political Science and International Relations'
+  institution = 'Bahcesehir University'
+  institution_url = 'https://bau.edu.tr/'
+  location = 'Istanbul, Turkey'
+  date_start = ''
+  date_end = 'June 2010'
+  description = ''''''
+  bullets_description = ''''''
+  bullets = [
+    ]
+#-------------------------------------------------------------------------------
+[[education]]
   title = 'B.A., Economics'
   institution = 'Bahcesehir University'
-  institution_url = 'https://www.ncsu.edu/'
+  institution_url = 'https://bau.edu.tr/'
   location = 'Istanbul, Turkey'
   date_start = ''
   date_end = 'June 2008'

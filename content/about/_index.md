@@ -3,7 +3,7 @@
 
 ## Info.
 title: "About"
-description: "Personal website for Omer Kara."
+description: "Personal Website for Omer Kara."
 
 ## Options.
 show_header: true ## Shows the content in the /about/header/ folder.

@@ -88,34 +88,18 @@
     </section>
 {{ end }}
 
-{{ $research_experience := printf "/%s/%s" .Section "research_experience.md" }}
-{{ with site.GetPage $research_experience }}
+{{ $publications := printf "/%s/%s" .Section "publications.md" }}
+{{ with site.GetPage $publications }}
 <!--each page starts a new section-->
     <section class="blog-content mw7 center pt3">
-      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-atom pr3"></i>{{ .Title }}</h5>
+      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-book-open pr3"></i>{{ .Title }}</h5>
       {{ range .Params.note }}
           <p class="f5">{{ .note_item | markdownify }}</p>
       {{ end }}
 
-      {{ range .Params.research_experience }}
+      {{ range .Params.publications }}
       <!--each item is a row-->
-          {{ partial "cv/research_experience.html" . }}
-      {{ end }}
-    </section>
-{{ end }}
-
-{{ $teaching_experience := printf "/%s/%s" .Section "teaching_experience.md" }}
-{{ with site.GetPage $teaching_experience }}
-<!--each page starts a new section-->
-    <section class="blog-content mw7 center pt3">
-      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-chalkboard-teacher pr3"></i>{{ .Title }}</h5>
-      {{ range .Params.note }}
-          <p class="f5">{{ .note_item | markdownify }}</p>
-      {{ end }}
-
-      {{ range .Params.teaching_experience }}
-      <!--each item is a row-->
-          {{ partial "cv/teaching_experience.html" . }}
+          {{ partial "cv/publications.html" . }}
       {{ end }}
     </section>
 {{ end }}
@@ -184,18 +168,34 @@
     </section>
 {{ end }}
 
-{{ $publications := printf "/%s/%s" .Section "publications.md" }}
-{{ with site.GetPage $publications }}
+{{ $research_experience := printf "/%s/%s" .Section "research_experience.md" }}
+{{ with site.GetPage $research_experience }}
 <!--each page starts a new section-->
     <section class="blog-content mw7 center pt3">
-      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-book-open pr3"></i>{{ .Title }}</h5>
+      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-atom pr3"></i>{{ .Title }}</h5>
       {{ range .Params.note }}
           <p class="f5">{{ .note_item | markdownify }}</p>
       {{ end }}
 
-      {{ range .Params.publications }}
+      {{ range .Params.research_experience }}
       <!--each item is a row-->
-          {{ partial "cv/publications.html" . }}
+          {{ partial "cv/research_experience.html" . }}
+      {{ end }}
+    </section>
+{{ end }}
+
+{{ $teaching_experience := printf "/%s/%s" .Section "teaching_experience.md" }}
+{{ with site.GetPage $teaching_experience }}
+<!--each page starts a new section-->
+    <section class="blog-content mw7 center pt3">
+      <h5 class="f4 fw7 tracked ttu lh-title mv3 bb group-content pb2 pb2-ns"><i class="fas fa-chalkboard-teacher pr3"></i>{{ .Title }}</h5>
+      {{ range .Params.note }}
+          <p class="f5">{{ .note_item | markdownify }}</p>
+      {{ end }}
+
+      {{ range .Params.teaching_experience }}
+      <!--each item is a row-->
+          {{ partial "cv/teaching_experience.html" . }}
       {{ end }}
     </section>
 {{ end }}

@@ -5,6 +5,11 @@
       <div class="w-50-ns pr4-ns">
         <h1 class="f2 f1-ns measure lh-solid">{{ .Title }}</h1>
         <p class="f5 w-90-ns measure lh-copy">{{ .Description | markdownify }}</p>
+        {{ if .Params.show_socialAcademic_links }}
+        <p class="w-90-ns measure mv4 lh-copy">
+          {{ partial "shared/social-links-academic.html" . }}
+        </p>
+        {{ end }}
         {{ if .Params.show_social_links }}
         <p class="w-90-ns measure mv4 lh-copy">
           {{ partial "shared/social-links.html" . }}

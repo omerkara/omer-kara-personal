@@ -13,6 +13,7 @@ name: "Contact Us Form"
 
 ## Options.
 url: /contact/
+show_socialAcademic_links: true
 show_social_links: true
 formspree_form_id: mgebzeaw ## Instead of your email use the "HTML action attribute code" given by formspree.
 submit_button_label: "Send Message"

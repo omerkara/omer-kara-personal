@@ -7,6 +7,7 @@ role: "Data Scientist<br/>Econometrician<br/>Consultant" ## Data Scientist & Eco
 
 ## Picture, Social Links, and Audio.
 avatar_shape: rounded ## Options: circle, square, rounded, or leave blank to exclude.
+show_socialAcademic_links: true ## Specify social academic accounts in site config.
 show_social_links: true ## Specify social accounts in site config.
 audio_link_label: "How to say my name?" ## Leave blank to exclude.
 

@@ -142,7 +142,33 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   ## Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   ## Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
 
-  ## Social.
+  ## Academic Links.
+  [[params.socialAcademic]] ## Avesis.
+      icon      = "university"
+      icon_pack = "fa"
+      url       = "https://avesis.ogu.edu.tr/okara"
+  [[params.socialAcademic]] ## ORCID.
+      icon      = "orcid"
+      icon_pack = "ai"
+      url       = "https://orcid.org/0000-0001-7697-0319"
+  [[params.socialAcademic]] ## Google Scholar.
+      icon      = "google-scholar" ## Options: google-scholar, google-scholar-square.
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=K6oxNt0AAAAJ&hl=en"
+  [[params.socialAcademic]] ## Publons.
+      icon      = "publons"
+      icon_pack = "ai"
+      url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
+  #[[params.socialAcademic]] ## Scopus.
+  #   icon      = "scopus"
+  #   icon_pack = "ai"
+  #   url       = "https://www.scopus.com/"
+  [[params.socialAcademic]] ## Research Gate.
+      icon      = "researchgate"
+      icon_pack = "ai"
+      url       = "https://www.researchgate.net/profile/Omer_Kara2"
+
+  ## Social Links.
   #[[params.social]] ## Email.
   #   icon      = "envelope"
   #   icon_pack = "fa"
@@ -175,8 +201,6 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   #   icon      = "instagram" # icon name without the 'fa-'
   #   icon_pack = "fab"
   #   url       = "https://www.instagram.com/omr_kara/"
-
-  ## Akademi Ekonometri.
   [[params.social]] ## Akademi Ekonometri web site.
       icon      = "academia"
       icon_pack = "ai"
@@ -185,27 +209,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
       icon      = "youtube"
       icon_pack = "fab"
       url       = "https://www.youtube.com/c/AkademiEkonometri"
-
-  ## Academic.
-  #[[params.social]] ## ORCID.
-  #   icon      = "orcid"
-  #   icon_pack = "ai"
-  #   url       = "https://orcid.org/0000-0001-7697-0319"
-  [[params.social]] ## Google Scholar.
-      icon      = "google-scholar" ## Options: google-scholar, google-scholar-square.
-      icon_pack = "ai"
-      url       = "https://scholar.google.com/citations?user=K6oxNt0AAAAJ&hl=en"
-  #[[params.social]] ## Publons.
-  #   icon      = "publons"
-  #   icon_pack = "ai"
-  #   url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
-  #[[params.social]] ## Research Gate.
-  #   icon      = "researchgate"
-  #   icon_pack = "ai"
-  #   url       = "https://www.researchgate.net/profile/Omer_Kara2"
-
-  ## RSS.
-  [[params.social]]
+  [[params.social]] ## RSS.
       icon      = "rss"
       icon_pack = "fas"
       url       = "/blog/index.xml"

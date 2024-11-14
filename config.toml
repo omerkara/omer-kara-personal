@@ -151,18 +151,18 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
       icon      = "orcid"
       icon_pack = "ai"
       url       = "https://orcid.org/0000-0001-7697-0319"
+  [[params.socialAcademic]] ## Web of Science Researcher ID.
+      icon      = "researcherid"
+      icon_pack = "ai"
+      url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
+  [[params.socialAcademic]] ## Scopus.
+      icon      = "scopus"
+      icon_pack = "ai"
+      url       = "https://www.scopus.com/"
   [[params.socialAcademic]] ## Google Scholar.
       icon      = "google-scholar" ## Options: google-scholar, google-scholar-square.
       icon_pack = "ai"
       url       = "https://scholar.google.com/citations?user=K6oxNt0AAAAJ&hl=en"
-  [[params.socialAcademic]] ## Publons.
-      icon      = "publons"
-      icon_pack = "ai"
-      url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
-  #[[params.socialAcademic]] ## Scopus.
-  #   icon      = "scopus"
-  #   icon_pack = "ai"
-  #   url       = "https://www.scopus.com/"
   [[params.socialAcademic]] ## Research Gate.
       icon      = "researchgate"
       icon_pack = "ai"

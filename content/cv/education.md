@@ -57,19 +57,7 @@ date = "2023-01-30"
   institution_url = 'https://www.ncsu.edu/'
   location = 'Raleigh, NC, USA'
   date_start = ''
-  date_end = 'May 2012'
-  description = ''''''
-  bullets_description = ''''''
-  bullets = [
-    ]
-#-------------------------------------------------------------------------------
-[[education]]
-  title = 'B.A., Political Science and International Relations'
-  institution = 'Bahcesehir University'
-  institution_url = 'https://bau.edu.tr/'
-  location = 'Istanbul, Turkey'
-  date_start = ''
-  date_end = 'June 2010'
+  date_end = 'August 2012'
   description = ''''''
   bullets_description = ''''''
   bullets = [
@@ -81,7 +69,7 @@ date = "2023-01-30"
   institution_url = 'https://bau.edu.tr/'
   location = 'Istanbul, Turkey'
   date_start = ''
-  date_end = 'June 2008'
+  date_end = 'July 2008'
   description = ''''''
   bullets_description = ''''''
   bullets = [

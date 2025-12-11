@@ -20,13 +20,13 @@ sidebar:
 
 ## Links.
 links:
-- icon: doi-square
+- icon:
   icon_pack: ai
-  name: unpublished
+  name: Working Paper
   url: "/research-history/03-working-papers-works-in-progress"
 #- icon: file-pdf
 #  icon_pack: fas
-#  name: article
+#  name: PDF
 #  url: "/research/03-us-housing-structural-break/files/article.pdf"
 
 ## Tags and Categories.

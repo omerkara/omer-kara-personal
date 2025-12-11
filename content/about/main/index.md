@@ -2,7 +2,7 @@
 # Configure Main content in About Page.
 
 ## Info.
-title: "About Me" ## Leave blank to exclude.
+title: "About me" ## Leave blank to exclude.
 
 ## Intro.
 show_intro: true ## Show/Close intro.

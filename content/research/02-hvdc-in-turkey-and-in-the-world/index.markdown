@@ -20,13 +20,16 @@ sidebar:
 
 ## Links.
 links:
-- icon: doi-square
+- icon: open-access
   icon_pack: ai
-  name: published
+  name: Open Access
+- icon: doi
+  icon_pack: ai
+  name: publication
   url: "https://doi.org/10.36306/konjes.907309"
 - icon: file-pdf
   icon_pack: fas
-  name: article
+  name: PDF
   url: "/research/02-hvdc-in-turkey-and-in-the-world/files/article.pdf"
 
 ## Tags and Categories.

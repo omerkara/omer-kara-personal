@@ -21,13 +21,16 @@ sidebar:
 
 ## Links.
 links:
-- icon: doi-square
+- icon: open-access
   icon_pack: ai
-  name: published
+  name: Open Access
+- icon: doi
+  icon_pack: ai
+  name: publication
   url: "https://doi.org/10.3390/su172411023"
 - icon: file-pdf
   icon_pack: fas
-  name: article
+  name: PDF
   url: "/research/08-life-cycle-cost-analysis-on-pv-modules/files/article.pdf"
 - icon: file-pdf
   icon_pack: fas
@@ -35,7 +38,7 @@ links:
   url: "/research/08-life-cycle-cost-analysis-on-pv-modules/files/acceptance-certificate.pdf"
 - icon: file-pdf
   icon_pack: fas
-  name: article banner
+  name: banner
   url: "/research/08-life-cycle-cost-analysis-on-pv-modules/files/article-banner.pdf"
 
 ## Tags and Categories.

@@ -8,7 +8,7 @@ excerpt: "On this page, you can view my research history, which includes my expe
 url: "/research-history/" ## Link this page to another page.
 
 ## Metadata.
-date: "2099-01-01"
+date: "2025-12-11"
 author: Ömer Kara
 draft: false
 featured: false

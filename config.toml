@@ -163,10 +163,10 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
       icon      = "scopus-square"
       icon_pack = "ai"
       url       = "https://www.scopus.com/"
-  [[params.socialAcademic]] ## Research Gate.
-      icon      = "researchgate"
-      icon_pack = "ai"
-      url       = "https://www.researchgate.net/profile/Omer_Kara2"
+  #[[params.socialAcademic]] ## Research Gate.
+  #    icon      = "researchgate"
+  #    icon_pack = "ai"
+  #    url       = "https://www.researchgate.net/profile/Omer_Kara2"
 
   ## Social Links.
   #[[params.social]] ## Email.

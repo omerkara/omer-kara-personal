@@ -62,3 +62,16 @@
 .blocks:last-child .decorator {
  margin-bottom:0.25in
 }
+
+.index-badge {
+  display: inline-block;
+  background-color: #e0e0e0;   /* Similar to LaTeX gray!20 */
+  padding: 0.15rem 0.35rem;
+  margin-left: 0.0rem;
+  margin-right: 0.3rem;
+  border-radius: 3px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.75rem;          /* \small */
+  font-weight: 600;            /* \textbf */
+  line-height: 1.2;
+}

@@ -37,9 +37,9 @@ weight: 2
 
 
 ## Refereed Journal Publications
-[1] Acaroğlu, H., Najafi, A., **Kara, Ö.**, & Yürük, B. (2021). An Economic and Technical Review for the Utilization of HVDC in Turkey and in the World. _Konya Journal of Engineering Sciences_, 9(3), 809--835. <a href="https://doi.org/10.36306/konjes.907309"><i class="ai ai-doi-square pr2"></i></a>
+[1] Acaroğlu, H., Najafi, A., **Kara, Ö.**, & Yürük, B. (2021). An Economic and Technical Review for the Utilization of HVDC in Turkey and in the World. _Konya Journal of Engineering Sciences_, 9(3), 809--835. <a href="https://doi.org/10.36306/konjes.907309"><i class="ai ai-doi pr2"></i></a><span class="index-badge">TR Dizin</span><i class="ai ai-open-access"></i>
 
-[2] Acaroğlu, H., Baykul M. C., & **Kara, Ö.** (2025). A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir’s Solar Market Transactions. _Sustainability_, 17(24), 11023. <a href="https://doi.org/10.3390/su172411023"><i class="ai ai-doi-square pr2"></i></a>
+[2] Acaroğlu, H., Baykul M. C., & **Kara, Ö.** (2025). A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir’s Solar Market Transactions. _Sustainability_, 17(24), 11023. <a href="https://doi.org/10.3390/su172411023"><i class="ai ai-doi pr2"></i></a><span class="index-badge">SSCI</span><span class="index-badge">SCIE</span><i class="ai ai-open-access"></i>
 
 
 <!-- ## Refereed Conference Publications -->

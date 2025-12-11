@@ -1,5 +1,5 @@
 ---
-# Configure Dynamics of U.S. Housing and Primary Building Materials in the Presence of Structural Break Page.
+# Configure "Dynamics of U.S. Housing and Primary Building Materials in the Presence of Structural Break" Page.
 
 ## Info.
 title: "U.S. Housing - Structural Break"
@@ -7,8 +7,8 @@ subtitle: "Dynamics of U.S. Housing and Primary Building Materials in the Presen
 excerpt: "Dynamics of U.S. Housing and Primary Building Materials in the Presence of Structural Break" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
-date: "2023-02-09"
-author: Omer Kara
+date: "2020-01-01"
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -20,16 +20,21 @@ sidebar:
 
 ## Links.
 links:
-- icon: file-pdf
-  icon_pack: fas
-  name: article
-  url: "/research/03-us-housing-structural-break/files/article.pdf"
+- icon: doi-square
+  icon_pack: ai
+  name: unpublished
+  url: "/research-history/03-working-papers-works-in-progress"
+#- icon: file-pdf
+#  icon_pack: fas
+#  name: article
+#  url: "/research/03-us-housing-structural-break/files/article.pdf"
 
 ## Tags and Categories.
 categories:
 - research
-- unpublished
 - article
+- unpublished
+- working-papers
 tags:
 - housing
 - building-materials
@@ -44,4 +49,4 @@ layout: single-sidebar ## Options: single, single-sidebar.
 ## Details
 Details coming soon.
 
-"Dynamics of U.S. Housing and Primary Building Materials in the Presence of Structural Break" with [Barry Goodwin](https://cals.ncsu.edu/agricultural-and-resource-economics/people/barry-goodwin/) and [Jeffrey Prestemon](https://cnr.ncsu.edu/directory/jeffrey-p-prestemon/)
+"Dynamics of U.S. Housing and Primary Building Materials in the Presence of Structural Break"

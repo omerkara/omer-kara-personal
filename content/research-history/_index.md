@@ -13,16 +13,16 @@ featured: false
 ## Options.
 cascade:
   layout: single-series
-  author: Omer Kara
+  author: Ömer Kara
   show_author_byline: false
   show_post_thumbnail: true
   show_post_date: false
   show_comments: true
-  show_button_links: true ## Show/Hide the button links on the Research Main Page.
+  show_button_links: true ## Show/Hide the button links on the Research History Main Page.
   sidebar:
     title: "My Research History"
     description: "On this page, you can view my research history, which includes my experience in research, publications, working papers, and ongoing projects."
-    author: Omer Kara
+    author: Ömer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "View Research page" ## Good Options: View Research page and Subscribe via RSS.
     text_link_url: /research/ ## Good Options: /research/ and /research/index.xml.

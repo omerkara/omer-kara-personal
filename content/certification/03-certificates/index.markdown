@@ -9,7 +9,7 @@ excerpt: "My certificates (only selected ones) from different sources." ## Shown
 
 ## Metadata.
 date: "2023-01-30"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -34,7 +34,7 @@ Overall, my collection of certificates indicates that I have a strong foundation
 
 ## DataCamp <img src='/../../../img/icons/datacamp-3.png' alt="DataCamp" style="height: 20px; width:20px;"/>
 
->DataCamp offers Tracks to guide data science learning and build complementary skills. They have two types of Tracks: Career Tracks, which are comprehensive and cover multiple topics, and Skill Tracks, which focus on specific topics and are shorter. 
+>DataCamp offers Tracks to guide data science learning and build complementary skills. They have two types of Tracks: Career Tracks, which are comprehensive and cover multiple topics, and Skill Tracks, which focus on specific topics and are shorter.
 
 #### Career Tracks
 - [Data Scientist Professional with R](https://www.datacamp.com/statement-of-accomplishment/track/fd0977031f06748da1e441037a90b3f6552641d4), [DataCamp](https://app.datacamp.com/learn/career-tracks/data-scientist-professional-with-r) (28 Courses / 107 Hours)

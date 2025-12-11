@@ -9,16 +9,16 @@ excerpt: "Publications including books, book chapter, refereed journal publicati
 
 ## Metadata.
 date: "2023-04-02"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 
 ## Tags and Categories.
 categories:
-- research
-- published
+- research-history
+- research-publications
 tags:
-- publications
+-
 
 ## Layout.
 weight: 2
@@ -35,23 +35,29 @@ weight: 2
 <!-- ## Book Chapters -->
 
 
+
 ## Refereed Journal Publications
-[1] **Kara, O.**, Acaroglu, H., Najafi, A., and Yuruk, B., (2021). AN ECONOMIC AND TECHNICAL REVIEW FOR THE UTILIZATION OF HVDC IN TURKEY AND IN THE WORLD. _Konya Journal of Engineering Sciences_, 9(3) 809-835. <a href="https://doi.org/10.36306/konjes.907309"><i class="ai ai-doi-square pr2"></i></a>
+[1] Acaroğlu, H., Najafi, A., **Kara, Ö.**, & Yürük, B. (2021). An Economic and Technical Review for the Utilization of HVDC in Turkey and in the World. _Konya Journal of Engineering Sciences_, 9(3), 809--835. <a href="https://doi.org/10.36306/konjes.907309"><i class="ai ai-doi-square pr2"></i></a>
+
+[2] Acaroğlu, H., Baykul M. C., & **Kara, Ö.** (2025). A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir’s Solar Market Transactions. _Sustainability_, 17(24), 11023. <a href="https://doi.org/10.3390/su172411023"><i class="ai ai-doi-square pr2"></i></a>
 
 
 <!-- ## Refereed Conference Publications -->
 
 
-## Conference Presentations
-[1] **Kara, O.**, Price Dynamics and Structural Breaks in Speculative Markets: A Case Study of Cryptocurrency. International Conference on Economics (EconTR2020@Eskişehir), Eskisehir, Turkey, 10-12 September 2020.
 
-[2] **Kara, O.**, Identifying and Understanding the Structural Break in Meat Demand in the USA. International Conference on Economics (EconTR2020@Eskişehir), Eskisehir, Turkey, 10-12 September 2020.
+## Conference Presentations
+[1] **Kara, Ö.** (2020). Price Dynamics and Structural Breaks in Speculative Markets: A Case Study of Cryptocurrency. _International Conference on Economics (EconTR2020@Eskişehir)_, Eskişehir, Türkiye, 10--12 September 2020.
+
+[2] **Kara, Ö.** (2020). Identifying and Understanding the Structural Break in Meat Demand in the USA. _International Conference on Economics (EconTR2020@Eskişehir)_, Eskişehir, Türkiye, 10--12 September 2020.
+
 
 <!-- ## Conference Posters -->
 
 
+
 ## Other Publications
-[1] **Kara, O.**, (2018). Emek Piyasası, İstihdam ve İşsizlik. MAKROEKONOMİ Politika ve Uygulama (pp.544-570), Ankara: Nobel Yayın Dağıtım. \textit{Book Chapter Translation.}
+[1] **Kara, Ö.** (2018). Emek Piyasası, İstihdam ve İşsizlik. _Makroekonomi: Politika ve Uygulama_ (pp. 544--570). Ankara: Nobel Yayın Dağıtım. _Book Chapter Translation_.
 
 
 </div>

@@ -8,7 +8,7 @@ excerpt: "As a software developer, I am building a shiny web app for CHS Inc. he
 
 ## Metadata.
 date: "2024-02-03"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

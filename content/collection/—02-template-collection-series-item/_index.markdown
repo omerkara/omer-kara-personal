@@ -10,7 +10,7 @@ excerpt: "Collection Series Page Item Excerpt." ## Shown on the Collection Main 
 
 ## Metadata.
 date: "2023-01-30"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

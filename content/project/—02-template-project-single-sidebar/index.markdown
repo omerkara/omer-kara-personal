@@ -8,7 +8,7 @@ excerpt: "Project with Sidebar Excerpt." ## Shown on the Project Main Page, but 
 
 ## Metadata.
 date: "2023-01-30"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

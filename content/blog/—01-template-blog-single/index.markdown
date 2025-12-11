@@ -8,7 +8,7 @@ excerpt: "Blog Single Post Excerpt." ## Shown on the Blog Main Page, but does no
 
 ## Metadata.
 date: "2023-01-31"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

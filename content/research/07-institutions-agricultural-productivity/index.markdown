@@ -1,14 +1,14 @@
 ---
-# Configure The Effect of Quality of Institutions on Agricultural Productivity Page.
+# Configure "The Effect of the Quality of Institutions on Agricultural Productivity" Page.
 
 ## Info.
 title: "Quality of Institutions & Agricultural Productivity"
-subtitle: "The Effect of Quality of Institutions on Agricultural Productivity"
-excerpt: "The Effect of Quality of Institutions on Agricultural Productivity" ## Shown on the Research Main Page, but does not shown on the Research Page.
+subtitle: "The Effect of the Quality of Institutions on Agricultural Productivity"
+excerpt: "The Effect of the Quality of Institutions on Agricultural Productivity" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
-date: "2023-02-05"
-author: Omer Kara
+date: "2020-01-05"
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -17,21 +17,26 @@ sidebar:
   text_link_label: "View recent research items" ## Good Options: View recent research items and Subscribe via RSS.
   text_link_url: /research/ ## Good Options: /research/ and /research/index.xml.
   text_contents_label: "On this page"
- 
+
 ## Links.
 links:
-- icon: file-pdf
-  icon_pack: fas
-  name: article
-  url: "/research/07-institutions-agricultural-productivity/files/article.pdf"
+- icon: doi-square
+  icon_pack: ai
+  name: unpublished
+  url: "/research-history/03-working-papers-works-in-progress"
+#- icon: file-pdf
+#  icon_pack: fas
+#  name: article
+#  url: "/research/07-institutions-agricultural-productivity/files/article.pdf"
 
 ## Tags and Categories.
 categories:
 - research
-- unpublished
 - article
+- unpublished
+- working-papers
 tags:
-- quality-of-institutions
+- institutions
 - agricultural-productivity
 
 ## Layout.
@@ -43,4 +48,4 @@ layout: single-sidebar ## Options: single, single-sidebar.
 ## Details
 Details coming soon.
 
-"The Effect of Quality of Institutions on Agricultural Productivity"
+"The Effect of the Quality of Institutions on Agricultural Productivity"

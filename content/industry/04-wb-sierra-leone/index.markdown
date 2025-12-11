@@ -8,7 +8,7 @@ excerpt: "As a data scientist, I was responsible for collecting, analyzing, and 
 
 ## Metadata.
 date: "2024-02-02"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

@@ -8,17 +8,17 @@ description: "This page serves as a hub for my research work, including my resea
 
 ## Options.
 cascade:
-  author: Omer Kara
+  author: Ömer Kara
   show_author_byline: true
   show_post_thumbnail: true
   thumbnail_left: true
-  show_post_date: true
+  show_post_date: false
   show_comments: true
   show_button_links: false ## Show/Hide the button links on the Research Main Page.
   sidebar:
     title: "Research"
     description: "This page serves as a hub for my research work, including my research history, ongoing projects, and publications, all of which are linked with any available accompanying materials."
-    author: Omer Kara
+    author: Ömer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent research items and Subscribe via RSS.
     text_link_url: /research/index.xml ## Good Options: /research/ and /research/index.xml.

@@ -13,7 +13,7 @@ featured: true
 ## Options.
 cascade:
   layout: single-series
-  author: Omer Kara
+  author: Ömer Kara
   show_author_byline: true
   show_post_thumbnail: true
   show_post_date: true
@@ -22,7 +22,7 @@ cascade:
   sidebar:
     title: "Collection Main Page Sidebar Title"
     description: "Collection Main Page Sidebar Description."
-    author: Omer Kara
+    author: Ömer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View Collection Main Page and Subscribe via RSS.
     text_link_url: /collection/index.xml ## Good Options: /collection/ and /collection/index.xml.

@@ -1,5 +1,5 @@
 ---
-# Configure Price Dynamics and Structural Breaks in Speculative Markets: A Case Study of Cryptocurrency Page.
+# Configure "Price Dynamics and Structural Breaks in Speculative Markets: A Case Study of Cryptocurrency" Page.
 
 ## Info.
 title: "Cryptocurrency - Structural Break"
@@ -7,8 +7,8 @@ subtitle: "Price Dynamics and Structural Breaks in Speculative Markets: A Case S
 excerpt: "Price Dynamics and Structural Breaks in Speculative Markets: A Case Study of Cryptocurrency" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
-date: "2023-02-07"
-author: Omer Kara
+date: "2020-01-03"
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -20,10 +20,14 @@ sidebar:
 
 ## Links.
 links:
-- icon: file-pdf
-  icon_pack: fas
-  name: article
-  url: "/research/05-cryptocurrency-structural-break/files/article.pdf"
+- icon: doi-square
+  icon_pack: ai
+  name: unpublished
+  url: "/research-history/03-working-papers-works-in-progress"
+#- icon: file-pdf
+#  icon_pack: fas
+#  name: article
+#  url: "/research/05-cryptocurrency-structural-break/files/article.pdf"
 - icon: file-powerpoint
   icon_pack: fas
   name: slides
@@ -32,8 +36,9 @@ links:
 ## Tags and Categories.
 categories:
 - research
-- unpublished
 - article
+- unpublished
+- working-papers
 - slides
 tags:
 - cryptocurrency
@@ -42,7 +47,6 @@ tags:
 ## Layout.
 layout: single-sidebar ## Options: single, single-sidebar.
 ---
-
 
 
 ## Details

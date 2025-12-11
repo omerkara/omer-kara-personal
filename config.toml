@@ -1,4 +1,4 @@
-#============================ Omer Kara - Personal =============================
+#============================ Ömer Kara - Personal =============================
 #=============================== Configuration =================================
 #================================ config.toml ==================================
 
@@ -21,15 +21,15 @@ languageCode = "en" ## Language.
 
 #-------------------------------------------------------------------------------
 # Title and author.
-title = "Omer Kara, Ph.D." ## Title of the website.
-author = "Omer Kara" ## Author.
+title = "Ömer Kara, Ph.D." ## Title of the website.
+author = "Ömer Kara" ## Author.
 
 #-------------------------------------------------------------------------------
 # Copyright line.
 ## Set to override the auto generated copyright using org info and now year.
-## Current style: Copyright sign Omer Kara (with email link). Middle Dot. Made with love, coffee and code.
-copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, lots of <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and lines of <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
-#copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Omer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
+## Current style: Copyright sign Ömer Kara (with email link). Middle Dot. Made with love, coffee and code.
+copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Ömer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, lots of <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and lines of <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
+#copyright = '&copy; <script>document.write( new Date().getUTCFullYear() );</script> <a href="mailto: omer.kara.ylsy@gmail.com">Ömer Kara</a> <span class="middot-divider"></span> Made with <i class="fas fa-heart" style="color: #ff2a04"></i>, <i class="fas fa-mug-hot" style="color: #6F4E37"></i>, and <a href="https://github.com/omerkara/omer-kara-personal" target="_blank" rel="noopener"><i class="fas fa-code"></i></a>.'
 
 #-------------------------------------------------------------------------------
 # Google analytics 4 ID.
@@ -66,12 +66,12 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
 
 #-------------------------------------------------------------------------------
 [params]
-  orgName = "Omer Kara"
+  orgName = "Ömer Kara"
   orgLocal = ""
-  description = "Personal Website of Dr. Omer Kara"
+  description = "Personal Website of Dr. Ömer Kara"
   favicon = "/img/favicon-phoenix.ico" ## Favicon of the website which is shown on browser tab.
   logo = "/img/logo-phoenix.png" ## Logo of the website which is shown on the left-top. It is optional.
-  logo_text = "Omer Kara" ## Text on the right of the logo. It is optional. If logo and logo_text are both not used then title will be used.
+  logo_text = "Ömer Kara" ## Text on the right of the logo. It is optional. If logo and logo_text are both not used then title will be used.
   mainSections = ["industry", "research", "teaching", "certification"] ## Content sections to be previewed in the /about/ page.
   navallcaps = true
 
@@ -151,18 +151,18 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
       icon      = "orcid"
       icon_pack = "ai"
       url       = "https://orcid.org/0000-0001-7697-0319"
-  [[params.socialAcademic]] ## Web of Science Researcher ID.
-      icon      = "researcherid"
-      icon_pack = "ai"
-      url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
-  [[params.socialAcademic]] ## Scopus.
-      icon      = "scopus"
-      icon_pack = "ai"
-      url       = "https://www.scopus.com/"
   [[params.socialAcademic]] ## Google Scholar.
       icon      = "google-scholar" ## Options: google-scholar, google-scholar-square.
       icon_pack = "ai"
       url       = "https://scholar.google.com/citations?user=K6oxNt0AAAAJ&hl=en"
+  [[params.socialAcademic]] ## Clarivate (Web of Science Researcher ID).
+      icon      = "publons"
+      icon_pack = "ai"
+      url       = "https://www.webofscience.com/wos/author/rid/AAZ-5471-2021"
+  [[params.socialAcademic]] ## Scopus.
+      icon      = "scopus-square"
+      icon_pack = "ai"
+      url       = "https://www.scopus.com/"
   [[params.socialAcademic]] ## Research Gate.
       icon      = "researchgate"
       icon_pack = "ai"
@@ -224,8 +224,8 @@ relativeURLs = true
 ## After additional sections are added check the link about renaming sections:
   # https://hugo-apero-docs.netlify.app/start/section-config/?panelset1=list-grid-%25F0%259F%2593%25B7&panelset=blog-%25F0%259F%2593%25B7#renaming-sections
 [permalinks]
-  industry = "/industry/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
   research = "/research/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
+  industry = "/industry/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
   teaching = "/teaching/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
   certification = "/certification/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.
   cv = "/cv/:slugorfilename/" ## "/section/:year-:slugorfilename/" can also be used.

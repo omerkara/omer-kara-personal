@@ -1,5 +1,5 @@
 ---
-# Configure The Impact of Religion on Environmental Performance: Applied Spatial Econometrics Page.
+# Configure "The Impact of Religion on Environmental Performance: Applied Spatial Econometrics" Page.
 
 ## Info.
 title: "Religion and Environment"
@@ -7,8 +7,8 @@ subtitle: "The Impact of Religion on Environmental Performance: Applied Spatial 
 excerpt: "The Impact of Religion on Environmental Performance: Applied Spatial Econometrics" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
-date: "2023-02-08"
-author: Omer Kara
+date: "2020-01-02"
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -20,16 +20,21 @@ sidebar:
 
 ## Links.
 links:
-- icon: file-pdf
-  icon_pack: fas
-  name: article
-  url: "/research/04-religion-and-environment/files/article.pdf"
+- icon: doi-square
+  icon_pack: ai
+  name: unpublished
+  url: "/research-history/03-working-papers-works-in-progress"
+#- icon: file-pdf
+#  icon_pack: fas
+#  name: article
+#  url: "/research/04-religion-and-environment/files/article.pdf"
 
 ## Tags and Categories.
 categories:
 - research
-- unpublished
 - article
+- unpublished
+- working-papers
 tags:
 - religion
 - environmental-performance
@@ -37,7 +42,6 @@ tags:
 ## Layout.
 layout: single-sidebar ## Options: single, single-sidebar.
 ---
-
 
 
 ## Details

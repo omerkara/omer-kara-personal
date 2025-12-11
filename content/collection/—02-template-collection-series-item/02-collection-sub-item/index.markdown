@@ -9,7 +9,7 @@ excerpt: "Collection Series Subitem 2 Page Excerpt." ## Shown on the Collection 
 
 ## Metadata.
 date: "2023-01-30"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

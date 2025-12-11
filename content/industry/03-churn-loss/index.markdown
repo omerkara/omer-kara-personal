@@ -8,7 +8,7 @@ excerpt: "As a data scientist and econometrician, I performed churn loss analysi
 
 ## Metadata.
 date: "2024-02-01"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -28,12 +28,12 @@ sidebar:
 ## Tags and Categories.
 categories:
 - industry
-- data-scientist
 - econometrician
+- data-scientist
 - CHS
 tags:
-- statistics
 - econometrics
+- statistics
 - machine-learning
 - R
 - R-Markdown
@@ -55,7 +55,7 @@ layout: single ## Options: single, single-sidebar.
 - Tools: Statistics, Econometrics, Machine Learning, [R](http://www.r-project.org/), [R Markdown](http://rmarkdown.rstudio.com/), [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load), [EDA](https://en.wikipedia.org/wiki/Exploratory_data_analysis)
 
 ## Details
-I was employed at CHS Inc. as a Data Scientist and Econometrician consultant, where my primary responsibility was to perform churn loss analysis on private customer data. In order to conduct this analysis, I utilized various statistical and econometric tools such as ETL (Extract, Transform, Load), exploratory data analysis (EDA), probit regression, variable selection, model selection (using forward, backward, and best subset selection as well as lasso), and machine learning.
+I was employed at CHS Inc. as an Econometrician and Data Scientist consultant, where my primary responsibility was to perform churn loss analysis on private customer data. In order to conduct this analysis, I utilized various statistical and econometric tools such as ETL (Extract, Transform, Load), exploratory data analysis (EDA), probit regression, variable selection, model selection (using forward, backward, and best subset selection as well as lasso), and machine learning.
 
 To ensure reproducibility, I carried out all of my work using R and R Markdown. This enabled me to present my findings in a clear and organized manner, as well as provide my colleagues with the ability to reproduce my work in the future if needed. Overall, my role at CHS Inc. allowed me to utilize my skills in data science and econometrics to make valuable contributions to the company's business strategy and decision-making processes.
 

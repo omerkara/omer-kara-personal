@@ -8,7 +8,7 @@ description: "Projects Main Page Description."
 
 ## Options.
 cascade:
-  author: Omer Kara
+  author: Ömer Kara
   show_author_byline: true
   show_post_thumbnail: true
   thumbnail_left: true
@@ -18,7 +18,7 @@ cascade:
   sidebar:
     title: "Projects Main Page Sidebar Title"
     description: "Projects Main Page Sidebar Description."
-    author: Omer Kara
+    author: Ömer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent projects and Subscribe via RSS.
     text_link_url: /project/index.xml ## Good Options: /project/ and /project/index.xml.

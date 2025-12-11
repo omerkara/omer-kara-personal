@@ -8,17 +8,17 @@ description: "This page serves as a repository for my teaching experience and re
 
 ## Options.
 cascade:
-  author: Omer Kara
+  author: Ömer Kara
   show_author_byline: true
   show_post_thumbnail: true
   thumbnail_left: true
   show_post_date: true
   show_comments: true
-  show_button_links: false ## Show/Hide the button links on the Industry Main Page.
+  show_button_links: false ## Show/Hide the button links on the Teaching Main Page.
   sidebar:
     title: "Teaching"
     description: "This page serves as a repository for my teaching experience and related materials, with each item linked to any available accompanying materials."
-    author: Omer Kara
+    author: Ömer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent teaching items and Subscribe via RSS.
     text_link_url: /teaching/index.xml ## Good Options: /teaching/ and /teaching/index.xml.

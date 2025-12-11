@@ -12,7 +12,7 @@ featured: true
 ## Options.
 cascade:
   layout: single-series
-  author: Omer Kara
+  author: Ömer Kara
   show_author_byline: true
   show_post_thumbnail: true
   show_post_date: true
@@ -21,7 +21,7 @@ cascade:
   sidebar:
     title: "Blog Series Page Sidebar Title"
     description: "Blog Series Page Sidebar Description."
-    author: Omer Kara
+    author: Ömer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "View recent posts" ## Good Options: View recent posts and Subscribe via RSS.
     text_link_url: /blog/ ## Good Options: /blog/ and /blog/index.xml.

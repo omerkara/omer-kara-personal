@@ -28,7 +28,7 @@ date = "2023-01-30"
 #-------------------------------------------------------------------------------
 [[industry_interests]]
   bullets = [
-  '<b>Primary: </b>Data Scientist, Econometrician, Consultant',
+  '<b>Primary: </b>Econometrician, Data Scientist, Consultant',
   '<b>Secondary: </b>Quantitative Analyst, Software Developer'
   ]
 #-------------------------------------------------------------------------------

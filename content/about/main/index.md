@@ -2,19 +2,19 @@
 # Configure Main content in About Page.
 
 ## Info.
-title: "Lately..." ## Leave blank to exclude.
+title: "About Me" ## Leave blank to exclude.
 
 ## Intro.
 show_intro: true ## Show/Close intro.
 intro:
     '
-    Welcome to my website! I am a certified data scientist and econometrician with a Ph.D. in economics. Currently, I work at a university, specializing in econometrics with expertise in time series and spatial econometrics. Specifically, my proficiency in time series econometrics allows me to model and forecast economic data over time, providing valuable insights into trends and patterns. Furthermore, my experience in spatial econometrics enables me to analyze the impact of geographical factors on economic outcomes.
+    Welcome to my website! I am an econometrician and certified data scientist with a Ph.D. in economics. Currently, I work at a university, specializing in econometrics with expertise in spatial, panel data, and time series econometrics. Specifically, my experience in spatial econometrics enables me to analyze the impact of geographical factors on economic outcomes. Furthermore, my proficiency in time series econometrics allows me to model and forecast economic data over time, providing valuable insights into trends and patterns.
     <br/><br/>
-    In addition to my academic work, I also take on consultant jobs as a data scientist, econometrician, and software developer. My proficiency in statistics, econometrics, and machine learning, along with programming skills in R, Python, and SQL, enables me to provide high-quality solutions to complex problems that help businesses and organizations make informed decisions. With a keen eye for detail and a passion for accuracy, I am committed to delivering results that exceed expectations.
+    In addition to my academic work, I also take on consultant jobs as an econometrician, data scientist, and software developer. My proficiency in econometrics, statistics, and machine learning, along with programming skills in R, Python, and SQL, enables me to provide high-quality solutions to complex problems that help businesses and organizations make informed decisions. With a keen eye for detail and a passion for accuracy, I am committed to delivering results that exceed expectations.
     <br/><br/>
     Developing interactive R Shiny apps that showcase data analysis and modeling results in an intuitive and engaging way while effectively communicating insights is one of my passions.
     <br/><br/>
-    Overall, I am a dynamic and results-oriented professional with a proven track record of success in data science and econometrics. My certification as a data scientist further demonstrates my commitment to staying up-to-date with the latest trends and technologies in the field.
+    Overall, I am a dynamic and results-oriented professional with a proven track record of success in econometrics and data science. My certification as a data scientist further demonstrates my commitment to staying up-to-date with the latest trends and technologies in the field.
     <br/><br/>
     Please feel free to explore my website to learn more about my work. If you have any questions or need help with data analysis, model development, or visualization, do not hesitate to reach out. I look forward to working with you!
     <br/><br/>

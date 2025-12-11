@@ -8,7 +8,7 @@ excerpt: "On this page, you can view my teaching experience, which includes my t
 
 ## Metadata.
 date: "2023-04-02"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -53,7 +53,7 @@ layout: single-sidebar ## Options: single, single-sidebar.
   <span style="float: right; text-align: right;">January 2019 - Present</span>
 </div>
 
-[Department of Economics](https://iktisat.ogu.edu.tr/en/)  
+[Department of Economics](https://iktisat.ogu.edu.tr/en/)
 [Eskisehir Osmangazi University](https://www.ogu.edu.tr/en), Eskisehir, Turkey
 - Created course design, lecture format, course materials, and online assessment materials.
 - Authored course materials are available at the [Akademi Ekonometri Web Site](https://akademiekonometri.netlify.app/courses/).
@@ -66,7 +66,7 @@ layout: single-sidebar ## Options: single, single-sidebar.
   <span style="float: right; text-align: right;">August 2014 - May 2016</span>
 </div>
 
-[Department of Economics](https://poole.ncsu.edu/economics/)  
+[Department of Economics](https://poole.ncsu.edu/economics/)
 [North Carolina State University](https://www.ncsu.edu/), Raleigh, NC, USA
 - Created course design, lecture format, and assessment materials.
 - Developed and lectured course materials.
@@ -79,9 +79,9 @@ layout: single-sidebar ## Options: single, single-sidebar.
   <span style="float: right; text-align: right;">January 2017 - May 2018</span>
 </div>
 
-[Department of Economics](https://poole.ncsu.edu/economics/)  
+[Department of Economics](https://poole.ncsu.edu/economics/)
 [North Carolina State University](https://www.ncsu.edu/), Raleigh, NC, USA
-- Assisted [Dr. Margolis](https://experts.ncsu.edu/experts/stephen-margolis) and [Dr. Fiori](https://poole.ncsu.edu/people/gfiori/) with grading assignments and exams.
+- Assisted [Dr. Margolis](https://www.researchgate.net/profile/Stephen-Margolis-3) and [Dr. Fiori](https://scholar.google.com/citations?user=fCfYV4EAAAAJ&hl=en&oi=ao) with grading assignments and exams.
 - Courses: Intermediate Microeconomics, Macro Fundamentals
 
 <div style="overflow: hidden; margin-bottom: -14px;">
@@ -89,9 +89,9 @@ layout: single-sidebar ## Options: single, single-sidebar.
   <span style="float: right; text-align: right;">August 2013 - May 2014</span>
 </div>
 
-[Department of Economics](https://poole.ncsu.edu/economics/)  
+[Department of Economics](https://poole.ncsu.edu/economics/)
 [North Carolina State University](https://www.ncsu.edu/), Raleigh, NC, USA
-- Assisted [Dr. Hyman](https://poole.ncsu.edu/people/dnhyman/) as head teaching assistant and lab instructor.
+- Assisted [Dr. Hyman](https://www.google.com/search?q=David+N.+Hyman&oq=David+N.+Hyman&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjINCAQQABiGAxiABBiKBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBBzI2NWowajSoAgCwAgE&sourceid=chrome&ie=UTF-8) as head teaching assistant and lab instructor.
 - Developed and lectured lab materials independently.
 - Improved students' performance by implementing a collaborative learning environment.
 - Courses: Fundamentals of Economics

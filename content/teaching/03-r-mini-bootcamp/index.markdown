@@ -8,7 +8,7 @@ excerpt: "Details of the introductory R workshop, R Mini BootCamp, that I prepar
 
 ## Metadata.
 date: "2023-01-01"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

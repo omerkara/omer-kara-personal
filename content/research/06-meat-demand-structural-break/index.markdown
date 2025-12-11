@@ -1,14 +1,14 @@
 ---
-# Configure Structural Break in U.S. Meat Demand: Evidence from LA/AIDS Model Page.
+# Configure "Structural Break in U.S. Meat Demand: Evidence from the LA/AIDS Model" Page.
 
 ## Info.
 title: "Meat Demand - Structural Break"
-subtitle: "Structural Break in U.S. Meat Demand: Evidence from LA/AIDS Model"
-excerpt: "Structural Break in U.S. Meat Demand: Evidence from LA/AIDS Model" ## Shown on the Research Main Page, but does not shown on the Research Page.
+subtitle: "Structural Break in U.S. Meat Demand: Evidence from the LA/AIDS Model"
+excerpt: "Structural Break in U.S. Meat Demand: Evidence from the LA/AIDS Model" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
-date: "2023-02-06"
-author: Omer Kara
+date: "2020-01-04"
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -20,10 +20,14 @@ sidebar:
 
 ## Links.
 links:
-- icon: file-pdf
-  icon_pack: fas
-  name: article
-  url: "/research/06-meat-demand-structural-break/files/article.pdf"
+- icon: doi-square
+  icon_pack: ai
+  name: unpublished
+  url: "/research-history/03-working-papers-works-in-progress"
+#- icon: file-pdf
+#  icon_pack: fas
+#  name: article
+#  url: "/research/06-meat-demand-structural-break/files/article.pdf"
 - icon: file-powerpoint
   icon_pack: fas
   name: slides
@@ -32,8 +36,9 @@ links:
 ## Tags and Categories.
 categories:
 - research
-- unpublished
 - article
+- unpublished
+- working-papers
 - slides
 tags:
 - meat
@@ -45,8 +50,7 @@ layout: single-sidebar ## Options: single, single-sidebar.
 ---
 
 
-
 ## Details
 Details coming soon.
 
-"Structural Break in U.S. Meat Demand: Evidence from LA/AIDS Model"
+"Structural Break in U.S. Meat Demand: Evidence from the LA/AIDS Model"

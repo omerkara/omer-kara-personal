@@ -2,8 +2,8 @@
 # Configure Sidebar content in About Page.
 
 ## Info.
-author: Omer Kara
-role: "Data Scientist<br/>Econometrician<br/>Consultant" ## Data Scientist & Econometrician | Consultant
+author: Ömer Kara
+role: "Econometrician<br/>Data Scientist<br/>Consultant" ## Econometrician & Data Scientist | Consultant
 
 ## Picture, Social Links, and Audio.
 avatar_shape: rounded ## Options: circle, square, rounded, or leave blank to exclude.
@@ -14,14 +14,16 @@ audio_link_label: "How to say my name?" ## Leave blank to exclude.
 ## Links.
 link_list_label: "Interests" ## Bookmarks, or etc.
 link_list:
-- name: Data Science
-  url: https://data-flair.training/blogs/r-books/
-- name: Time Series Econometrics
-  url: https://www.tableau.com/learn/articles/time-series-analysis-books
 - name: Spatial Econometrics
   url: https://www.spatialeconometricsassociation.org/
-- name: Cryptoeconomics
-  url: https://mitsloan.mit.edu/cryptoeconomics-lab/welcome-mit-cryptoeconomics-lab
+- name: Panel Data Econometrics
+  url: https://en.wikipedia.org/wiki/Panel_analysis
+- name: Time Series Econometrics
+  url: https://www.tableau.com/learn/articles/time-series-analysis-books
+- name: Data Science
+  url: https://data-flair.training/blogs/r-books/
+# - name: Cryptoeconomics
+#   url: https://mitsloan.mit.edu/cryptoeconomics-lab/welcome-mit-cryptoeconomics-lab
 ---
 
 ** index doesn't contain a body, just front matter above.

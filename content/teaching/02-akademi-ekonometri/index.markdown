@@ -8,7 +8,7 @@ excerpt: "This page provides details about the Akademi Ekonometri website and Yo
 
 ## Metadata.
 date: "2023-02-01"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

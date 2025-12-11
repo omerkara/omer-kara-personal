@@ -1,5 +1,5 @@
 source("renv/activate.R")
-#============================ Omer Kara - Personal =============================
+#============================ Ömer Kara - Personal =============================
 #================================== .Rprofile ==================================
 #======================= Initial Settings for The Project ======================
 
@@ -8,8 +8,8 @@ source("renv/activate.R")
 #====================#
 .First <- function() {
   cat("\n********************************************************\n")
-  cat("\nWelcome to 'Omer Kara-Personal' Project.\nRemember to edit .Rprofile accordingly!\n")
-  cat("\nAll comments, suggestions, and other correspondences should be sent to Omer Kara, omer.kara.ylsy@gmail.com.\n")
+  cat("\nWelcome to 'Ömer Kara-Personal' Project.\nRemember to edit .Rprofile accordingly!\n")
+  cat("\nAll comments, suggestions, and other correspondences should be sent to Ömer Kara, omer.kara.ylsy@gmail.com.\n")
   cat("\n********************************************************\n")
   options(digits.secs = 3) ## show sub-second time stamps
   options(showWarnCalls = TRUE, showErrorCalls = TRUE)
@@ -39,7 +39,7 @@ options(
   blogdown.method = "markdown", ## The output format of .Rmd posts. Options: "markdown" and "html".
   blogdown.serve_site.startup	= FALSE, ## Serve the site on RStudio startup?
 
-  blogdown.author = "Omer Kara", ## Default author for posts.
+  blogdown.author = "Ömer Kara", ## Default author for posts.
   blogdown.ext = ".Rmarkdown", ## Default file type for posts. Options: ".Rmd" ad ".Rmarkdown".
   blogdown.subdir = "blog", ## Default directory for blog post.
   blogdown.yaml.empty = TRUE, ## Preserve empty fields in YAML?

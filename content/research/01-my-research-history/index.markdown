@@ -8,8 +8,8 @@ excerpt: "On this page, you can view my research history, which includes my expe
 url: "/research-history/" ## Link this page to another page.
 
 ## Metadata.
-date: "2023-04-02"
-author: Omer Kara
+date: "2099-01-01"
+author: Ömer Kara
 draft: false
 featured: false
 
@@ -32,14 +32,13 @@ sidebar:
 
 ## Tags and Categories.
 categories:
-- research
-tags:
 - research-history
+tags:
+-
 
 ## Layout.
 layout: single-sidebar ## Options: single, single-sidebar.
 ---
-
 
 
 ## Details

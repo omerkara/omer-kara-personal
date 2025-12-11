@@ -9,7 +9,7 @@ excerpt: "My all certifications from different sources." ## Shown on the Certcif
 
 ## Metadata.
 date: "2023-01-30"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

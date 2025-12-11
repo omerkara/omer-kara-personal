@@ -8,7 +8,7 @@ description: "Central hub for my industry-related work, which includes both ongo
 
 ## Options.
 cascade:
-  author: Omer Kara
+  author: Ömer Kara
   show_author_byline: true
   show_post_thumbnail: true
   thumbnail_left: true
@@ -18,7 +18,7 @@ cascade:
   sidebar:
     title: "Industry"
     description: "Central hub for my industry-related work, which includes both ongoing and completed projects. Each project is accompanied by relevant materials, if available."
-    author: Omer Kara
+    author: Ömer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent industry items and Subscribe via RSS.
     text_link_url: /industry/index.xml ## Good Options: /industry/ and /industry/index.xml.

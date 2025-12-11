@@ -8,7 +8,7 @@ excerpt: "Details of the introductory Shiny workshop, Shiny Mini BootCamp, which
 
 ## Metadata.
 date: "2023-01-02"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

@@ -2,11 +2,11 @@
 # Configure Home Page.
 
 ## Info.
-title: Omer Kara, Ph.D.
-subtitle: "Data Scientist & Econometrician | Consultant"
+title: Ömer Kara, Ph.D.
+subtitle: "Econometrician & Data Scientist | Consultant"
 description: 
     '
-    I am a certified data scientist and econometrician with a Ph.D. in economics, specializing in time series and spatial econometrics. With extensive experience in statistics, econometrics, machine learning, and programming in R, Python, and SQL, I develop data-driven solutions that deliver measurable results.
+    I am an econometrician and certified data scientist with a Ph.D. in economics, specializing in spatial, panel data, and time series econometrics. With extensive experience in econometrics, statistics, machine learning, and programming in R, Python, and SQL, I develop data-driven solutions that deliver measurable results.
     <br/>
     I am passionate about developing interactive R Shiny apps that showcase data analysis and modeling results in an intuitive and engaging way while effectively communicating insights.
     '

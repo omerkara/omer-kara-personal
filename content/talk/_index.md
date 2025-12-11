@@ -8,7 +8,7 @@ description: "Talks Main Page Description."
 
 ## Options.
 cascade:
-  author: Omer Kara
+  author: Ömer Kara
   show_author_byline: true
   show_post_thumbnail: true
   show_post_date: true
@@ -18,7 +18,7 @@ cascade:
   sidebar:
     title: "Talks Main Page Sidebar Title"
     description: "Talks Main Page Sidebar Description."
-    author: Omer Kara
+    author: Ömer Kara
     show_sidebar_adunit: false ## Do not show ad container (formspree).
     text_link_label: "Subscribe via RSS" ## Good Options: View recent talks and Subscribe via RSS.
     text_link_url: /talk/index.xml ## Good Options: /talk/ and /talk/index.xml.

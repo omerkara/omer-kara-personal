@@ -8,7 +8,7 @@ excerpt: "Blog Single with Sidebar Post Excerpt." ## Shown on the Blog Main Page
 
 ## Metadata.
 date: "2023-01-30"
-author: Omer Kara
+author: Ömer Kara
 draft: false
 featured: false
 

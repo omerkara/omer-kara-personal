@@ -162,7 +162,7 @@ enableEmoji = true ## Enable Emoji emoticons support for page content; see the E
   [[params.socialAcademic]] ## Scopus.
       icon      = "scopus-square"
       icon_pack = "ai"
-      url       = "https://www.scopus.com/"
+      url       = "https://www.scopus.com/authid/detail.uri?authorId=60258085900"
   #[[params.socialAcademic]] ## Research Gate.
   #    icon      = "researchgate"
   #    icon_pack = "ai"

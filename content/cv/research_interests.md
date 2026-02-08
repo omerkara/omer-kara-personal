@@ -28,8 +28,8 @@ date = "2023-01-30"
 #-------------------------------------------------------------------------------
 [[research_interests]]
   bullets = [
-  '<b>Primary: </b>Spatial Econometrics, Panel Data Econometrics, Time-Series Econometrics, Data Science',
-  '<b>Secondary: </b>Applied Microeconomics, Applied Macroeconomics, Agricultural Economics, Cryptoeconomics'
+  '<b>Primary: </b>Spatial Econometrics, Panel Data Econometrics, Time-Series Econometrics',
+  '<b>Secondary: </b>Applied Microeconomics, Applied Macroeconomics'
   ]
 #-------------------------------------------------------------------------------
 +++

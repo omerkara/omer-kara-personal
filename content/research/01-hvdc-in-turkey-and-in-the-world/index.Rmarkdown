@@ -7,7 +7,7 @@ subtitle: "An Economic and Technical Review For The Utilization of HVDC In Turke
 excerpt: "An Economic and Technical Review For The Utilization of HVDC In Turkey and In The World" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
-date: "2021-06-15" ## Template: for published article use the actual date; for SEND articles use 2020-12-31 and lower; for WP (working papers) use 2010-12-31 and lower; for WinP (work in progress) use 2000-12-31 and lower. 
+date: "2021-06-15" ## Template: for published article use the actual date; for SEND articles use 2020-12-31 and lower; for WP (working papers) use 2010-12-31 and lower; for WinP (work in progress) use 2000-12-31 and lower.
 author: Omer Kara
 draft: false
 featured: false

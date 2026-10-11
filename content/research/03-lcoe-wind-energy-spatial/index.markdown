@@ -24,6 +24,10 @@ links:
   icon_pack: ai
   name: publication
   url: "https://doi.org/10.1016/j.enpol.2026.115652"
+- icon: open-data-square
+  icon_pack: ai
+  name: Replication Files and Code
+  url: "https://doi.org/10.17632/mzpz22x58x.4"
 # - icon: file-pdf
 #   icon_pack: fas
 #   name: article
@@ -59,5 +63,7 @@ Our results point to several distinct patterns:
 - Higher **human development** is associated with higher LCOE primarily through the domestic channel.
 
 An important result is that the spatial dimension matters. For economic and institutional performance, the estimated **indirect impacts are larger than the corresponding direct impacts**, indicating economically relevant cross-country spillovers. Overall, our findings suggest that policies aimed at reducing onshore wind costs in Europe should consider **regional coordination and cross-country interactions**, rather than focusing exclusively on national conditions.
+
+We are also pleased to make all data and code used in the study publicly available, making the analysis fully reproducible.
 
 **Kara, Ö.**, Acaroğlu, H. (2027). Economic, social, environmental, and institutional factors shaping onshore wind LCOE in Europe: Evidence from spatial panel models. _Energy Policy_, 220, 115652. <a href="https://doi.org/10.1016/j.enpol.2026.115652"><i class="ai ai-doi pr2"></i></a><span class="index-badge">SSCI</span><span class="index-badge">SCIE</span>

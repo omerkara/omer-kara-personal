@@ -28,18 +28,10 @@ links:
   icon_pack: ai
   name: publication
   url: "https://doi.org/10.3390/su172411023"
-- icon: file-pdf
-  icon_pack: fas
-  name: PDF
-  url: "/research/08-life-cycle-cost-analysis-on-pv-modules/files/article.pdf"
-- icon: file-pdf
-  icon_pack: fas
-  name: acceptance certificate
-  url: "/research/08-life-cycle-cost-analysis-on-pv-modules/files/acceptance-certificate.pdf"
-- icon: file-pdf
-  icon_pack: fas
-  name: banner
-  url: "/research/08-life-cycle-cost-analysis-on-pv-modules/files/article-banner.pdf"
+# - icon: file-pdf
+#   icon_pack: fas
+#   name: article
+#   url: "/research/02-life-cycle-cost-analysis-on-PV-modules/files/article.pdf"
 
 ## Tags and Categories.
 categories:

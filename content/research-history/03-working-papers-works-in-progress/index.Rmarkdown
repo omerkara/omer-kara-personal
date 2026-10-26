@@ -25,18 +25,14 @@ tags:
 weight: 3
 ---
 
-```{r Settings.Code.Chunk, include = FALSE, purl = FALSE}
-knitr::opts_chunk$set(cache = TRUE, collapse = TRUE, comment = "#>", echo = TRUE, engine = "R", error = FALSE, eval = TRUE, fig.align = "center", fig.height = 5, fig.width = 7, out.width = "100%", highlight = TRUE, include = TRUE, message = TRUE, prompt = FALSE, purl = TRUE, results = "markup", rows.print = 5, strip.white = TRUE, tidy = FALSE, tidy.opts = list(width.cutoff = 80), warning = TRUE)
-```
-
 ## Working Papers
-- "Dynamics of U.S. Housing and Primary Building Materials in the Presence of Structural Break" with [Barry Goodwin](https://cals.ncsu.edu/agricultural-and-resource-economics/people/barry-goodwin/) and [Jeffrey Prestemon](https://cnr.ncsu.edu/directory/jeffrey-p-prestemon/)
-- "The Impact of Religion on Environmental Performance: Applied Spatial Econometrics"
-- "Price Dynamics and Structural Breaks in Speculative Markets: A Case Study of Cryptocurrency"
+- "Political and Economic Institutional Quality, Incoherence, and Income: A Spatial Panel Approach" (with [Selen Serenay Silvan](https://orcid.org/0000-0002-2022-4795))
 - "Structural Break in U.S. Meat Demand: Evidence from LA/AIDS Model"
-- "The Effect of Quality of Institutions on Agricultural Productivity"
+- "The Impact of Religion on Environmental Performance: Applied Spatial Econometrics"
+- "Dynamics of U.S. Housing and Primary Building Materials in the Presence of Structural Break" (with [Barry Goodwin](https://cals.ncsu.edu/agricultural-and-resource-economics/people/barry-goodwin/) and [Jeffrey Prestemon](https://cnr.ncsu.edu/directory/jeffrey-p-prestemon/))
+- "Price Dynamics and Structural Breaks in Speculative Markets: A Case Study of Cryptocurrency"
 
 ## Works In Progress
 - "Price Dynamics Between Cryptocurrency, Fiat Money, Stocks, Gold, and OIL: Before and After COVID-19"
-- "Impacts of Quality of Institutions on Income"
+- "The Effect of the Quality of Institutions on Agricultural Productivity"
 - "Economic Consequences of Foreign Player Restriction in European Soccer Leagues"

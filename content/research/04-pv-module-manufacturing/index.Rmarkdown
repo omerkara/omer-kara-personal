@@ -1,13 +1,13 @@
 ---
-# Configure "A Novel Perspective for Productive Manufacturing of Photovoltaic (PV) Cells in Eskisehir, Türkiye" Page.
+# Configure "A Scenario Analysis of Production, Employment, and Sales for Photovoltaic (PV) Module Manufacturing in Eskisehir, Türkiye" Page.
 
 ## Info.
-title: "Productive Manufacturing of Photovoltaic Cells"
-subtitle: "A Novel Perspective for Productive Manufacturing of Photovoltaic (PV) Cells in Eskisehir, Türkiye"
-excerpt: "A Novel Perspective for Productive Manufacturing of Photovoltaic (PV) Cells in Eskisehir, Türkiye" ## Shown on the Research Main Page, but does not shown on the Research Page.
+title: "PV Module Manufacturing in Eskisehir, Türkiye"
+subtitle: "A Scenario Analysis of Production, Employment, and Sales for Photovoltaic (PV) Module Manufacturing in Eskisehir, Türkiye"
+excerpt: "A Scenario Analysis of Production, Employment, and Sales for Photovoltaic (PV) Module Manufacturing in Eskisehir, Türkiye" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
-date: "2020-12-31" ## Template: for published article use the actual date; for SEND articles use 2020-12-31 and lower; for WP (working papers) use 2010-12-31 and lower; for WinP (work in progress) use 2000-12-31 and lower.
+date: "2026-10-26" ## Template: for published article use the actual date; for SEND articles use 2020-12-31 and lower; for WP (working papers) use 2010-12-31 and lower; for WinP (work in progress) use 2000-12-31 and lower.
 author: Ömer Kara
 draft: false
 featured: false
@@ -20,34 +20,45 @@ sidebar:
 
 ## Links.
 links:
-- icon:
+- icon: open-access
   icon_pack: ai
-  name: Working Paper
-  url: "/research-history/03-working-papers-works-in-progress"
-#- icon: file-pdf
-#  icon_pack: fas
-#  name: PDF
-#  url: "/research/12-productive-manufacturing-of-pv-cells/files/article.pdf"
+  name: Open Access
+- icon: doi
+  icon_pack: ai
+  name: publication
+  url: "https://doi.org/10.3390/su182110859"
+- icon: open-data-square
+  icon_pack: ai
+  name: Replication Files and Code
+  url: "https://www.mdpi.com/2071-1050/18/21/10859/s1?version=1793010082"
+# - icon: file-pdf
+#   icon_pack: fas
+#   name: article
+#   url: "`r content.func('article.pdf')`"
 
 ## Tags and Categories.
 categories:
 - research
 - article
-- unpublished
-- working-papers
+- published
 tags:
 - pv
-- photovoltaic-cell
-- solar
-- productive-manufacturing
+- pv-module-manufacturing
+- scenario-analysis
+- production-function
+- labor-effectiveness
+- energy-economics
 
 ## Layout.
 layout: single-sidebar ## Options: single, single-sidebar.
 ---
 
-
 ## Details
-Details coming soon.
 
-"A Novel Perspective for Productive Manufacturing of Photovoltaic (PV) Cells in Eskisehir, Türkiye'' (with [Dr. Hakan Acaroğlu](https://orcid.org/0000-0001-6757-2140) and [Dr. Mevlana Celalettin Baykul](https://scholar.google.com/citations?user=kbl9S2sAAAAJ&hl=tr))
+In this study, we explore a practical question: **how can labor effectiveness and human capital influence production and sales in domestic photovoltaic (PV) module manufacturing?** Focusing on **Eskisehir, Türkiye**, we develop a **scenario-based analysis** of a hypothetical PV module manufacturing plant over a 30-year period. We use a calibrated **Cobb–Douglas production function** that incorporates energy, labor, capital, and human capital, introducing a physics-inspired interpretation of **work and leisure time** to represent differences in labor effectiveness. Rather than estimating production parameters from existing factories, we compare alternative manufacturing scenarios and draw on a historical household electricity survey to illustrate potential local demand.
 
+Our results highlight how differences in **labor effectiveness** can substantially influence manufacturing output even with the same workforce. Assuming **15 production workers and two support staff**, the plant could assemble approximately **21.2 three-kilowatt PV module sets per day** under an ideal effectiveness scenario, compared with **13.0 sets** under the benchmark scenario. At the assumed module selling price, these scenarios generate approximately **€37.8 million and €23.1 million in annual revenue after labor costs**, respectively, provided that the output is sold. These figures are illustrative rather than net profits, as material, energy, financing, and other production costs are not included. Overall, our analysis provides a transparent framework for understanding how workforce effectiveness and production assumptions shape manufacturing outcomes, offering useful insights for future investment planning and the development of **domestic solar manufacturing in Türkiye**.
+
+We also make the **underlying data, model calculations, and replication materials publicly available**, allowing interested readers to reproduce our scenarios and explore the assumptions behind our findings.
+
+Acaroğlu, H., Baykul, M. C., & **Kara, Ö.** (2026). A Scenario Analysis of Production, Employment, and Sales for Photovoltaic (PV) Module Manufacturing in Eskisehir, Türkiye. _Sustainability_, 18(21), 10859. <a href="https://doi.org/10.3390/su182110859"><i class="ai ai-doi pr2"></i></a><span class="index-badge">SSCI</span><span class="index-badge">SCIE</span><i class="ai ai-open-access"></i>

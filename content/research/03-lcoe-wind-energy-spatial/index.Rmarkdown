@@ -20,7 +20,7 @@ sidebar:
 
 ## Links.
 links:
-- icon: doi-square
+- icon: doi
   icon_pack: ai
   name: publication
   url: "https://doi.org/10.1016/j.enpol.2026.115652"
@@ -41,14 +41,13 @@ categories:
 tags:
 - lcoe
 - onshore-wind
-- spatial-model
-- panel-model
+- energy-economics
+- spatial-econometrics
 - spatial-panel-model
 
 ## Layout.
 layout: single-sidebar ## Options: single, single-sidebar.
 ---
-
 
 ## Details
 In this study, we examine a simple question: **how are macro-level economic, social, environmental, and institutional conditions associated with onshore wind LCOE in Europe, and do these relationships extend beyond national borders?**
@@ -66,4 +65,4 @@ An important result is that the spatial dimension matters. For economic and inst
 
 We are also pleased to make all data and code used in the study publicly available, making the analysis fully reproducible.
 
-**Kara, Ö.**, Acaroğlu, H. (2027). Economic, social, environmental, and institutional factors shaping onshore wind LCOE in Europe: Evidence from spatial panel models. _Energy Policy_, 220, 115652. <a href="https://doi.org/10.1016/j.enpol.2026.115652"><i class="ai ai-doi pr2"></i></a><span class="index-badge">SSCI</span><span class="index-badge">SCIE</span>
+**Kara, Ö.**, & Acaroğlu, H. (2027). Economic, social, environmental, and institutional factors shaping onshore wind LCOE in Europe: Evidence from spatial panel models. _Energy Policy_, 220, 115652. <a href="https://doi.org/10.1016/j.enpol.2026.115652"><i class="ai ai-doi pr2"></i></a><span class="index-badge">SSCI</span><span class="index-badge">SCIE</span>

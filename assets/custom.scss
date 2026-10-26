@@ -75,3 +75,64 @@
   font-weight: 600;            /* \textbf */
   line-height: 1.2;
 }
+
+
+/* ==========================================
+   Automatic Publication Numbering
+   ========================================== */
+
+/* Initialize independent counters */
+.publication-list {
+  counter-reset: books chapters journals
+                 conferencepapers presentations
+                 posters others;
+}
+
+/* Common numbering style */
+.publication-number::before {
+  margin-right: 0.3em;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Books */
+.publication-number.book::before {
+  counter-increment: books;
+  content: "[" counter(books) "]";
+}
+
+/* Book Chapters */
+.publication-number.chapter::before {
+  counter-increment: chapters;
+  content: "[" counter(chapters) "]";
+}
+
+/* Refereed Journal Publications */
+.publication-number.journal::before {
+  counter-increment: journals;
+  content: "[" counter(journals) "]";
+}
+
+/* Refereed Conference Publications */
+.publication-number.conference-paper::before {
+  counter-increment: conferencepapers;
+  content: "[" counter(conferencepapers) "]";
+}
+
+/* Conference Presentations */
+.publication-number.presentation::before {
+  counter-increment: presentations;
+  content: "[" counter(presentations) "]";
+}
+
+/* Conference Posters */
+.publication-number.poster::before {
+  counter-increment: posters;
+  content: "[" counter(posters) "]";
+}
+
+/* Other Publications */
+.publication-number.other::before {
+  counter-increment: others;
+  content: "[" counter(others) "]";
+}
+

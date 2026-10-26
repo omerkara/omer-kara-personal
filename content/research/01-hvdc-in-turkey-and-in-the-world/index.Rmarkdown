@@ -1,13 +1,13 @@
 ---
-# Configure HVDC In Turkey and In The World Page.
+# Configure "An Economic and Technical Review For The Utilization of HVDC In Turkey and In The World" Page.
 
 ## Info.
-title: "HVDC In Turkey and In The World"
+title: "HVDC Transmission in Turkey and Worldwide"
 subtitle: "An Economic and Technical Review For The Utilization of HVDC In Turkey and In The World"
 excerpt: "An Economic and Technical Review For The Utilization of HVDC In Turkey and In The World" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
-date: "2021-06-15" ## Template: for published article use the actual date; for SEND articles use 2020-12-31 and lower; for WP (working papers) use 2010-12-31 and lower; for WinP (work in progress) use 2000-12-31 and lower.
+date: "2021-09-01" ## Template: for published article use the actual date; for SEND articles use 2020-12-31 and lower; for WP (working papers) use 2010-12-31 and lower; for WinP (work in progress) use 2000-12-31 and lower.
 author: Omer Kara
 draft: false
 featured: false
@@ -23,7 +23,7 @@ links:
 - icon: open-access
   icon_pack: ai
   name: Open Access
-- icon: doi-square
+- icon: doi
   icon_pack: ai
   name: publication
   url: "https://doi.org/10.36306/konjes.907309"
@@ -39,16 +39,19 @@ categories:
 - published
 tags:
 - hvdc
+- electricity-transmission
+- energy-efficiency
+- energy-economics
+- cross-border-interconnections
 
 ## Layout.
 layout: single-sidebar ## Options: single, single-sidebar.
 ---
 
-```{r Settings.Code.Chunk, include = FALSE, purl = FALSE}
-knitr::opts_chunk$set(cache = TRUE, collapse = TRUE, comment = "#>", echo = TRUE, engine = "R", error = FALSE, eval = TRUE, fig.align = "center", fig.height = 5, fig.width = 7, out.width = "100%", highlight = TRUE, include = TRUE, message = TRUE, prompt = FALSE, purl = TRUE, results = "markup", rows.print = 5, strip.white = TRUE, tidy = FALSE, tidy.opts = list(width.cutoff = 80), warning = TRUE)
-```
-
 ## Details
-Details coming soon.
 
-**Kara, O.**, Acaroglu, H., Najafi, A., and Yuruk, B., (2021). AN ECONOMIC AND TECHNICAL REVIEW FOR THE UTILIZATION OF HVDC IN TURKEY AND IN THE WORLD. _Konya Journal of Engineering Sciences_, 9(3) 809-835. <a href="https://doi.org/10.36306/konjes.907309"><i class="ai ai-doi-square pr2"></i></a>
+In this study, we explore a practical question: **when does high-voltage direct current (HVDC) transmission offer a better way to transport electricity, and what could it mean for Turkey's energy system?** We review the development of HVDC technology in Turkey and around the world, comparing its technical and economic characteristics with conventional high-voltage alternating current (HVAC) transmission. We focus particularly on **long-distance and submarine connections**, where lower transmission losses and reduced infrastructure requirements can offset the higher upfront costs of converter stations. We also examine an illustrative **investment-cost comparison for a 300 MW offshore wind farm in Germany** to highlight the economic trade-offs between these technologies.
+
+Beyond the technical considerations, we discuss the broader implications of HVDC for **energy efficiency, economic policy, and energy-supply security**. Our review highlights how HVDC can improve control over electricity flows, facilitate connections between different power systems, and make long-distance transmission more cost-effective under suitable conditions. For **Turkey**, these advantages could strengthen electricity interconnections with neighboring countries and Europe, expand opportunities for cross-border electricity trade, and support more efficient use of energy resources. Overall, we emphasize that electricity transmission infrastructure is not merely an engineering concern, but also an important economic and strategic policy decision.
+
+Acaroğlu, H., Najafi, A., **Kara, Ö.**, & Yürük, B. (2021). An Economic and Technical Review for the Utilization of HVDC in Turkey and in the World. _Konya Journal of Engineering Sciences_, 9(3), 809–835. <a href="https://doi.org/10.36306/konjes.907309"><i class="ai ai-doi pr2"></i></a><span class="index-badge">TR Dizin</span><i class="ai ai-open-access"></i>

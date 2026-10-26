@@ -22,10 +22,6 @@ tags:
 weight: 1
 ---
 
-```{r Settings.Code.Chunk, include = FALSE, purl = FALSE}
-knitr::opts_chunk$set(cache = TRUE, collapse = TRUE, comment = "#>", echo = TRUE, engine = "R", error = FALSE, eval = TRUE, fig.align = "center", fig.height = 5, fig.width = 7, out.width = "100%", highlight = TRUE, include = TRUE, message = TRUE, prompt = FALSE, purl = TRUE, results = "markup", rows.print = 5, strip.white = TRUE, tidy = FALSE, tidy.opts = list(width.cutoff = 80), warning = TRUE)
-```
-
 ---
 
 >On this page, you can view my experience in research, which includes my time as a postdoctoral and graduate researcher.

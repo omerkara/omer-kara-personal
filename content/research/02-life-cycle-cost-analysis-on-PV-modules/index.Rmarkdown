@@ -1,11 +1,10 @@
 ---
-# Configure "A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir’s Solar Market Transactions" Page.
+# Configure "A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir's Solar Market Transactions" Page.
 
 ## Info.
 title: "Life-Cycle Cost Analysis on Photovoltaic Modules for Türkiye"
-subtitle: "A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir’s Solar Market Transactions"
-excerpt: "A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The
-Case of Eskisehir’s Solar Market Transactions" ## Shown on the Research Main Page, but does not shown on the Research Page.
+subtitle: "A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir's Solar Market Transactions"
+excerpt: "A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir's Solar Market Transactions" ## Shown on the Research Main Page, but does not shown on the Research Page.
 
 ## Metadata.
 date: "2025-12-09" ## Template: for published article use the actual date; for SEND articles use 2020-12-31 and lower; for WP (working papers) use 2010-12-31 and lower; for WinP (work in progress) use 2000-12-31 and lower.
@@ -40,17 +39,20 @@ categories:
 - published
 tags:
 - pv
-- photovoltaic-modules
-- solar
+- life-cycle-cost-analysis
+- solar-energy-markets
+- net-present-value
+- energy-economics
+- feed-in-tariff
 
 ## Layout.
 layout: single-sidebar ## Options: single, single-sidebar.
 ---
 
-
 ## Details
-In this study, we conduct a localized **life-cycle cost analysis (LCCA)** of residential photovoltaic (PV) modules in Türkiye, using the city of **Eskisehir** as a case study. We model a typical **3 kW rooftop PV system** over a 30-year horizon and track all relevant cash flows: installation, maintenance, taxes, mortgage payments, and interactions with the grid under current Turkish policies such as net metering and Feed-in Tariffs. Building on an earlier 2013 household survey and updated national data from TurkStat and the Central Bank, we embed realistic assumptions on electricity prices, inflation, discount rates, and solar resource quality to answer a central question: is a residential PV investment financially rational for an average household in Eskisehir?
 
-Our results show that, despite high upfront costs, PV systems are economically viable under today’s conditions. In the **business-as-usual scenario**, a 3 kW system generates about **€883.75 in Net Present Value (NPV) savings** over 30 years, with outcomes ranging from a modest loss (around −€392) in a pessimistic policy setting to roughly **€2350** in an optimistic scenario with stronger incentives and cheaper technology. At the same time, the system avoids more than **40 tons of CO₂** emissions over its lifetime, supporting Türkiye’s climate and energy-security objectives. We conclude that residential PV can be a rational long-term investment, but its success depends heavily on stable policy support—particularly Feed-in Tariffs or premiums, tax incentives, and accessible financing that lower effective costs and reduce risk for households.
+In this study, we investigate a practical question: **is investing in residential solar energy financially worthwhile for households in Türkiye?** Focusing on the city of **Eskisehir**, we conduct a **life-cycle cost analysis (LCCA)** of a typical **3 kW rooftop photovoltaic (PV) system** over a 30-year period. We evaluate the long-term financial performance of the investment by considering installation costs, maintenance, financing, electricity savings, and policy mechanisms such as net metering and Feed-in Tariffs. Using updated economic and energy-market data, we also explore how different economic conditions and policy scenarios influence the financial attractiveness of residential solar investments.
 
-Acaroğlu, H., Baykul M. C., & **Kara, Ö.** (2025). A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir’s Solar Market Transactions. _Sustainability_, 17(24), 11023. <a href="https://doi.org/10.3390/su172411023"><i class="ai ai-doi pr2"></i></a><span class="index-badge">SSCI</span><span class="index-badge">SCIE</span><i class="ai ai-open-access"></i>
+Our findings show that a residential PV system can be a financially viable investment, although its profitability depends considerably on economic conditions and government policies. Under the **business-as-usual scenario**, the system generates approximately **€883.75 in Net Present Value (NPV) savings** over 30 years. However, this outcome ranges from a loss of approximately **€392 in the worst-case scenario** to a gain of around **€2,350 in the optimistic scenario**. Beyond the financial benefits, the system is estimated to avoid approximately **44.1 tons of CO₂ emissions** over its lifetime by replacing grid electricity. Overall, our results highlight the importance of **stable energy policies, financial incentives, and accessible financing** in making residential solar energy an economically attractive and environmentally beneficial option for households in Türkiye and similar developing economies.
+
+Acaroğlu, H., Baykul, M. C., & **Kara, Ö.** (2025). A Life-Cycle Cost Analysis on Photovoltaic (PV) Modules for Türkiye: The Case of Eskisehir’s Solar Market Transactions. _Sustainability_, 17(24), 11023. <a href="https://doi.org/10.3390/su172411023"><i class="ai ai-doi pr2"></i></a><span class="index-badge">SSCI</span><span class="index-badge">SCIE</span><i class="ai ai-open-access"></i>

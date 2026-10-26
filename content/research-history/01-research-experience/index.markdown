@@ -8,22 +8,19 @@ excerpt: "Research experience as postdoctoral and graduate researcher." ## Shown
 
 ## Metadata.
 date: "2023-04-02"
-author: Ömer Kara
+author: Omer Kara
 draft: false
 featured: false
 
 ## Tags and Categories.
 categories:
-- research-history
-- research-experience
+- research
 tags:
--
+- research-experience
 
 ## Layout.
 weight: 1
 ---
-
-
 
 ---
 
@@ -37,11 +34,11 @@ weight: 1
   <span style="float: right; text-align: right;">May 2018 - August 2018</span>
 </div>
 
-[Department of Economics](https://poole.ncsu.edu/economics/)
+[Department of Economics](https://poole.ncsu.edu/economics/)  
 [North Carolina State University](https://www.ncsu.edu/), Raleigh, NC, USA
 - Project Details
     + Funding: [USDA Forest Service](https://www.fs.usda.gov/)
-    + Supervisor: [Dr. Barry Goodwin](https://scholar.google.com/citations?hl=en&user=i2QWvNAAAAAJ) and [Dr. Jeffrey Prestemon](https://scholar.google.com/citations?hl=en&user=044CgyIAAAAJ)
+    + Supervisor: [Professor Barry Goodwin](https://cals.ncsu.edu/agricultural-and-resource-economics/people/barry-goodwin/) and [Professor Jeffrey Prestemon](https://cnr.ncsu.edu/directory/jeffrey-p-prestemon/)
     + Project Title: "Understanding Global Forest Product Market Effects of Trade Measures to Address Illegal Wood Fiber Sourcing"
 - Created a collaborative reproducible research environment using [Git](https://git-scm.com/), [R](http://www.r-project.org/), [R Markdown](http://rmarkdown.rstudio.com/)
 - Accelerated data collection/cleaning and statistical/exploratory data analysis steps with flexible user-written [R](http://www.r-project.org/) functions and check procedures
@@ -52,11 +49,11 @@ weight: 1
   <span style="float: right; text-align: right;">August 2016 - January 2017</span>
 </div>
 
-[Department of Economics](https://poole.ncsu.edu/economics/)
+[Department of Economics](https://poole.ncsu.edu/economics/)  
 [North Carolina State University](https://www.ncsu.edu/), Raleigh, NC, USA
 - Project Details
     + Funding: [North Carolina State University](https://www.ncsu.edu/)
-    + Supervisor: [Dr. Barry Goodwin](https://scholar.google.com/citations?hl=en&user=i2QWvNAAAAAJ)
+    + Supervisor: [Professor Barry Goodwin](https://cals.ncsu.edu/agricultural-and-resource-economics/people/barry-goodwin/)
     + Project Title: "Dynamics of U.S. Housing and Primary Building Materials in the Presence of Structural Breaks"
 - Created a conceptual framework, collected data in a reproducible way, and performed a through econometric analyses on [R](http://www.r-project.org/) and [GAUSS](https://www.aptech.com/)
 - Accelerated data collection/cleaning and statistical/exploratory data analysis steps with flexible user-written [R](http://www.r-project.org/) functions and check procedures

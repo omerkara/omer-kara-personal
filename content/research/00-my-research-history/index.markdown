@@ -8,7 +8,7 @@ excerpt: "On this page, you can view my research history, which includes my expe
 url: "/research-history/" ## Link this page to another page.
 
 ## Metadata.
-date: "2026-10-27" ## Template: Add one day to the latest published item.
+date: "2026-10-26" ## Template: Add one day to the latest published item.
 author: Omer Kara
 draft: false
 featured: false
